@@ -41,6 +41,8 @@ def train(train_data_in, train_data_out, batch_size):
         model.zero_grad()
         output = model(data)
         loss = criterion(output, targets)
+        if (i + batch_size) % 100 == 0:
+            print("Itr {}/{} Train Loss : {}".format(i + batch_size, train_data_in.size(0), loss.item()))
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), args.clip)
         for p in model.parameters():
@@ -84,14 +86,16 @@ lr = args.lr
 best_val_loss = None
 
 for epoch in range(1, epochs + 1):
+    print("-"*30)
+    print("Epoch :", epoch)
     train(train_data_in, train_data_out, batch_size)
     val_loss = evaluate(val_data_in, val_data_out, batch_size)
-
-    print(val_loss)
+    print("Epoch Validation loss :", val_loss)
     if not best_val_loss or val_loss < best_val_loss:
         with open(args.save, 'wb') as f:
             torch.save(model, f)
         best_val_loss = val_loss
+        print("Best loss : ", best_val_loss)
 
 with open(args.save, 'rb') as f:
     model = torch.load(f).to(device)
