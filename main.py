@@ -1,12 +1,12 @@
-import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import os
-import numpy as np
 from io import open
 import argparse
 import data
+import time
 import model
+import torch
+import matplotlib.pyplot as plt
+
 
 parser = argparse.ArgumentParser(description='train')
 parser.add_argument('--data', type=str, default=data.path,
@@ -35,6 +35,7 @@ parser.add_argument('--save', type=str, default='model.pt',
 def train(train_data_in, train_data_out, batch_size):
     model.train()
     i = 0
+    running_loss = 0
     while i + batch_size <= train_data_in.size(0):
         data = train_data_in[i:i + batch_size, :]
         targets = train_data_out[i:i + batch_size, :].view(-1)
@@ -42,12 +43,15 @@ def train(train_data_in, train_data_out, batch_size):
         output = model(data)
         loss = criterion(output, targets)
         if (i + batch_size) % 100 == 0:
-            print("Itr {}/{} Train Loss : {}".format(i + batch_size, train_data_in.size(0), loss.item()))
+            print("Itr {}/{} Train Loss : {:.3f}".format(i + batch_size, train_data_in.size(0), loss.item()))
+        running_loss += loss
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), args.clip)
         for p in model.parameters():
             p.data.add_(p.grad, alpha=-lr)
         i += batch_size
+    train_loss = running_loss / train_data_in.size(0)
+    return train_loss
 
 
 def evaluate(data_source_in, data_source_out, batch_size):
@@ -61,13 +65,11 @@ def evaluate(data_source_in, data_source_out, batch_size):
             output = model(data)
             total_loss += criterion(output, targets).item()
             i += batch_size
-    return total_loss
-
+    return total_loss/data_source_in.size(0)
 
 ########################################################################
 # train/eval loop
 ########################################################################
-# global args
 args = parser.parse_args([])
 torch.manual_seed(args.seed)
 device = torch.device('cpu')  # cuda
@@ -85,23 +87,48 @@ epochs = 10
 lr = args.lr
 best_val_loss = None
 
+history = {'train_loss': [], 'val_loss': [], 'epoch': []}  # Collects per-epoch loss
+
 for epoch in range(1, epochs + 1):
     print("-"*30)
-    print("Epoch :", epoch)
-    train(train_data_in, train_data_out, batch_size)
+    print("Epoch {}/{}:".format(epoch, epochs))
+    epoch_start_time = time.time()
+
+    # Training for one epoch
+    train_loss = train(train_data_in, train_data_out, batch_size)
+
+    # Validation for one epoch
     val_loss = evaluate(val_data_in, val_data_out, batch_size)
     print("Epoch Validation loss :", val_loss)
+
+    epoch_total_time = time.time() - epoch_start_time
+    print("Epoch time : {} seconds".format(epoch_total_time))
+
+    history['train_loss'].append(train_loss)
+    history['val_loss'].append(val_loss)
+    history['epoch'].append(epoch)
+
     if not best_val_loss or val_loss < best_val_loss:
         with open(args.save, 'wb') as f:
             torch.save(model, f)
         best_val_loss = val_loss
         print("Best loss : ", best_val_loss)
 
+    # Plot loss metrics
+    train_loss_hist = dict['train_loss']
+    val_loss_hist = dict['val_loss']
+    plt.figure()
+    plt.plot(epochs, train_loss_hist, 'b', label='Training loss')
+    plt.plot(epochs, val_loss_hist, 'r', label='Validation loss')
+    plt.title('Training and validation loss')
+    plt.legend()
+    plt.show()
+
 with open(args.save, 'rb') as f:
     model = torch.load(f).to(device)
 
 model.eval()
-corpus = Corpus(args.data)
+corpus = data.Corpus(args.data)
 ntokens = len(corpus.dictionary)
 input = corpus.dictionary.getsentence('a b c <eos>')
 input_tensor = torch.unsqueeze(torch.tensor(input).type(torch.int64), dim=0).to(device)

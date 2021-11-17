@@ -9,7 +9,6 @@ from sklearn.model_selection import train_test_split
 
 path = 'data/cs-en.txt/'
 
-
 ## Check with the below code if the path is correct
 # from os import walk
 #
@@ -75,9 +74,9 @@ class Dictionary(object):
 data_cs = np.loadtxt(os.path.join(path, 'PHP.cs-en.cs'), dtype=str, delimiter='\n')
 data_en = np.loadtxt(os.path.join(path, 'PHP.cs-en.en'), dtype=str, delimiter='\n')
 
-train_cs, valid_cs = train_test_split(data_cs, test_size=0.2,
+train_cs, valid_cs = train_test_split(data_cs, test_size=0.3,
                                       random_state=42)  # train : 26384, valid : 6597 (Ratio - 0.8:0.2)
-train_en, valid_en = train_test_split(data_en, test_size=0.2,
+train_en, valid_en = train_test_split(data_en, test_size=0.3,
                                       random_state=42)  # train : 26384, valid : 6597 (Ratio - 0.8:0.2)
 
 np.savetxt(os.path.join(path, 'train_in.txt'), train_cs, fmt='%s')  # cs
@@ -86,8 +85,8 @@ np.savetxt(os.path.join(path, 'train_out.txt'), train_en, fmt='%s')  # en
 np.savetxt(os.path.join(path, 'valid_out.txt'), valid_en, fmt='%s')  # en
 print("Train and validation data created and saved in ", path)
 
-
-# print("Length of Train and validation set :", len(train_cs), len(valid_cs), len(train_en), len(valid_en))
+print("Length of Train and validation set in source language:", len(train_cs), len(valid_cs))
+print("Length of Train and validation set in target language:", len(train_en), len(valid_en))
 
 class Corpus(object):
     def __init__(self, path):
