@@ -6595,3 +6595,3301 @@ Další
 Předcházející
 Nahoru
 Předcházející
+Všimnete si toho však pouze v případě GET, protože požadavky POST jsou obvykle skryté.
+Varování
+Předcházející
+Další
+Manuál PHP
+Manuál PHP
+Manuál PHP
+Nahoru
+Nahoru
+Jaký je vztah mezi verzemi?
+Tato funkce je EXPERIMENTÁLNÍ.
+Složitost tohoto algoritmu je O( m*n), kde n a m jsou délky str1 a str2 (celkem slušné v porovnání se similar_text(), který je O(max(n,m)**3), ale i tak drahé).
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Jestliže filename Jestliže filename začíná "http: / /" (velkými nebo malými písmeny), je otevřeno spojení na příslušný server protokolem HTTP 1.0 a je vrácen deskriptor ukazující na začátek těla dokumentu.
+Domů
+Funkce pdf_setgray_fill() function sets the current gray value to fill a path.
+Další
+Další
+Vrací TRUE při úspěchu, jinak FALSE (PHP 4).
+Array ([0] = xml [1] = wddx [2] = standard [3] = session [4] = posix [5] = pgsql [6] = pcre [7] = gd [8] = ftp [9] = db [10] = Calendar [11] = bcmath)
+Domů
+?php $fp = fsockopen( "udp: / /127.0.0.1", 13, $errno, $errstr); if (!$fp) {echo "CHYBA: $errno - $errstr br \n";} else {fwrite($fp ,"\n"); echo fread($fp, 26); fclose($fp);}?
+Další
+Předcházející
+Další
+Předcházející
+Manuál PHP
+x - the argument se považuje za integer a je prezentován jako hexadecimální číslo (s malými písmeny).
+Předcházející
+Další
+Druhý argument localtime() je is_associative, který (nastavením na nulu) signalizuje, že vracené pole je obyčejné, číselně indexované pole.
+Další
+Předcházející
+Poznámka:
+Další
+Předcházející
+Předcházející
+Další
+Nezapomeňte, že PHP podporuje také uploady metodou PUT tak, jak se používá v Netscape Composeru a v editoru Amaya od W3C.
+Output Control funkce
+To mj. znamená, že je nemůžete používat ve funkcích jako usort(), array_walk(), a register_shutdown_function().
+Použití syslog()
+Nahoru
+Nahoru
+Na ostatních systémech je to lomítko (/).
+Předcházející
+Další
+DomÅ¯
+Předcházející
+Dále také pack() a unpack().
+Předcházející
+Domů
+Manuál PHP
+Manuál PHP
+Domů
+Předcházející
+1 u verzí do PHP 4.0.1).
+Další
+Domů
+Nahoru
+Přijímá volitelný řetězec comment a vrací ID packetu pro použití v dalších funkcích.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Tato funkce je EXPERIMENTÁLNÍ.
+Další
+Domů
+Předcházející
+Předcházející
+Další
+Vracení referencí
+Manuál PHP
+Předcházející
+Předcházející
+Předcházející
+(implicitní) otevři spojení až v okamžiku zápisu první zprávy
+Viz také opačnou funkci ebcdic2ascii()
+Předcházející
+Předcházející
+Vrací TRUE při úspěchu, FALSE při selhání.
+Kapitola 32.
+Například:
+Předcházející
+Pokud adresář neexistuje, tempnam() může vytvořit soubor v systémovém adresáři pro dočasné soubory.
+Další
+Další
+Domů
+Další
+Další
+Další
+Předcházející
+Další
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Použijete-li přepínač DB-connects, můžete zadat volitelný parametr spojeni.
+Příklad - getdate()
+Manuál PHP
+backtick operátor
+Je-li vrácená hodnota v errno rovna 0 a funkce vrátila FALSE, znamená to, že chyba nastala před voláním connect().
+Pozn. překladatele: Čeština nemá adekvátní termín pro "mailing list".
+ukončí provádění skiptu, pokud výrok selže
+Další
+Vrací TRUE při úspěchu, FALSE při selhání.
+Další
+Předcházející
+Nahoru
+Další
+Předcházející
+informativní zpráva
+Manuál PHP
+Všechny tyto funkce různými způsoby pracují s řetězci.
+Manuál PHP
+Další
+Další
+Další
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Manuál PHP
+Nahoru
+Manuál PHP
+Další
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Domů
+Následující dva příklady představují dva odlišné způsoby, jak napsat totéž; jeden používá sérii podmínek if, zatímco druhý je založen na konstruktu switch:
+Základí formát konstruktu while je tento:
+Předcházející
+Nahoru
+Předcházející
+Varování
+Další
+Další
+Současný běh PHP 3 a PHP 4
+Manuál PHP
+Nahoru
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Další
+Manuál PHP
+Varování
+Další
+Předcházející
+Manuál PHP
+Kompletní seznam těchto konferencí můžete najít na naší stránce Podpora.
+Nahoru
+Předcházející
+Domů
+Předcházející
+Manuál PHP
+Domů
+Verze PHP pro Windows má vestavěnou podporu pro toto rozšíření.
+Předcházející
+Pokud jste opravdu nejistí ohledně kompatibility, měli byste nainstalovat PHP 4 do testovacího prostředí a spouštět skripty tam.
+Poznámka:
+Domů
+Další
+Manuál PHP
+Další
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Předcházející
+Domů
+Další
+Další
+Nahoru
+Funkce pro datum a čas
+Nahoru
+Domů
+Předcházející
+Nahoru
+Kontroluje, zda soubory / adresáře, se kterými pracujete, mají stejné UID jako spuštěný skript.
+Domů
+Příklad C-1.
+Potom překompilujte PHP s novými knihovnami MySQL.
+Nahoru
+K použití těchto funkcí není třeba načítat žádná další rozšíření.
+Předcházející
+Nahoru
+Třetí věcí, kterou mohou reference dělat, je vracení přes reference.
+Manuál PHP
+Nahoru
+Další
+Nahraďte původní konstrukci tímto:
+Předcházející
+Manuál PHP
+Nahoru
+Nahoru
+Další
+Předcházející
+Manuál PHP
+PHP\n"; / / mailový klient $headers .= "X-Priority:
+Varování
+Další
+Předcházející
+Nahoru
+Předcházející
+Nahoru
+Manuál PHP
+Další
+Nastavují se bity, kde je jednička v $a i v $b.
+Manuál PHP
+Nahoru
+Předcházející
+Předcházející
+Manuál PHP
+Další
+Domů
+Domů
+Předcházející
+Domů
+Domů
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Nahoru
+Domů
+Argumentu jsou jméno databáze a jméno tabulky.
+Ujistěte se, že je hodnota max_execution_time dostatečně velká.
+Předcházející
+Domů
+Nahoru
+Další
+Získání PHP
+Tato funkce je EXPERIMENTÁLNÍ.
+Domů
+Další
+Nahoru
+%Z - časová zóna, její název nebo zkratka
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Domů
+Proto když nastane chyba, není iniciován žádný rollback.
+Varování
+Vrací TRUE při úspěchu, FALSE při selhání.
+Chování těchto funkcí je ovlivněno nastavením parametrů v php.ini.
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Potřebujete-li získat počet záznamů ovlivněných dotazy INSERT, UPDATE nebo DELETE, použijte mysql_affected_rows().
+Další
+Další
+Nahoru
+Domů
+Manuál PHP
+Vrací TRUE při úspěchu, FALSE při selhání.
+Předcházející
+Domů
+Když máte problémy s instalací nebo konfigurací PHP, přečtěte si prosím všechnu přiloženou dokumentaci a soubory README.
+Manuál PHP
+Příklad C-5.
+Tuto funkci však nedoporučujeme používat, neboť nemusí být již v dalších verzích PHP podporována.
+Předcházející
+Manuál PHP
+Nahoru
+Předcházející
+Nahoru
+Další
+Ukázka strcasecmp()
+Předcházející
+Předcházející
+Další
+Viz také pdf_setrgbcolor_fill().
+Varování
+Tato funkce je EXPERIMENTÁLNÍ.
+Manuál PHP
+Domů
+mysql_list_tables() Na základě jména databáze vrací ukazatel výsledku na tabulky přesně tak jako mysql_db_query().
+Tato funkce je EXPERIMENTÁLNÍ.
+Argument facility specifikuje, jaký typ programu zaznamenává zprávu.
+Například:
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Domů
+Nahoru
+Předcházející
+Poznámka:
+Předcházející
+Varování
+Předcházející
+Předcházející
+Předcházející
+Domů
+Ukázka usort() s vícerozměrným polem
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Nastavení za použití putenv() z PHP skriptu nebude fungovat.
+2 - TIMEOUT (vypršel časový limit)
+Další
+Manuál PHP
+Další
+/ / $sealed a $env_key obsahují zapečetěná data a obálku / / obojí nám bylo dáno tím, kdo data zapečetil / / získat ze souboru soukromý klíč a připravit ho $fp = fopen( "/ src / openssl-0.9.6 / demos / sign / key.pem", "r"); $priv_key = fread($fp, 8192); fclose($fp); $pkeyid = openssl_get_privatekey($priv_key); / / dekódovat data a uložit je v $open if (openssl_open($sealed, $open, $env_key, $pkeyid)) echo "tady jsou otevřená data:", $open; else echo "nepodařilo se otevřít data"; / / uvolnit klíč z paměti openssl_free_key($pkeyid);
+Nahoru
+Další
+Další
+Předcházející
+Varování
+Nahoru
+Manuál PHP
+'r+' - Otevřít pro čtení a zápis; nastaví ukazatel na začátek souboru.
+Nahoru
+Nahoru
+Nahoru
+Další
+Funguje pouze u HTTP přenosů.
+Viz. také mysql_field_seek().
+Manuál PHP
+Nepovinný parametr workfactor určuje, jak se kompresní mechanismus chová v případě nejhorších, velmi se opakujících, vstupnách dat.
+Další
+Další
+Manuál PHP
+Další
+Další
+Příklad 1. printer_draw_line() example
+Předcházející
+Domů
+Manuál PHP
+Manuál PHP
+Domů
+Podívejte se do řádku, kde je popsáno sestavování a ujistěte se, že byly přidány na konec všechny potřebné knihovny. Často se stává, že chybí '-ldl' a některé knihovny potřebné pro podporu databáze, kterou jste určili.
+Domů
+Další
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Manuál PHP
+Předcházející
+Tabulka 1.
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+V PHP 3 můžete k dosažení stejného efektu kombinovat while s funkcemi list() a each().
+Nahoru
+Nahoru
+Varování
+Domů
+Domů
+Nahoru
+Předcházející
+Následující parametry očekávají deskriptor vrácený funkcí fopen():
+Další
+Předcházející
+Pokud výsledný název (vč. prefixu) není platný název proměnné, nenaimportuje se do symbolové tabulky.
+Předcházející
+Domů
+Nahoru
+K tomu také používá jen prvních osum znaků z str, takže delší řetězce, ktewré začínají osmi stejnými znaky budou generovat i stejný výsledek (když je použit stejný salt).
+Předcházející
+Domů
+Příklad 2. ereg_replace() Example
+Další
+Předcházející
+Ukázka na překladovou tabulku
+Předcházející
+Předcházející
+Domů
+Předcházející
+Manuál PHP
+Další
+Varování
+"hours" - hodiny
+Domů
+Předcházející
+Další
+Manuál PHP
+Další
+Předcházející
+reset ($arr); while (list(, $value) = each ($arr)) {echo "Hodnota: $value br \n";} foreach ($arr as $value) {echo "Hodnota: $value br \n";}
+Manuál PHP
+my $CFG_CFLAGS_SHLIB = '-fpic -DSHARED_MODULE'; 
+my $CFG_LIBEXECDIR = '/ usr / lib / apache'; 
+Varování
+Předcházející
+Další
+Předcházející
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Vlastnosti této třídy jsou:
+Pokud chcete převádět mezi kalendářovými systémy, musíte nejdřív převést na Julian Day Count, potom na kýžený kalendář.
+Z důvodů zpětné kompatibility můžete také narazit na funkci mysql_fieldflags().
+Domů
+Další
+Předcházející
+Manuál PHP
+Druhý argument byl přidán v PHP 4.0.3.
+Předcházející
+Domů
+Další
+Domů
+Následujte pečlivě tyto kroky:
+Domů
+mysql_result() vrací záznamy jednoho sloupce z výsledku MySQL.
+Předcházející
+Příklad 1.
+Domů
+mysql_info() vrací detailní informace o posledním dotazu v použitém spojeni.
+Manuál PHP
+Varování
+Další
+Poznámka:
+Další
+Příklad 1.
+Varování
+mysql_fetch_lengths() obsahuje délky hodnot všech vrácených sloupců posledního načteného záznamu pomocí mysql_fetch_row(), mysql_fetch_array(), a mysql_fetch_object() v poli, začínajícího klíčem 0.
+Tato funkce je EXPERIMENTÁLNÍ.
+Varování
+Nahoru
+Tato funkce je EXPERIMENTÁLNÍ.
+Prvky jsou indexovány podle následujících hodnot: done, end, erase_empty_line, library_version, line_buffer, mark, pending_input, point, prompt, readline_name a terminal_name.
+Předcházející
+WDDX funkce
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Domů
+Další
+Poznámka:
+Viz také ob_start() a ob_end_flush().
+Předcházející
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Výstupem uvedeného příkladu bude:
+Manuál PHP
+Další
+Nahoru
+Další
+Varování
+Další
+Nahoru
+Příloha C.
+Manuál PHP
+Je-li funkce volána bez nepovinných paramtrů, jsou u nich předpokládány následující výchozí hodnoty: server = 'localhost:3306', jmeno = jméno vlastníka procesu a heslo = prázdné heslo.
+Další
+Domů
+Manuál PHP
+Takže například, pokud jsou aktivní oba tyto stavy, vrátí 3.
+Nahoru
+Další
+Další
+Nahoru
+Příklad 1.
+Volání této funkce musíte tudíž umístit před html či head tagy.
+Další
+Manuál PHP
+Manuál PHP
+Další
+Další
+Domů
+Domů
+Další
+Nahoru
+Předcházející
+Předcházející
+Další
+Nedělejte si nic z toho, že tomu hned a beze zbytku nerozumíte.
+Poznámka:
+DalÅ¡Ã­
+Domů
+Domů
+Tabulka 1.
+Poznámka:
+Předcházející
+Předcházející
+Logické operátory
+Manuál PHP
+Předcházející
+Návratové hodnoty TRUE / FALSE
+Další
+Domů
+?php $fp = fopen( $filename, "r"); header("Content-type: application / pdf"); fpassthru($fp); fclose($fp);?
+f float (velikost a reprezentace závislá na systému)
+Pokud jste úplně čerstvý programátor nebo stále ještě začátečník, může vám přijít obtížné naučit se programovat v PHP pouze podle tohoto manuálu.
+Další
+Předcházející
+Nahoru
+Předcházející
+Domů
+Další
+Vrací pole odstraněných prvků.
+Domů
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+BCMath funkce pro výpočty s libovolnou přesností
+Domů
+Použití jiné databáze jako meziformátu není dobrý nápad, pokud můžete použít ODBC z PHP přímo na vaší databázi - např. pomocí ovladačů od OpenLink software.
+Další
+Předcházející
+Předcházející
+Další
+Předcházející
+Předcházející
+Domů
+Varování
+Předcházející
+Můžete také použít sekci File k selektivnímu nastavení.
+Domů
+Příklad 1. aspell_check_raw()
+Pokud se připojíte jako uživatel s dostatečnými právy, a daný soubor už neexistuje, můžete data také ukládat po FTP.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Příklad 1.
+switch ($i): case 0: print "i se rovná 0"; break; case 1: print "i se rovná 1"; break; case 2: print "i se rovná 2"; break; default: print "i se nerovná 0, 1 ani 2"; endswitch;
+Varování
+Verze PHP pro Windows nyní nepodporuje pro tuto funkci dálkový přístup k souborům, a to ani když je aktivní volba allow_url_fopen.
+Další
+Domů
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Operátory porovnání
+Předcházející
+Viz také require(), require_once(), include_once(), readfile(), virtual(), a include_path.
+Další
+Kapitola 12. Řídicí struktury
+Varování
+Manuál PHP
+Nahoru
+Manuál PHP
+$string = "This is an example string"; $tok = strtok ($string," "); while ($tok) {echo "Word=$tok br "; $tok = strtok (" ");}
+Další
+Předcházející
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Domů
+Manuál PHP
+Další
+mysql_field_len() vrací délku uvedeného sloupce v tabulce.
+Předcházející
+Domů
+Předcházející
+Předcházející
+Domů
+Varování
+Další
+Předcházející
+Manuál PHP
+Viz také: require_once(), include_once(), get_included_files()
+Předcházející
+Nahoru
+Domů
+Nahoru
+Další
+Domů
+Varování
+Předcházející
+Další
+Příklad 1. mysql_errno Example
+Předcházející
+Další
+Bude se opakovat pro každou úroveň zásobníku volání funkcí.
+Manuál PHP
+Další
+Další
+Předcházející
+Funkce substr_replace() byla přidána v PHP 4.0.
+Další
+Vyprázdní výstupní buffery PHP a jakéhokoli backendu, který PHP používá (CGI, web server, atd.) Odešle veškerý dosavadní výstup do uživatelova browseru.
+Domů
+Předcházející
+Manuál PHP
+Pokud chcete tento modul využívat opravdu efektivně, měli byste chápat také některé z konceptů PDF nebo Postscriptu.
+Viz také pdf_closepath(), pdf_closepath_stroke().
+Další
+Nahoru
+Nahoru
+Domů
+Předcházející
+Varování
+Domů
+Předcházející
+Další
+Nahoru
+Další
+Salt musí být při kontrole klíčů znám, tudíž je dobrý nápad ho připojit ke klíči.
+Předcházející
+Domů
+Tato funkce je podobná imap_qprint() s tou výjimkou, že tato funkce nevyžaduje IMAP modul.
+Další
+Viz také include(), require(), require_once(), get_required_files(), get_included_files(), readfile(), a virtual().
+Předcházející
+Rozdíl je v hodnotě inkrementačního výrazu.
+Předcházející
+Domů
+Manuál PHP
+Předcházející
+Nahoru
+Předcházející
+Manuál PHP
+Tento příznak byl přidán v PHP 4.0.5.
+Další
+Nahoru
+Zde je příklad jednoduchého skriptu:
+Další
+curl_setopt() nastavuje parametry CURL session ch. option je parametr, který chcete nastavit a value je hodnota, na kterou se má option nastavit.
+Předcházející
+Předcházející
+Domů
+Předcházející
+Předcházející
+Manuál PHP
+Předcházející
+Manuál PHP
+Domů
+Manuál PHP
+Tabulka 1.
+Viz také: print(), sprintf(), sscanf(), fscanf() a flush().
+Manuál PHP
+Nahoru
+Další
+Manuál PHP
+Tento modul definuje několik tříd.
+To znamená, že když má název proměnné připojeny závorky, PHP bude hledat funkci se stejným názvem, jako má hodnota proměnné, a pokusí se ji provést.
+Manuál PHP
+For examples of these functions, see 36-2.
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+each() se většinou používa s list() k průchodu polem, např. $HTTP_POST_VARS:
+Předcházející
+Domů
+Předcházející
+Domů
+Nahoru
+Další
+Možné je to v případě, že nařídíte PHP ignorovat odpojení uživatee.
+Podpora pdflib 0.6 už byla naprosto ukončena.
+Další
+Domů
+Další
+Další
+Předcházející
+Předcházející
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Předcházející
+Další
+Domů
+provede přesně totéž jako:
+Nahoru
+Předcházející
+Nahoru
+Předcházející
+Předcházející
+Tyto konstanty jsou definovány tímto rozšířením a budou k dispozici pouze tehdy, bylo-li rozšíření zkompilováno společně s PHP nebo dynamicky zavedeno za běhu.
+$aspell_link=aspell_new ("english"); if (aspell_check ($aspell_link, "testt")) {echo "Toto je platné hláskování";} else {echo "Pardon, špatné hláskování";}
+Předcházející
+Předcházející
+Nahoru
+Tabulka 2.
+Předcházející
+Další
+Příklad 12-4.
+Další
+Poznámka:
+Manuál PHP
+?php / * tohle je správný zápis * / echo $row - field; / * a toto je chybný zápis * / echo $row - 0;?
+Manuál PHP
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Další
+Viz také pfpro_cleanup().
+Tato funkce nemusí na Windows fungovat
+Předcházející
+Nahoru
+Domů
+Další
+Poznámka:
+Další
+Předcházející
+Síťové funkce
+Předcházející
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Jak?
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Nahoru
+Další
+Domů
+Když filename začíná "http: / /" (velkými nebo malými písmeny), otevře se spojení na příslušný server protokolem HTTP 1.0 a získaný dokument se vypíše na standardní výstup.
+Předcházející
+Nahoru
+Manuál PHP
+Varování
+Viz také get_class(), is_subclass_of()
+Output Control funkce (funkce pro řízení výstupu) vám umožňujíc ovládat, kdy se odešle výstup skriptu.
+Varování
+Předcházející
+Předcházející
+Předcházející
+Poznámka:
+Předcházející
+Předcházející
+Funkce pdf_set_text_pos() function sets the position of text for the next pdf_show() function call.
+Nahoru
+Další
+Předcházející
+Kapitola 26.
+Manuál PHP
+'"' (dvojitá uvozovka) se stává 'quot;' when ENT_NOQUOTES is not set.
+Další
+Manuál PHP
+Předcházející
+Předcházející
+Manuál PHP
+Předcházející
+Manuál PHP
+Předcházející
+Nahoru
+Další
+Domů
+Nahoru
+Další
+Předcházející
+Syntaxe je následující:
+Navíc začátek roku se lišil od kultury ke kultuře - ne všechny přijímaly leden jako první měsíc roku.
+Další
+is_dst může být 1, patří-li daný čas do doby platnosti letního času, 0, pokud nepatří, anebo -1 (implicitní hodnota), nelze-li zjistit, zda daný čas patří do období letního času (v tomto případě se PHP pokusí tuto hodnotu dosadit; to může způsobit neočekávané - ale nikoli chybné - výsledky).
+Další
+Předcházející
+Další
+Trvalá spojení byla navržena tak, aby odpovídala jedna k jedné normálním spojením.
+Nahoru
+Operátory
+Domů
+Další
+O tomto manuálu
+Další
+Poznámka:
+Funkce na podporu COM ve Windows
+Pokud server nepodporuje pasivní režim FTP komunikace, selže to.
+Domů
+Toto rozšíření nemá definováno žádné konfigurační direktivy.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Manuál PHP
+Domů
+Další
+Nahoru
+Předcházející
+Hlavní rozdíl oproti běžným cyklům while je ten, že první iterace cyklu do..while se provede vždy (pravdivostní výraz je testován až na konci iterace), což u cyklu while není zaručeno (pravdivostní výraz je testován na začátku iterace; pokud je ohodnocen jako FALSE, provádění cyklu hned skončí).
+Domů
+Dojde-li k chybě, mysql_list_tables() vrací FALSE.
+ENT_COMPAT (default) převede pouze dvojité uvozovky, ENT_QUOTES převede dvojité i jednoduché uvozovky, a ENT_NOQUOTES ponechá jednoduché i dvojité uvozovky bez konverze.
+Nahoru
+Další
+Další
+Domů
+Vrátí objekt obsahující informace o sloupci z výsledku.
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Pseudo-objektově orientovaný mechanismus pro čtení adresáře.
+Tabulka 1.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Další
+Předcházející
+Manuál PHP
+Viz také bcmul().
+Předcházející
+Nahoru
+Manuál PHP
+Další
+echo $TestCookie; echo $HTTP_COOKIE_VARS["TestCookie"];
+Argumenty jsou řetězec k zašifrování a volitelný dvouznakový řetězec salt, na kterém se šifrování založí.
+Další
+Poznamenejte si název serveru, uživatelské jméno a heslo.
+Manuál PHP
+Pozn.: co znamená 'alfabetický' určuje aktuální místní nastavení (locale).
+Manuál PHP
+Předcházející
+Další
+Další
+Příklad 1. str_shuffle() example
+Nahoru
+Tato funkce je EXPERIMENTÁLNÍ.
+Domů
+Manuál PHP
+Domů
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Nahoru
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Nahoru
+Domů
+Nahoru
+Nahoru
+Další
+Další
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Poznámka:
+Nahoru
+Předcházející
+Příklad 1.
+Další
+Další
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Tato funkce je EXPERIMENTÁLNÍ.
+Další
+Předcházející
+Pamatujte, že funkce header() musí být volána dříve než se odešle jakýkoliv normální výstup, ať už normálními HTML tagy, nebo z PHP.
+Příklad 1.
+Domů
+Předcházející
+Poznámka:
+Předcházející
+Cookies jsou mechanismem na ukládání dat ve vzdáleném browseru a tudíž sledování nebo identifikaci vracejících se uživatelů.
+Další
+Manuál PHP
+Další
+Příklad 3. ovrimos_result_all example
+Manuál PHP
+Předcházející
+Domů
+Manuál PHP
+Pamatujte, že tato sdílená paměť dál existuje a drží si data.
+Inicializátory
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Další
+Kde jsou?
+Předcházející
+Předcházející
+Další
+Nahoru
+TRUE.
+Manuál PHP
+Další
+Domů
+Nahoru
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Viz. také: mysql_connect(), mysql_pconnect() a mysql_query().
+Domů
+Domů
+Manuál PHP
+Předcházející
+Od PHP 4.0.5 toto zahrnuje i číselné indexy.
+Další
+Předcházející
+Tento HTML blok by se zobrazil pouze v případě, že je $a rovno 5.
+Předcházející
+Příklad 2. sprintf(): formatting currency
+Kapitola 7.
+Domů
+Tato funkce je EXPERIMENTÁLNÍ.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Nahoru
+Varování
+První používá ve vkládaném souboru return(), druhý nikoli.
+Manuál PHP
+Příklad 1. ftp_put() example
+Manuál PHP
+Předcházející
+Předcházející
+Předcházející
+Další
+To se týká například proměnných, funkcí, volání include() konstant a podobně.
+Předcházející
+Maximální počet persistentních spojení na jeden proces.
+Manuál PHP
+Předcházející
+Příklad 1.
+Předcházející
+Domů
+Další
+Předcházející
+Předcházející
+Nahoru
+Domů
+Předcházející
+Viz také getmyuid(), get_current_user(), getmyinode(), a getlastmod().
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Další
+function foo ($arg_1, $arg_2,..., $arg_n) {echo "Ukázková funkce.\n"; return $retval;}
+Nahoru
+Nahoru
+Nahoru
+Předcházející
+Domů
+Nahoru
+Nahoru
+Předcházející
+Funkce
+Další
+Další
+Nahoru
+Manuál PHP
+Nahoru
+Příklad 1.
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Předcházející
+Předcházející
+Další
+Manuál PHP
+Další
+Manuál PHP
+Další
+Manuál PHP
+Domů
+Varování
+Konstrukt include_once() vloží a ohodnotí specifikovaný soubor během provádění skriptu.
+Nejdříve odstraňte mod_php3:
+Další
+pdf_set_info() s "Keywords "jako druhý argument.
+Nahoru
+Příklad 1.
+Manuál PHP
+Do předmětu zprávy ani jejího těla nemusíte vkládat nic speciálního.
+To je užitečné hlavně při práci s asociativními poli.
+Další
+Poznámka: db2 conflicts with db3 and db4.
+Manuál PHP
+Nahoru
+Další
+Domů
+Domů
+Nahoru
+Další
+Další
+Další
+Konstanta
+Domů
+Příklad 1.
+Nahoru
+Domů
+Manuál PHP
+Předcházející
+Konstrukt s new, např. foo( new foobar())
+Domů
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Varování
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Nahoru
+Další
+Předcházející
+Manuál PHP
+Další
+Další
+Nahoru
+Předcházející
+Předcházející
+Domů
+Viz také getmypid(), get_current_user(), getmyinode(), a getlastmod().
+Další
+Předcházející
+Nahoru
+Předcházející
+Předcházející
+Nahoru
+Manuál PHP
+Při volání s jedním argumentem vrátí hodnotu tohoto nastavení.
+Domů
+Viz také pdf_open_image_file(), pdf_open_memory_image(), pdf_get_image_height().
+Příklad 1. dbx_close() example
+Tato funkce je EXPERIMENTÁLNÍ.
+Výsledek této funkce je cachován.
+Předcházející
+Další
+Nahoru
+Domů
+Vrací řetězec obsahující zkrácený název dne v týdnu (anglický gregoriánský)
+Předcházející
+Nové chování umožňuje logičtější programování, jako $fp = fopen( "/ your / file") nebo fail("darn !");.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Předcházející
+Další
+Předcházející
+Více detailů - viz funkce fopen().
+Předcházející
+Poznámka:
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Manuál PHP
+Předcházející
+Předcházející
+Manuál PHP
+Poznámka:
+Další
+Kapitola 32.
+Poznámka:
+Další
+Tyto funkce byly umístěny zde, protože nespadají do žádné jiné kategorie.
+Další
+Poznámka:
+Předcházející
+?php define( "CONSTANT", "Hello world ."); echo CONSTANT; / / vytiskne "Hello world. "?
+Další
+Předcházející
+Nahoru
+Další
+Příklad 1.
+Varování
+Viz také escapeshellcmd(), exec(), passthru(), popen(), shell_exec(), a system().
+Předcházející
+Domů
+Kromě základního operátoru přiřazení existují ještě "kombinované operátory" pro všechny binární aritmetické a řetězové operátory, které umožňují použít hodnotu ve výrazu a pak hodnotu tohoto výrazu přiřadit zpět.
+Nahoru
+Nahoru
+Viz také: is_array(), explode(), implode(), split() a join().
+Další
+Další
+Předcházející
+Funkce join() je alias k implode(), a je ve všech ohledech stejná.
+Předcházející
+Nahoru
+Nahoru
+Další
+Další
+Domů
+Manuál PHP
+Předcházející
+Nahoru
+Tato funkce není implementována na platformách Windows.
+Předcházející
+Další
+Manuál PHP
+Poznámka:
+Manuál PHP
+Domů
+Předcházející
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Předcházející
+Další
+Předcházející
+Domů
+Varování
+Příloha A.
+Další
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Vrací TRUE při úspěchu, FALSE při selhání.
+Předcházející
+Tabulka 1.
+Předcházející
+Z důvodů zpětné kompatibility můžete také narazit na funkci mysql_fieldname().
+Další
+Domů
+Na začátku každé iterace je ohodnocen výraz expr2.
+Domů
+Domů
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Domů
+Další
+Vrací TRUE při úspěchu, FALSE při selhání.
+Předcházející
+Manuál PHP
+Další
+Jedná se o běžný application / x-www-from-urlencoded POST požadavek, který se většinou používá u HTML formulářů.
+Manuál PHP
+Další
+Další
+Manuál PHP
+Předcházející
+Manuál PHP
+mysql_get_server_info() vrací verzi serveru v použitém spojeni.
+Příklad 1.
+Toto rozšíření nemá definovány žádné konstanty.
+Domů
+Pokud filename není přítomen, použije se aktuální čas.
+Poznámka:
+Můžete například otevřít soubor na vzdáleném web serveru, vyseparovat z výstupu data, která potřebujete, a tato data potom použít v dotazu na databázi, nebo je prostě začlenit do výstupu stylem odpovídajícím zbytku vaší web site.
+Varování
+Předcházející
+Předcházející
+Manuál PHP
+Další
+Další
+Domů
+Další
+Manuál PHP
+Domů
+Další
+Nahoru
+Příklad 2.
+Předcházející
+Manuál PHP
+Příkladem může být způsob, jakým vám Bash umožňuje vkládat znaky nebo listovat historií příkazů pomocí kláves pro pohyb kurzoru.
+Příklad 3-7.
+Domů
+GNU Recode funkce
+Domů
+Domů
+Domů
+Další
+Nahoru
+Manuál PHP
+Další
+Předcházející
+Předcházející
+?php / / základní třída s členskými proměnnými a metodami class Zelenina {var $jedla; var $barva; function Zelenina ($jedla, $barva="green ") {$this - jedla = $jedla; $this - barva = $barva;} function je_jedla() {return $this - jedla;} function jaka_barva() {return $this - barva;}} / / konec tridy zelenina / / rozsiruje zakladni tridu class Spenat extends Zelenina {var $varena = false; function Spenat() {$this - Zelenina (true, "zelena");} function cook_it() {$this - varena = true;} function je_varena() {return $this - varena;}} / / konec tridy Spenat?
+Tipy a triky:
+Tento uživatel potřebuje práva k php.exe.
+Tato funkce je EXPERIMENTÁLNÍ.
+Tato funkce je EXPERIMENTÁLNÍ.
+Předdefinované konstanty (dostupné vždy) jsou:
+Domů
+Předcházející
+Další
+Předcházející
+Další
+Domů
+Manuál PHP
+Kapitola 7.
+Předcházející
+Předcházející
+Předcházející
+Další
+Předcházející
+Manuál PHP
+Nahoru
+To samozřejmě není dobrý nápad, aby Apache nebo PHP automaticky nechal kohokoli přepsat jakékoli soubory ve stromě.
+Nahoru
+Předcházející
+Ukázka array_unique()
+Příklad 1. mb_detect_encoding() example
+To aktuálně nemá nic společného s PHP, ale s knihovnami klienta MySQL.
+Předcházející
+Další
+Předcházející
+Další
+Manuál PHP
+Předcházející
+Další
+Předcházející
+Předcházející
+Další
+Předcházející
+Předcházející
+Nahoru
+Předcházející
+Parametr timeout by zaveden v PHP 3.0.9 a podpora UDP v PHP 4.
+Další
+Manuál PHP
+Další
+Další
+Předcházející
+Další
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Nahoru
+Předcházející
+Musíte se ujistit, že máte rekurzi adekvátně ukončenu.
+Manuál PHP
+Nahoru
+Do svého httpd.conf přidejte následující:
+Varování
+ladicí zpráva
+Předcházející
+Další
+Další
+Další
+Předcházející
+Nahoru
+Příkaz include_once() by se měl používat v případech, kde by mohl být během provádění skriptu tentýž soubor vložen a ohodnocen víckrát, a přitom chcete zajistit právě jedno vložení (je třeba se vyhnout redefinicím funkcí, novému přiřazení hodnot atd.).
+Manuál PHP
+Domů
+Tabulka 1.
+?php mysql_connect( "localhost", "mysql_uziv", "mysql_heslod") or die("Nelze se spojit"); printf ("MySQL host info: %s\n", mysql_get_host_info());?
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Předcházející
+Manuál PHP
+Domů
+Manuál PHP
+Manuál PHP
+Varování
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Tabulka 2.
+Manuál PHP
+Další
+function process( $var1, $var2, $farr) {for ($f=0; $f count($farr); $f++) echo $farr[$f]($var1,$var2) ."\n";} / / create a bunch of math functions $f1 = 'if ($a =0) {return "b*a^2 = ".$b*sqrt($a);} else {return false ;}'; $f2 = "return \"min(b^2+a, a^2,b) = \".min(\$a*\$a+\$b,\$b*\$b+\$a) ;"; $f3 = 'if ($a 0 $b != 0) {return "ln(a) / b = ".log($a) / $b;} else {return false ;}'; $farr = array (create_function('$x,$y', 'return "some trig: ".(sin($x) + $x*cos($y)) ;'), create_function('$x,$y', 'return "a hypotenuse: ".sqrt($x*$x + $y*$y) ;'), create_function('$a,$b', $f1), create_function('$a,$b', $f2), create_function('$a,$b', $f3)); echo "\nUsing the first array of anonymous functions\n"; echo "parameters:
+Manuál PHP
+Další
+Další
+Předcházející
+Předcházející
+Další
+Předcházející
+Předcházející
+Předcházející
+Verze PHP pro Windows má vestavěnou podporu pro toto rozšíření.
+Domů
+Další
+Předcházející
+Další
+/ / nacte obsah souboru do retezce $filename = "/ usr / local / something.txt"; $fd = fopen ($filename, "r"); $contents = fread ($fd, filesize ($filename)); fclose ($fd);
+Předcházející
+Předcházející
+Jinou věcí, která již není možná, je vzácně vídané vracení hodnot ze souborů připojených pomocí "require".
+Toto rozšíření nemá definován žádný typ prostředku (resource).
+Nahoru
+Předcházející
+Další
+wddx_serialize_vars() přijímá proměnný počet argumentů, každý z nich může být buď řetězec obsahující název proměnné, nebo pole názvů proměnných, nebo jiné pole atd.
+Řetězce, které neobsahují názvy platných proměnných se přeskočí.
+Manuál PHP
+Domů
+Existují databázové funkce na plnění polí výsledky databázových dotazů, a několik dalších funkcí vrací pole.
+Tyto funkce poskytují pouze spojení s Verisign Payment Services.
+Předcházející
+Příklad 1.
+Nahoru
+Předcházející
+Manuál PHP
+Nahoru
+mysql_field_type() je podobná funkci mysql_field_name().
+Manuál PHP
+Další
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Domů
+Předcházející
+Domů
+Další
+Domů
+Nahoru
+Nahoru
+Kapitola 3.
+Další
+Příklad 1. Čtení souboru řádek po řádku
+Nahoru
+Manuál PHP
+Manuál PHP
+Nahoru
+V bezpečném režimu nebudou hlavičky začínající 'authorization' (bez ohledu na velikost písmen) vraceny.
+Nahoru
+Filesystém
+Tabulka 1. openssl_x509_checkpurpose() purposes
+Nahoru
+Další
+Integer určující minimální rychlost přenosu v bytech za sekundu.
+Nahoru
+Manuál PHP
+Předcházející
+?php $pdffilename = "clock.pdf"; $radius = 200; $margin = 20; $pagecount = 40; $fp = fopen($pdffilename, "w"); $pdf = pdf_open($fp); pdf_set_info($pdf, "Creator", "pdf_clock.php3"); pdf_set_info($pdf, "Author", "Uwe Steinmann"); pdf_set_info($pdf, "Title", "Analog Clock"); while($pagecount- - 0) {pdf_begin_page($pdf, 2 * ($radius + $margin), 2 * ($radius + $margin)); pdf_set_parameter($pdf, "transition", "wipe"); pdf_set_value($pdf, "duration", 0.5); pdf_translate($pdf, $radius + $margin, $radius + $margin); pdf_save($pdf); pdf_setrgbcolor($pdf, 0.0, 0.0, 1.0); / * minute strokes * / pdf_setlinewidth($pdf, 2.0); for ($alpha = 0; $alpha 360; $alpha += 6) {pdf_rotate($pdf, 6.0); pdf_moveto($pdf, $radius, 0.0); pdf_lineto($pdf, $radius-$margin / 3, 0.0); pdf_stroke($pdf);} pdf_restore($pdf); pdf_save($pdf); / * 5 minute strokes * / pdf_setlinewidth($pdf, 3.0); for ($alpha = 0; $alpha 360; $alpha += 30) {pdf_rotate($pdf, 30.0); pdf_moveto($pdf, $radius, 0.0); pdf_lineto($pdf, $radius-$margin, 0.0); pdf_stroke($pdf);} $ltime = getdate(); / * draw hour hand * / pdf_save($pdf); pdf_rotate($pdf, -(($ltime['minutes'] / 60.0)+$ltime['hours']-3.0)*30.0); pdf_moveto($pdf, -$radius / 10, -$radius / 20); pdf_lineto($pdf, $radius / 2, 0.0); pdf_lineto($pdf, -$radius / 10, $radius / 20); pdf_closepath($pdf); pdf_fill($pdf); pdf_restore($pdf); / * draw minute hand * / pdf_save($pdf); pdf_rotate($pdf, -(($ltime['seconds'] / 60.0)+$ltime['minutes']-15.0)*6.0); pdf_moveto($pdf, -$radius / 10, -$radius / 20); pdf_lineto($pdf, $radius * 0.8, 0.0); pdf_lineto($pdf, -$radius / 10, $radius / 20); pdf_closepath($pdf); pdf_fill($pdf); pdf_restore($pdf); / * draw second hand * / pdf_setrgbcolor($pdf, 1.0, 0.0, 0.0); pdf_setlinewidth($pdf, 2); pdf_save($pdf); pdf_rotate($pdf, -(($ltime['seconds'] - 15.0) * 6.0)); pdf_moveto($pdf, -$radius / 5, 0.0); pdf_lineto($pdf, $radius, 0.0); pdf_stroke($pdf); pdf_restore($pdf); / * draw little circle at center * / pdf_circle($pdf, 0, 0, $radius / 30); pdf_fill($pdf); pdf_restore($pdf); pdf_end_page($pdf);} $pdf = pdf_close($pdf); fclose($fp); echo" A HREF=getpdf.php?filename=".$pdffilename. "finished / A";?
+Předcházející
+filepro_rowcount()
+Předcházející
+Další
+Manuál PHP
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Předcházející
+Více detailů - viz funkce fopen().
+Další
+Předcházející
+Nahoru
+Další
+Domů
+Další
+Domů
+Předcházející
+Domů
+Další
+Předcházející
+Domů
+Další
+Předcházející
+Domů
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+satellite_exception_id()
+Manuál PHP
+Další
+Předcházející
+base64_decode() dekóduje encoded_data a vrátí původní data.
+Příklad 9-2.
+To znamená, že pro výraz jako (1 _BAR_ _BAR_ test_me()) již nebude funkce test_me() volána, protože za 1 již nic nemůže ovlivnit hodnotu výrazu.
+Varování
+Manuál PHP
+Předcházející
+Manuál PHP
+Varování
+Nahoru
+Další
+Předcházející
+Domů
+Předcházející
+Předcházející
+Kvůli zpětné kompatibilitě je možné použít i mysql_createdb().
+Další
+Manuál PHP
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Nahoru
+Další
+Další
+Další
+Domů
+Tato funkce je EXPERIMENTÁLNÍ.
+Obecně je, ale protože PHP se nejčastěji používá jako webovský skriptovací jazyk, běží v prostředí WWW serveru, a proto se vizuální objekty nezobrazují na ploše displeje serveru.
+Předcházející
+Nahoru
+Domů
+Prováděcí operátory
+Další
+Ukázka HTTP autentikace vyžadující nové jméno a heslo
+Příklad 1. mssql_next_result() example
+Nahoru
+Nahoru
+Nahoru
+Další
+Poznámka:
+Nahoru
+Domů
+Nahoru
+Předcházející
+Nahoru
+Manuál PHP
+Domů
+Další
+Další
+Předcházející
+Další
+Kapitola 6.
+Další
+Můžete použít nepovinný třetí parametr a nastavit ho na "1", pokud chcete hledat soubor také v include_path.
+chmod ("/ somedir / somefile", 755); / / desitkove cislo; zrejme nespravne chmod (" / somedir / somefile", "u+rwx,go+rx"); / / retezec; nespravny chmod (" / somedir / somefile", 0755); / / oktal; spravna hodnota modu
+Další
+Nahoru
+switch ($i) {case 0: print "i se rovná 0"; case 1: print "i se rovná 1"; case 2: print "i se rovná 2";}
+Další
+Mějte na paměti podivné pořadí argumentů, které se liší od pořadí argumentů v běžném UNIXovém volání mktime() a které se příliš nehodí k vynechávání parametrů zprava doleva (viz níže).
+Domů
+Další
+Předcházející
+Předcházející
+Další
+Při chybě vrací FALSE.
+Nastane-li chyba, vrací 0.
+Další
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Nainstalujte ho na počítač s Windows.
+Je popsáno v ["Practical Algorithms for Programmers", Binstock Rex, Addison Wesley, 1995].
+Předcházející
+Nahoru
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Další
+Předcházející
+Manuál PHP
+Manuál PHP
+Viz také die().
+OpenSSL nabízí mnoho vlastností, které tato extenze v současnosti nepodporuje.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Předcházející
+Manuál PHP
+Viz také pdf_get_value(), pdf_set_value(), pdf_set_parameter().
+Tyto konstanty jsou definovány tímto rozšířením a budou k dispozici pouze tehdy, bylo-li rozšíření zkompilováno společně s PHP nebo dynamicky zavedeno za běhu.
+Nahoru
+Další
+Domů
+Předcházející
+Tabulka 5.
+Předcházející
+Přijímá pole var_array; z klíčů vytváří názvy proměnných a z hodnot hodnoty těchto proměnných.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Nahoru
+Další
+Předcházející
+Další
+Předcházející
+Manuál PHP
+subsystém USENET news
+Další
+Další
+Domů
+Not (negace)
+Mezitím volání setcookie() úspěšně uložilo cookie bez vyvolání chyby. (Normálně nemůžete odeslat do browseru hlavičky poté, co už byla odeslána data.)
+Manuál PHP
+Pokud má PHP tiše ukončit transfer po přijetí HTTP server kódu většího než 300, nastavte tento parametr na nenulovou hodnotu.
+Domů
+Vrací TRUE při úspěchu, FALSE při selhání.
+Musíte zadat název existující funkce, která přijímá částečný příkaz a vrací pole možných protějšků.
+Předcházející
+Nahoru
+Varování
+Domů
+jdtounix() vrací UNIXový timestamp odpovídající Julian Day Countu danému v jday nebo FALSE, pokud je jday mimo UNIXovou epochu (Gregoriánské roky mezi 1970 a 2037, nebo-li 2440588 = jday = 2465342)
+Manuál PHP
+Předcházející
+Pro ostatní konference použijte obdobné adresy.
+Příklad 1. session_set_save_handler() example
+Manuál PHP
+Nahoru
+Nahoru
+Domů
+Tato funkce vrátí přeložený řetězec, pokud jej najde v překladové tabulce, nebo předaný řetězec, pokud jej nenajde.
+Nahoru
+Nastavení maximální velikosti v PHP však samozřejmě nemůže být obelstěno.
+Definuje pojmenovanou konstantu, která je podobná proměnné s výjimkou toho, že:
+Předcházející
+Předcházející
+Manuál PHP
+Domů
+Další
+Další
+Další
+Další
+Nahoru
+Nahoru
+Varování
+Podpora výstupního bufferingu
+Domů
+Předcházející
+Předcházející
+Domů
+Předcházející
+Varování
+Další
+Další
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Další
+Předcházející
+Kapitola 3.
+Domů
+Nahoru
+Předcházející
+Další
+Manuál PHP
+Domů
+Další
+Nahoru
+Další
+Manuál PHP
+Další
+A potom vytvořte soubor pojmenovaný "source", a umístěte ho do svého web root adresáře.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Chyby vrácené MySQL již nezpůsobují upozorňující chybové hlášení (warning).
+Předcházející
+Manuál PHP
+Nahoru
+msql_affected_rows
+Pokud potom dosáhne časového limitu, bude ukončen, a zavolá se vaše funkce pro provedení při ukončení skriptu, pokud existuje.
+Domů
+Předcházející
+Nástroji použitými pro formátování HTML a TeX verzí jsou Jade, jehož autorem je James Clark, a The Modular DocBook Stylesheets kde je autorem Norman Walsh.
+Domů
+Varování
+Poznámka:
+Many functions like pdf_moveto(), pdf_circle() and pdf_rect() start a new path.
+Příklad E-9.
+Identické k mktime(), kromě toho, že parametry reprezentují datum / čas v GMT.
+Nahoru
+Domů
+Předcházející
+Domů
+Poznámka:
+Další
+Domů
+Předcházející
+Nahoru
+Předcházející
+Předcházející
+Poznámka:
+Poznámka:
+Domů
+Nahoru
+Předcházející
+Varování
+Předcházející
+Můžete to udělat i ručně, pomocí funkce curl_setopt().
+Domů
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Nahoru
+Varování
+Předcházející
+Předcházející
+Další
+Další
+Předcházející
+Varování
+Varování
+Předcházející
+Další
+Předcházející
+Předcházející
+Příklad 1. var_dump() example
+Manuál PHP
+Instalace
+Hlásí to použití --activate-module=src / modules / php4 / libphp4.a, ale tento soubor neexistuje; proto jsem to změnil na --activate-module=src / modules / php4 / libmodphp4.a a ono to nefunguje?
+Nahoru
+Další
+Varování
+Předcházející
+Nahoru
+Tato funkce je EXPERIMENTÁLNÍ.
+Tato funkce by se měla používat k zabezpečení toho, aby všechna data pocházející z uživatelského vstupu byla oescapována přetím, než budou předána funkci exec() nebo system(), nebo backtick operátoru.
+Další
+Ovoce bylo seřazeno podle abecedy.
+Nahoru
+Předchozí příklad by mohl mít následující výstup:
+Domů
+Domů
+Další
+Pro tento příklad budeme předpokládat, že jste instalovali MySQL a Apache plně z balíčků RPM.
+Další
+Pokud používáte NDBM, NDBM ve skutečnosti vytváří soubory soubor.dir a soubor.pag.
+Domů
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Funkce pdf_open_memory_image() Funkce pdf_open_memory_image() function takes an image created with the PHP 's image functions and makes it available for the PDF dokument.
+Příklad 1. mb_convert_kana() example
+Pro přiřazení odkazu stačí jednoduše před proměnnou, která bude přiřazována (zdrojová proměnná), předřadit ampersand ().
+Další
+PHP reference umožňují zajistit, aby dvě proměnné odkazovaly na tentýž obsah.
+Další
+Varování
+Manuál PHP
+Manuál PHP
+Předcházející
+Manuál PHP
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Předcházející
+$args = array ("-v", "-f"); $opt = array_shift ($args);
+unpack() rozbalí data z binárního řetězce do pole podle format.
+Další
+Předcházející
+Domů
+Předcházející
+Ukázka openssl_open()
+Manuál PHP
+Předcházející
+Předcházející
+Domů
+Nahoru
+Další
+Manuál PHP
+?php / / Připojení, výběr databáze $link = mysql_connect( "mysql_host", "mysql_login", "mysql_heslo") or die("Nelze se připojit"); print "Připojeno úspěšně !"; mysql_select_db("moje_databaze") or die("Nelze vybrat databázi"); / / Příprava SQL dotazu $query = "SELECT * FROM moje_tabulka"; $result = mysql_query($query) or die("Dotaz nelze provést"); / / Zobrazení výsledku v HTML print "table \n"; while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {print "\t tr \n"; foreach ($line as $col_value) {print "\t\t td $col_value / td \n";} print "\t / tr \n";} print" / table \n"; / / Odpojení z MySQL databáze mysql_close($link);?
+Domů
+Manuál PHP
+Příklad 2.
+Další
+Další
+Další
+Další
+MYSQL_STORE_RESULT
+Nahoru
+Nahoru
+Manuál PHP
+Nahoru
+Jak najít více informací o PHP
+Nahoru
+Vrátí současnou hodnotu konfigurační proměnné PHP určené argumentem varname, nebo FALSE pokud dojde k chybě.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Další
+(PHP 3 = 3.0.6, PHP 4)
+Další
+Jaké jsou rozdíly mezi PHP 3 a PHP 4?
+Domů
+Další
+Domů
+Domů
+Předcházející
+Předcházející
+Tato funkce není implementována na platformách Windows.
+Nahoru
+Další
+Další
+apache_note() je funkce specifická pro Apache, která získává a nastavuje hodnoty v tabulce poznámek požadavku.
+Domů
+Předcházející
+Nahoru
+Vrací další prvek pole nebo FALSE, pokud prvky došly.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Varování
+Další
+Předcházející
+Varování
+Další
+Předcházející
+Nahoru
+Další
+Další
+Default je nula.
+Místo názvu funkce může použito pole obsahující odkaz na objekt a název metody.
+Další
+Další
+Předcházející
+Předcházející
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Nahoru
+Tabulka 4.
+Další
+Domů
+Předcházející
+Domů
+sem_release() uvolňí semafor, pokud ho volající proces drží, jinak se vygeneruje varování.
+Varování
+Domů
+Další
+Varování
+Další
+Předcházející
+Další
+Další
+Viz také: array_merge_recursive().
+Domů
+Předcházející
+Nahoru
+Další
+Další
+Předcházející
+Další
+Další
+Domů
+Manuál PHP
+Domů
+Předcházející
+Předcházející
+Vrací TRUE při úspěchu, FALSE při selhání.
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Další
+Domů
+Vytiskne arg.
+Domů
+Předcházející
+Předcházející
+Předcházející
+Další
+Předcházející
+Další
+Nahoru
+Nahoru
+Domů
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Poté, co jsou provedeny tyto změny, zkompilujte balíček takto:
+Manuál PHP
+Nahoru
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Předcházející
+Manuál PHP
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Skvělé je, že pomocí array_flip() můžete změnit směr překladu.
+B - internetový čas Swatch ("zavináče")
+Poznámka:
+Další
+Příklad 1. floor() example
+Předcházející
+Další
+Toto byl nesporně klíč k obrovskému úspěchu PHP 3.0.
+Manuál PHP
+do {if ($i 5) {print "i není dost velké"; break;} $i *= $factor; if ($i $minimum_limit) {break;} print "i je ok"; ...zpracuj i...} while(0);
+Předcházející
+Domů
+Předcházející
+Další
+Předcházející
+pdf_get_value() s "imageheight "jako druhý argument a obrázkem jako třetí argument.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Tato funkce je EXPERIMENTÁLNÍ.
+Přechod: první otvírací / uzavírací značky
+c - argument se považuje za integer a je prezentován jako znak s touto ASCII hodnotou.
+Další
+Kapitola 5.
+Domů
+Výsledek této funkce je cachován.
+Předcházející
+Nahoru
+Nahoru
+Domů
+Další
+Předcházející
+Předcházející
+Domů
+Další
+Předcházející
+Další
+Předcházející
+Manuál PHP
+Kapitola 43.
+Předcházející
+Domů
+Varování
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Vrácí jméno tabulky, která obsahuje uvedený sloupec.
+Další
+Funkce pdf_rotate() function sets the rotation in degress to angle.
+Domů
+Domů
+Manuál PHP
+Dodržel jsem všechny instrukce, ale PHP a IIS stále odmítají spolupracovat!
+Další
+Manuál PHP
+Manuál PHP
+msql_affected_rows()
+Domů
+Další
+Například tento kód by zobrazil a je větší než b, pokud $a je větší než $b a přiřadil by hodnotu $a do $b:
+Vrací TRUE při úspěchu, FALSE při selhání.
+Předcházející
+A teď to nejzábavnější!
+Další
+Domů
+Tyto funkce vám umožňují manipulovat a interagovat různými způsoby s poli.
+Manuál PHP
+Více informací o kalendářových systémech viz http: / /genealogy.org / ~scottlee / cal-overview.html.
+Satellite
+Další
+Předcházející
+Předcházející
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Další
+Nahoru
+Manuál PHP
+Další
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Předcházející
+Poznámka:
+Manuál PHP
+Další
+Manuál PHP
+Předcházející
+Další
+Varování
+Předcházející
+Nahoru
+Další
+Vyhledejte si v dokumentaci vaší databáze informace o obsluze opuštěných nebo nečinných spojení.
+Předcházející
+Nahoru
+Další
+Předcházející
+Další
+Předcházející
+Další
+Předcházející
+Nahoru
+Manuál PHP
+Příklad 1. mysql_insert_id Příklad
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Toto rozšíření nemá definováno žádné konfigurační direktivy.
+Domů
+Předcházející
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Další
+Přesně tak, jak spouštíte místní objekty.
+Předcházející
+Další
+Předcházející
+Argumenty funkcí
+$HTTP_POST_FILES[ 'userfile']['name'][0], $HTTP_POST_FILES['userfile']['tmp_name'][0], $HTTP_POST_FILES['userfile']['size'][0] a $HTTP_POST_FILES['userfile']['type'][0] budou rovněž nastaveny.
+Další
+Další
+Předcházející
+Předcházející
+Volitelný argument Mode má defaultní hodnotu 0.
+Předcházející
+Předcházející
+Předcházející
+Domů
+Chování tohoto rozšíření, názvy funkcí a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může bez ohlášení změnit.
+O tomto manuálu
+Manuál PHP
+Předcházející
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Předcházející
+Prefixem prefix Prefixem prefix opatřit pouze neplatné / číselné názvy proměnných.
+$userfile_name - Originální název souboru nebo cesta na odesílajícím systému.
+Trvalá spojení jsou dobrá, pokud má tvorba spojení s vaším SQL serverem vysokou režii.
+Další
+Domů
+Předcházející
+Další
+Další
+Viz také fread(), fopen(), fsockopen(), popen(), a fputs().
+Předcházející
+Domů
+Předcházející
+Domů
+Manuál PHP
+Další
+Nahoru
+Předcházející
+Další
+Další
+Další
+Nahoru
+Vyhovuje všem ostatním hodnotám, které nejsou pokryty některým z ostatních case a má být vždy jako poslední.
+Další
+O ASP se tvrdí, že je pomalejší a těžkopádnější, a stejně tak i méně stabilní.
+Předcházející
+Další
+Domů
+Předcházející
+The format of the image has to be png.
+Předcházející
+Předcházející
+Příklad 1. swfgradient() example
+Nahoru
+Další
+Jak zařídím, aby tyto knihovny fungovaly?
+Nahoru
+Předcházející
+Další
+Domů
+Tento příklad zobrazí všechny hlavičky současného požadavku.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Prefix může být užitečný například pokud generujete identifikátory na několika serverech současně, které by mohly vygenerovat identifikátor ve stejnou mikrosekundu.
+Další
+Poznámka:
+Manuál PHP
+Tato ukázka zobrazí:
+Nahoru
+Předcházející
+Další
+Předcházející
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Další
+Nahoru
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Toto je, opět, kvůli rozdělení mezi parsing a provádění kódu - když parser zpracovává inicializátor, ještě není proveden žádný kód.
+Další věcí v PHP 4 je hlášení použití neinicializovaných proměnných a prvků polí.
+Předcházející
+Další
+Pokud je zapnut bezpečný režim (safe-mode), PHP kontroluje, zda adresář, ve kterém pracujete, má stejné UID jako spuštěný skript.
+DomÅ¯
+Předcházející
+Varování
+Domů
+Varování
+Manuál PHP
+Domů
+Poznámka:
+Další
+Nahoru
+Další
+Chová se stejně jako strftime(), avšak vrácený čas je v Greenwich Mean Time (GMT).
+Domů
+Domů
+Domů
+Manuál PHP
+Předcházející
+Manuál PHP
+Nezneužívejte prosím bug systém odesíláním žádostí o pomoc.
+Inkrementační / Dekrementační operátory
+Domů
+Varování
+Další
+Nahoru
+Nahoru
+?php $link = mysql_connect( 'localhost', 'mysql_jmeno', 'mysql_heslo'); $result = mysql_list_processes($link); while ($row = mysql_fetch_row($result)) {printf("%s %s %s %s %s\n", $row["Id"], $row["Host"], $row["db"], $row["Command"], $row["Time"]);} mysql_free_result ($result);?
+Příklad 1. mysql_get_client_info Příklad
+Příklad 3.
+Domů
+Viz také bzdecompress().
+Další
+Další
+Funkce
+Varování
+RPM pakovače jsou nastaveny na tvorbu RPM balíčků k instalaci bez podpory databází kvůli zjednodušení instalací a proto, že RPM používá adresář / usr / namísto standardního / usr / local /.
+Nainstaloval jsem PHP a když chci načíst PHP soubor do prohlížeče, objeví se "500 Internal Server Error".
+Další
+Další
+Příklad 1.
+Další
+Další
+Nahoru
+Například ve standardním "C" locale se znaky jako přehlasované a (ä) nepřevedou.
+Manuál PHP
+Pokud rychlost přenosu klesne na tuto dobu pod CURLOPT_LOW_SPEED_LIMIT, PHP zruší transfer.
+Nahoru
+Předcházející
+Chybové zprávy se změnily
+Další
+Předcházející
+Další
+Tabulka 1.
+Nahoru
+Další
+Viz také mktime() a strtotime().
+Předcházející
+Jinými slovy, $a je tedy výraz s hodnotou 5.
+Stěžuje si to na moje ?xml tagy!
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Další
+Uptime:
+Další
+Manuál PHP
+Nahoru
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Nahoru
+Další
+Další
+Další
+Vrací TRUE při úspěchu, FALSE při selhání.
+Domů
+Předcházející
+Domů
+Manuál PHP
+Varování
+Poznámka:
+Předcházející
+Domů
+Příklad E-6.
+Manuál PHP
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Nahoru
+Další
+Předcházející
+Nahoru
+Předcházející
+Předcházející
+Předcházející
+Nahoru
+Varování
+Příklad 5. xmltest2.xml
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Nahoru
+Aby se zabránilo psaní skriptů odhalujících hesla na stránkách autentikovaných některým z tradičních externích mechanismů, PHP_AUTH proměnné se nevytvoří, pokud je pro tu kterou stránku zapnuta externí autentikace.
+Manuál PHP
+Manuál PHP
+Vrací TRUE, pokud najde nějaké záznamy; FALSE, nenajde-li nic nebo dojde k chybě.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předchozí příklad by měl následující výstup:
+Domů
+Další
+Další
+Nahoru
+Nahoru
+Předcházející
+Manuál PHP
+Toto rozšíření nemá definováno žádné konfigurační direktivy.
+Poznámka:
+Předcházející
+Další
+Reference funkcí
+Další
+Předcházející
+Další
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Nahoru
+Předcházející
+Předcházející
+Předcházející
+Další
+Další
+Domů
+Další
+Nahoru
+Nahoru
+Příklad 3-4.
+Soubor, do kterého se má umístit výstup CURL transferu.
+Další
+Viz také: ereg(), strncasecmp(), strcasecmp(), substr(), stristr(), strcmp() a strstr().
+Nahoru
+Manuál PHP
+Nahoru
+Další
+Předcházející
+Další
+Manuál PHP
+Další
+Viz také: strcspn().
+Toto rozšíření nemá definován žádný typ prostředku (resource).
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+17 Queries per second avg:
+Předcházející
+Uvědomte si, že to nejsou obyčejné apostrofy!
+Objekt listnaty nepatri do podtridy tridy Spenat Object listnaty patri do tridy Spenat, ktera je podtridou tridy Zelenina
+Další
+(PHP 3 = 3.0.6, PHP 4)
+Další
+Další
+Viz také define_syslog_variables(), openlog() a closelog().
+Manuál PHP
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Nahoru
+Manuál PHP
+Předcházející
+Předchozí příklad by zobrazil následující výstup:
+Předcházející
+Nahoru
+Domů
+Předcházející
+my $CFG_LIBEXECDIR = 'modules'; 
+Předcházející
+Předcházející
+Předcházející
+Nahoru
+Předcházející
+Chování těchto funkcí je ovlivněno nastavením parametrů v php.ini.
+?php pdf_moveto( $pdf, 0, 0); pdf_lineto($pdf, 100, 100); pdf_stroke($pdf); pdf_translate($pdf, 100, 100); pdf_moveto($pdf, 0, 0); pdf_lineto($pdf, 100, 100); pdf_stroke($pdf);?
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Domů
+Domů
+Poznámka:
+Nahoru
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Chování těchto funkcí je ovlivněno nastavením parametrů v php.ini.
+Další
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Nahoru
+Další
+Poznámka:
+Ukázky array_splice()
+Další
+Předcházející
+Tato funkce je EXPERIMENTÁLNÍ.
+Access to initialization entries can also be handled with the macros shown in 39-1.
+Předcházející
+Předcházející
+Nahoru
+Místo názvu funkce může použito pole obsahující odkaz na objekt a název metody.
+Kontroluje, zda soubory / adresáře, se kterými pracujete, mají stejné UID jako spuštěný skript.
+Domů
+Další
+Manuál PHP
+Domů
+Manuál PHP
+Předcházející
+Další
+Předcházející
+Nahoru
+Příklad 1. ftp_set_option() example
+Další
+Nahoru
+Manuál PHP
+Poznámka:
+Toto vytvoří novou instanci, pokud není k dispozici žádná běžící instance, resp. vrátí handle na běžící instanci.
+Předcházející
+Předcházející
+Nahoru
+Pod Windows musíte najít editor nebo jiný program, který umožňuje prohlížení binárních souborů.
+Manuál PHP
+Předcházející
+Manuál PHP
+Nahoru
+Předcházející
+Manuál PHP
+Je velmi vhodné na uživateli určené klíče použít nějakou transformaci (jako je tato funkce).
+Předcházející
+Manuál PHP
+Další
+Funkce může být definována pomocí syntaxe podobné této:
+Default je 30 sekund.
+Další
+Další
+Manuál PHP
+Předcházející
+Další
+Nahoru
+Další
+Nahoru
+Tento třetí parametr byl přidán v PHP 4.1.0.
+Nahoru
+Další
+Ošetření není možné.
+Další
+Mohu ukládat COM objekty do session?
+Nahoru
+Viz také pdf_moveto(), pdf_curveto(), pdf_stroke().
+Manuál PHP
+Předcházející
+bezpečnostní / autorizační zprávy (použijte raději LOG_AUTHPRIV na systémech, kde je tato konstanta definována)
+Manuál PHP
+Předchozí příklad by měl následující výstup:
+Domů
+Domů
+Další
+Varování
+Předcházející
+type - typ sloupce
+Předcházející
+Nahoru
+Nahoru
+Viz také pdf_closepath(), pdf_stroke(), pdf_fill(), pdf_setgray_fill(), pdf_setgray(), pdf_setrgbcolor_fill(), pdf_setrgbcolor().
+Poznámka:
+Manuál PHP
+Další
+Manuál PHP
+Předcházející
+Domů
+Nahoru
+Nahoru
+Domů
+Manuál PHP
+Nahoru
+Tato funkce vrací pole názvů metod definovaných pro třídu specifikovanou argumentem class_name.
+Domů
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Nahoru
+Předcházející
+Tabulka 1.
+Další
+Nahoru
+Předcházející
+Nahoru
+Předcházející
+Předcházející
+Předcházející
+Nahoru
+Domů
+Předcházející
+Tento PDF modul zavádí nový typ proměnné.
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Předcházející
+Poznámka:
+Další
+?php $link = mysql_pconnect( "kron", "jutta", "geheim") or exit("Nelze se připojit"); if (mysql_create_db("moje_db")) {print ("Databáze byla vytvořena\n");} else {printf ("Chyba při vytváření databáze: %s\n", mysql_error ());}?
+Další
+Manuál PHP
+Manuál PHP
+Ukázka echo()
+Nahoru
+Nahoru
+Pokud máte zájem o distribuované logování, podívejte se na syslog().
+Manuál PHP
+Tabulka 2.
+Předcházející
+Poznámka:
+Manuál PHP
+Domů
+Nahoru
+Další
+Další
+Předcházející
+Manuál PHP
+Nahoru
+Vrací TRUE při úspěchu, FALSE při selhání. socket_getpeername() may also return FALSE if the socket type is not any of AF_INET or AF_UNIX, in which case the last socket error code is not updated.
+Manuál PHP
+Manuál PHP
+Nahoru
+Domů
+Podívejte se do souboru INSTALL, který je přiložen k distribuci zdrojových souborů PHP 4.
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Další
+Domů
+Poznámka:
+Předcházející
+Ostatní otázky
+Verze PHP pro Windows má vestavěnou podporu pro toto rozšíření.
+Předcházející
+Domů
+Domů
+Varování
+Předcházející
+Příklad 1.
+Předcházející
+Nahoru
+Je tu ještě jeden výraz, který se může zdát zvláštní, pokud jste ho ještě neviděli v jiných jazycích: ternární podmíněný operátor:
+Nahoru
+Poznámka:
+Předcházející
+"month" - měsíc, textově, plný název; např. "January "
+Další
+Předcházející
+Další
+časový démon (cron a at)
+Předcházející
+Předcházející
+Domů
+Další
+Nahoru
+O tomto manuálu
+Další
+Nahoru
+Kontroluje, zda soubory / adresáře, se kterými pracujete, mají stejné UID jako spuštěný skript.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Nahoru
+Domů
+Předcházející
+Seznam konstruktů za case může být také prázdný, což jednoduše předá řízení následujícímu case.
+Další
+Manuál PHP
+Tato funkce vrací TRUE, pokud má object definovánu metodu method_name, jinak FALSE.
+Nahoru
+Předcházející
+Nahoru
+Více informací o to, jak se výrazy ohodnocují jako FALSE najdete v části 'Konverze na typ boolean'.
+echo date ("l dS of F Y h:i:s A"); echo "July 1, 2000 is on a ". date ("l", mktime(0,0,0,7,1,2000));
+Dále také: mysql_list_dbs(), a mysql_tablename().
+Nahoru
+Další
+Deskriptor souboru musí být platný a musí ukazovat na soubor úspěšně otevřený pomocí fopen(), popen(), nebo fsockopen().
+Další
+Nahoru
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Nahoru
+Domů
+Předcházející
+Další
+Další
+yp_order() vrací pořadové číslo mapy nebo FALSE.
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Toto rozšíření je EXPERIMENTÁLNÍ.
+Nahoru
+Předcházející
+Nahoru
+Další
+Domů
+Nahoru
+Další
+Nahoru
+Domů
+Další
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Varování
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Domů
+Další
+Předcházející
+Varování
+Předcházející
+Tj. nelze začít cyklus for nebo while, větvení if nebo switch v jednom souboru a ukočit je (resp. pokračovat pomocí else, endif, case nebo break) v souboru jiném.
+Další
+Manuál PHP
+Manuál PHP
+Varování
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Předcházející
+Předcházející
+Domů
+yp_get_default_domain() vrací defaultní doménu uzlu nebo FALSE.
+Příklad 1.
+Nahoru
+Nahoru
+Obvykle se vynechávají, ale nezáleží na tom, zda se použijí či nikoli.
+Další
+Deskriptor souboru musí být platný a musí ukazovat na soubor úspěšně otevřený pomocí fopen(), popen(), nebo fsockopen().
+Předcházející
+?php / / načti WWW stránku do pole a vytiskni ji $fcontents = file ('http: / /www.php.net'); while (list ($line_num, $line) = each ($fcontents)) {echo "b Line $line_num: / b". htmlspecialchars ($line). "br \n";} / / načti WWW stránku do řetězce $fcontents = join ('', file ('http: / /www.php.net'));?
+Další
+Manuál PHP
+Nahoru
+Další
+Každá hodnota sloupce je samostatná hodnota pole; klíče jsou číslovány od 0.
+Předcházející
+Zavoláním dbmfirstkey() následovaným postupným voláním dbmnextkey() se dají získat všechny key / value páry v DBM databázi.
+Další
+Další
+Varování
+Poznámka: "Supported character encoding" does not mean that it works as internal character code.
+Tento přístup nabízí možnost zohlednit důležitost určitých symbolů (znaků) a / nebo rozdíly mezi nimi, či dokonce kontext, ve kterém se vyskytují při určování nákladů na vložení, změnu nebo smazání, ale za cenu ztráty všech optimalizací využití CPU registru a XXX cache misses, které byly zapracovány do předchozích dvou variant.
+Poznámka:
+Domů
+Nahoru
+Předcházející
+Funkce
+Nahoru
+Domů
+Předcházející
+Další
+Domů
+Předcházející
+Další
+Nahoru
+See I for a list of PHP builtin wrappers.
+Vrací TRUE při úspěchu, FALSE při selhání.
+Další
+Další
+Při úspěchu vrací identifikátor klíče, při chybě FALSE.
+Domů
+Další
+Předcházející
+Domů
+Příklad 1. pcntl_signal() Example
+Pokud je třetí argument strict TRUE, in_array() také kontroluje typ needle v haystack.
+Předcházející
+Varování
+Tabulka 2.
+Předcházející
+Domů
+Cookies můžete nastavovat pomocí funkce setcookie().
+Předcházející
+natcasesort() je case-insensitive verze natsort().
+Předcházející
+Viz. také: mysql_drop_db().
+Domů
+Další
+Předcházející
+Manuál PHP
+Pokud je start pozitivní, náhrada začne na start -tém znaku argumentu string.
+Manuál PHP
+Nahoru
+Nahoru
+Toto rozšíření není k dispozici na platformách Windows.
+Další
+Předcházející
+Nahoru
+Předcházející
+Další
+Nahoru
+Domů
+Další
+Další
+Pokud needle není řetězec, převede se na integer a použije se jako XXX ordinal hodnota znaku.
+Odemkne a zavře určenou databázi.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Tip: pokud je replacement jen jedna hodnota, není nutno ji umisťovat do array(), ledaže chcete, aby tato položka byla opravdu pole.
+Manuál PHP
+Další
+Předcházející
+Předcházející
+Nahoru
+Domů
+Hodnoty v PHP samozřejmě nemusejí být pouze celá čísla, a velmi často také nejsou.
+Domů
+Domů
+Příklad 1. array_sum() examples
+Předcházející
+Nahoru
+Manuál PHP
+Domů
+Manuál PHP
+Nahoru
+Varování
+Předcházející
+Toto je jediná syntaxe pro cykly do..while:
+Další
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Manuál PHP
+Pokud používáte PHP 3 nebo pdflib ve verzi starší než 2.20, čtvrtý argument encoding může mít následující hodnoty:
+Předcházející
+Tato funkce přečte historii příkazové řádky ze souboru.
+Další
+Další
+Domů
+Poznámka: Řetězec dotazu by neměl končit středníkem.
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Předcházející
+Příklad 1.
+Druhá forma dělá totéž, kromě toho, že aktuální klíč elementu bude v každé iteraci přiřazen do proměnné $key.
+Předcházející
+PHP superglobals (superglobální proměnné)
+Domů
+Další
+Třídění vícerozměrného pole
+BR \n"; $meta = mysql_fetch_field($result); if (!$meta) {echo "Nejsou dostupné žádné informace BR \n";} echo "PRE blob: $meta - blob max_length: $meta - max_length multiple_key: $meta - multiple_key name: $meta - name not_null: $meta - not_null numeric: $meta - numeric primary_key: $meta - primary_key table: $meta - table type: $meta - type unique_key: $meta - unique_key unsigned: $meta - unsigned zerofill: $meta - zerofill / PRE"; $i++;} mysql_free_result($result);?
+Předcházející
+Manuál PHP
+Předcházející
+Poznámka:
+Předcházející
+Manuál PHP
+Další
+Předcházející
+Další
+Domů
+Základní funkce
+Tento překlad není příliš korektní, ale v české programátorské mluvě neexistuje vhodný termín.
+Manuál PHP
+Manuál PHP
+Nahoru
+Vrací řetězec bez odstraněných zpětných lomítek.
+Další
+Domů
+HTML formát je poskytován jak jako jediný HTML soubor, tak jako balíček souborů podle jednotlivých sekcí (což ve výsledku znamená kolekci tisíců souborů).
+Viz také: getprotobyname().
+Nahoru
+Trvalá spojení zajišťují, aby se každý dětský proces musel na váš SQL server přihlásit pouze při prvním odeslání stránky, která takové spojení využívá.
+Další
+Nahoru
+Předcházející
+Manuál PHP
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Příklad 1.
+Manuál PHP
+Manuál PHP
+Předcházející
+Kvůli tomu je v zájmu každého, aby používal tuto konferenci až jako poslední možnost poté, co hledal všude jinde.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Další
+Manuál PHP
+Tato funkce vrací XXX Levenshtein-Distance mezi předanými řetězci nebo -1, pokud délka jednoho z předaných řetězců přesáhne omezení 255 znaků (255 by mělo být pro běžná porovnání víc než dost, a nikdo se zdravým rozumem nebude v PHP dělat genetickou analýzu).
+Reference (odkazy) jsou prostředek, jak v PHP přistupovat k témuž obsahu proměnné pod různými jmény.
+Hodnoty (nebo příznaky) "admin "se mohou objevit pouze v konfiguračních souborech pro celý server (např. httpd.conf).
+Varování
+Manuál PHP
+XML_DOCUMENT_NODE
+Další
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Další
+V unsigned long (vždy 32 bitů, little endian byte order)
+Domů
+Nahoru
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Z funkce nemůžete vracet více hodnot, ale podobného výsledku může být dosaženo vrácením seznamu.
+Předcházející
+Další
+Předcházející
+Předcházející
+Nahoru
+Další
+To by se mělo poslat na http: / /bugs.php.net /
+Manuál PHP
+Nahoru
+Další
+Další
+Nahoru
+Předcházející
+Toto rozšíření nemá definován žádný typ prostředku (resource).
+Aktuálně PHP 4 má tuto podporu pro ISAPI, WSAPI a NSAPI (na Windows), což umožnuje používat PHP jako plug-in v multivláknových serverech jako Netscape FastTrack (iPlanet), Microsoft Internet Information Server (IIS), a O'Reilly 's WebSite Pro.
+Nahoru
+Další
+Nahoru
+Další
+Domů
+Manuál PHP
+Manuál PHP
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Další
+Předcházející
+Nahoru
+Varování
+Další
+Předcházející
+Viz také pdf_show_xy(), pdf_set_leading(), pdf_set_text_pos().
+Manuál PHP
+Další
+Další
+Nahoru
+Vysvětlení referencí (odkazů)
+Domů
+Dva znaky ve zprávě (%m) se však nahradí řetězcem chybové zprávy (strerror) odpovídající aktuální hodnotě errno.
+Manuál PHP
+Manuál PHP
+Předcházející
+Ukázka copy()
+Předcházející
+Pokud je seconds nula, neexistuje žádný časový limit.
+Další
+Předcházející
+Další
+Další
+A řetězec doplněný SPACE hodnotami
+Předcházející
+Další
+GNU Gettext
+Předcházející
+Domů
+Předcházející
+Nahoru
+Manuál PHP
+Předcházející
+Manuál PHP
+Nahoru
+To znamená, že když přiřadíte výraz do proměnné, celá hodnota původního výrazu se zkopíruje do cílové proměnné.
+Manuál PHP
+Předcházející
+Domů
+Domů
+Příklad 1. mysql_db_name() příklad
+Předcházející
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Mohu generovat knihovny DLL z PHP skriptů, podobně jako v Perlu?
+Předcházející
+Další
+Další
+Domů
+Předcházející
+Potřebujete-li zjistit číselný kód chyby, použijte mysql_errno(), případně mysql_error() k zjištění textu chyby.
+Nahoru
+Je to perzistentní verze fsockopen().
+Předcházející
+Manuál PHP
+Příklad 1.
+Předcházející
+Domů
+Poznámka:
+PHP 4 má větší množinu úrovní chyb a varování a přichází s konfiguračním parserem, který nyní umožňuje k nastavení potřebného chování používat symbolické konstanty.
+Manuál PHP
+Varování
+Manuál PHP
+Je tedy možné z vložených souborů vracet hodnoty.
+Předcházející
+Další
+Jinou důležitou vlastností rozlišování kontextů proměnných je možnost používání static proměnných.
+Manuál PHP
+Tato funkce je EXPERIMENTÁLNÍ.
+Varování
+Předcházející
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Domů
+Předcházející
+Další
+Domů
+?php echo "h3 gt;Postinkrementace / h3 gt ;"; $a = 5; echo "Mělo by být 5:". $a+ +. "br \n"; echo "Mělo by být 6:". $a. "br \n"; echo" h3 Preinkrementace / h3 "; $a = 5; echo "Mělo by být 6:". ++$a. "br \n"; echo "Mělo by být 6:". $a. "br \n"; echo" h3 Postdekrementace / h3 "; $a = 5; echo "Mělo by být 5:". $a- -. "br \n"; echo "Mělo by být:". $a. "br \n"; echo" h3 Predekrementace / h3 "; $a = 5; echo "Mělo by být 4:". --$a. "br \n"; echo "Mělo by být 4:". $a. "br \n";?
+Manuál PHP
+Manuál PHP
+Další
+Předcházející
+Předcházející
+Hypertext Preprocessor ", je široce používaný mnohoúčelový skriptovací jazyk, šířený pod Open Source licencí, zvlášť vhodný pro vývoj WWW aplikací a způsobilý pro vkládání do HTML.
+Předcházející
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Domů
+Předcházející
+Předcházející
+Bakkenem a delegován na jeho prvorozenou dceru Malin Bakken.
+Manuál PHP
+Volitelný argument scale se používá k určení počtu desetinných míst ve výsledku.
+Domů
+Další
+Nejtěžší je zřejmě vůbec nějaký jednoduchý PDF dokument vůbec vytvořit.
+Příklad - zpráva debuggeru
+Příklad 1.
+Předcházející
+Další
+Další
+Předcházející
+Název klíče sloupce, k němuž je vytvořem alias, je vždy jméno aliasu a proto není možné použít originální jméno sloupce v sql tabulce.
+Další
+Nahoru
+Domů
+Další
+Varování
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Nahoru
+Předcházející
+Předcházející
+Manuál PHP
+Je-li přítomen nepovinný parametr length, zápis skončí poté, co bude zapsáno length (nekomprimovaných) bytů nebo bude dosaženo konce řetězce - podle toho, co nastane dřív.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Nahoru
+Poznámka:
+Další
+Předcházející
+Předcházející
+Nahoru
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Poznámka:
+zapne assert() vyhodnocování
+Nahoru
+Manuál PHP
+Další
+Kalendářové funkce jsou přístupné pouze pokud máte zkompilovanout calendar extenzi umístěnou v adresáři "dl" or "ext "ve zdrojovém kódu PHP.
+Předcházející
+Další
+Další
+Další
+Varování
+Další
+Nahoru
+Manuál PHP
+Další
+Použítím funkce mysql_tablename() můžete zjistit jména všech tabulek z ukazatele výsledku nebo použít jiné funkce k zjištění dalších informací jako např. mysql_fetch_assoc().
+Předcházející
+Další
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Toto je nyní velmi snadné.
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Další
+Další
+Obecné informace
+Předcházející
+Další
+Další
+Další
+Předcházející
+Můžete upravit vaše konfigurační soubory tak, aby pracovaly s oběma verzemi PHP (v závislosti na tom, která je v příslušném okamžiku zkompilována pro server) použitím následující syntaxe:
+Tyto formáty se dají rozdělit do dvou skupin: formáty pro prohlížení on-line a balíky pro stahování.
+Předcházející
+Nahoru
+Předcházející
+Další
+Nahoru
+Další
+Další
+Manuál PHP
+Příklad 1. ob_iconv_handler() example:
+Předcházející
+Soundex klíče mají tu vlastnost, že slova vyslovovaná podobně produkují shodné soundex klíče, a dají se proto využít ke zjednodušení hledání v databázích, kde znáte výslovnost, ale ne hláskování.
+Domů
+Předcházející
+Vrací ID skupiny vlastníka souboru, při chybě FALSE.
+Domů
+Manuál PHP
+Manuál PHP
+Nahoru
+Nahoru
+Předcházející
+Viz také yp-get-default-domain().
+Manuál PHP
+Předcházející
+Další
+Varování
+Dá se použít k rozdělení řetězce na menší části, což může být užitečné např. při uvádění výstupu z base64_encode do souladu se sémantikou RFC 2045.
+Vyjma toho, že mysql_real_escape_string() upraví řetězec podle nastavené znakové sady v aktuálním identifikátoru spojení. mysql_escape_string() nepoužívá identifikátor spojení a ani nebere v potaz aktuální znakovou sadu.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Manuál PHP
+Další
+Předcházející
+Předcházející
+Zobrazila se mi zpráva 'Warning:
+HTTP funkce
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Předcházející
+Poznámka:
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Poznámka:
+To znamená, že před foreach nemusíte volat reset().
+Předcházející
+Manuál PHP
+Předcházející
+Většina funkcí se používá docela snadno.
+Předcházející
+Poznámka:
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+end() posune vnitřní ukazatel pole array na jeho poslední prvek a vrací tento prvek.
+Další
+Tato funkce je EXPERIMENTÁLNÍ.
+Nahoru
+Je třeba předat argument indikující co se vytiskne (předdefinovaná konstanta flag, viz níže).
+Nahoru
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Domů
+Manuál PHP
+Další
+Viz také: stripslashes(), htmlspecialchars() a quotemeta().
+Manuál PHP
+To znamená, že musí přinejmenším generovat Content-type hlavičku.
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Nahoru
+Předcházející
+Další
+Další
+Toto rozšíření nemá definovány žádné konstanty.
+Domů
+Další
+Předcházející
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Předcházející
+Manuál PHP
+/* foreach příklad 1: pouze hodnota * / $a = array (1, 2, 3, 17); foreach ($a as $v) {print "Současná hodnota \$a: $v.\n";} / * foreach příklad 2: hodnota (pro ilustraci je vypsán i klíč) * / $a = array (1, 2, 3, 17); $i = 0; / * pouze pro ilustrativní účely * / foreach($a as $v) {print "\$a[$i] = $v.\n"; $i++;} / * foreach příklad 3: klíč a hodnota * / $a = array ("jedna "= 1, "dvě" = 2, "tři "= 3, "sedmnáct" = 17); foreach($a as $k = $v) {print "\$a[$k] = $v.\n";} / * foreach příklad 4: vícerozměrná pole * / $a[0][0] = "a"; $a[0][1] = "b"; $a[1][0] = "y"; $a[1][1] = "z"; foreach($a as $v1) {foreach ($v1 as $v2) {print "$v2\n";}} / * foreach příklad 5: dynamická pole * / foreach(array(1, 2, 3, 4, 5) as $v) {print "$v\n";}
+Nahoru
+Domů
+Další
+Manuál PHP
+Jiný doplňující znak můžete zadat tak, že před něj předřadíte jednoduchou uvozovku (').
+Další
+Na debuggeru stále probíhá vývoj.
+Další
+Manuál PHP
+Domů
+Další
+Předcházející
+Domů
+Manuál PHP
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Další
+Další
+Nahoru
+Domů
+Předcházející
+Nahoru
+Předcházející
+Další
+Další
+Další
+Manuál PHP
+Toto rozšíření nemá definován žádný typ prostředku (resource).
+Domů
+Další
+Příklad 1. ip2long() Příklad
+Předcházející
+Postupoval jsem přesně podle instrukcí k instalaci PHP ve verzi jako modul pro Apache na UNIXu, a moje PHP skripty se zobrazují v prohlížeči nebo se je prohlížeč snaží uložit jako soubory.
+Nahoru
+Domů
+Nahoru
+Manuál PHP
+Další
+Předcházející
+Domů
+Viz také: array_diff().
+Viz také pdf_setrgbcolor_stroke(), pdf_setrgbcolor_fill().
+Domů
+Další
+Vrací TRUE při úspěchu, FALSE při selhání.
+Manuál PHP
+$array1 = array ("color "= "red", 2, 4); $array2 = array ("a", "b", "color" = "green", "shape "= "trapezoid", 4); array_merge ($array1, $array2);
+Nahoru
+Předcházející
+Poznámka:
+Manuál PHP
+Poznámka:
+Další
+Předcházející
+Chování tohoto rozšíření, názvy funkcí a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může bez ohlášení změnit.
+Předcházející
+Manuál PHP
+Předcházející
+Manuál PHP
+Předcházející
+Předcházející
+Manuál PHP
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Manuál PHP
+$email = 'sterling@designmultimedia.com'; $domain = strstr ($email, '@'); print $domain; / / vytiskne @designmultimedia.com
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Nahoru
+Další
+Další
+Další
+Další
+Domů
+Výsledek této funkce je cachován.
+Nahoru
+Tzn. tečky jsou nahrazeny podtržítky.
+V charlist můžete udat rozsah, např. "\0..\37", což by escapovalo všechny znaky s ASCII kódem mezi 0 a 31.
+Manuál PHP
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+K použití těchto funkcí není třeba načítat žádná další rozšíření.
+Předcházející
+Přechod z 2.0: návratové hodnoty, starý kód
+Tato funkce nefunguje na Windows systémech
+Manuál PHP
+Předcházející
+Přechod z PHP 3 na PHP 4
+Domů
+Předcházející
+Další
+Domů
+Předcházející
+Předcházející
+Další
+Varování
+Manuál PHP
+Nahoru
+Příklad 18-3.
+Další
+Avšak pokud se řádek, na kterém require() leží, vůbec neprovádí, nebude se provádět ani kód v příslušném souboru.
+Předcházející
+Předcházející
+realpath() zpracuje všechny symbolické odkazy a vyhodnotí odkazy na '/. /', '/.. /' a samostatné znaky '/' v parametru path a vrací absolutní cestu v kanonickém tvaru.
+Předcházející
+Předcházející
+Další
+Viz také get_parent_class(), is_subclass_of()
+Když filename začíná "ftp: / /" (velká či malá písmena), je otevřena FTP relace na příslušný server a vrácen deskriptor na požadovaný soubor.
+Manuál PHP
+Další
+Manuál PHP
+Ukázka array_unshift()
+Pozn.: samotná data nejsou kódována.
+Je výhodné přesunout ho do adresáře v nastavení cest, např.
+Manuál PHP
+Předcházející
+Než něco pošlete do konference, podívejte se prosím do FAQ a do manuálu, zda nemůžete najít odpověd tam.
+Další
+Domů
+Vrátí název sloupce odpovídajícího field_number.
+Varování
+Jednoduchá proměnná formuláře
+Předcházející
+Další
+Další
+Předcházející
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Předcházející
+Manuál PHP
+Jsou dva rozdíly mezi hodnotami "admin" a ostatními:
+Další
+Předcházející
+Viz také getmxrr(), gethostbyaddr(), gethostbyname(), gethostbynamel(), a manuálovou stránku named(8).
+Domů
+Domů
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Příklad 1. ereg() Example
+Další
+Předcházející
+Předcházející
+Předcházející
+Manuál PHP
+Viz také pclose().
+Příklad 2. pdfclock ukázka z pdflib distribuce
+Předcházející
+$trans = array ("ahoj "= "nazdar", "nazdar" = "ahoj"); echo strtr("nazdar lidi, řekl jsem ahoj", $trans). "\n";
+Předcházející
+Další
+Další
+Kapitola 11.
+Další
+Předcházející
+Předcházející
+Varování
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Tato konkrétní soundex funkce je popsána Donaldem Knuthem v "The Art Of Computer Programming, vol.
+Varování
+Manuál je skoro 2000 stránek dlouhý a stále se upravuje!
+Více o této problematice najdete v části global (globální) reference.
+Předcházející
+Předcházející
+Manuál PHP
+Další
+Další
+Předcházející
+Manuál PHP
+Poznámka:
+Další
+Předcházející
+Manuál PHP
+Další
+Předcházející
+Vrací TRUE při úspěchu, FALSE při selhání.
+Nahoru
+?php echo "a href=\"". htmlspecialchars(" / nexpage.php?stage=23 data= ". urlencode($data)). "\" \n";?
+Další
+Manuál PHP
+Manuál PHP
+První řádek location bude vždy obsahovat nejvyšší úroveň umístění. data bude obsahovat file: line. Řádek location bude následovat za každým řádkem message a každým řádkem function.
+Manuál PHP
+Předcházející
+Nahoru
+Předcházející
+Co je špatně?
+To znamená, například, že odnastavení $var neodnastaví globální proměnnou.
+Domů
+Varování
+Na strojích s Windows můžete jednoduše použít zabudovanou podporu ODBC a správný ovladač ODBC.
+Další
+Manuál PHP
+Domů
+Další
+Další
+Předcházející
+Dále také: mysql_affected_rows()
+Domů
+Předcházející
+Předcházející
+To znamená, že tento konstrukt nebude dělat to, co očekáváte:
+Pokud obsahuje více znaků, použije se první z nich.
+Další
+Manuál PHP
+Poznámka:
+Předcházející
+Předcházející
+Další
+Nahoru
+Post-dekrementace
+Nahoru
+Další
+Předcházející
+Toto rozšíření nemá definovány žádné konstanty.
+Databázová rozšíření Adabas a Solid již nejsou k dispozici.
+Předcházející
+Nahoru
+Předcházející
+Nahoru
+Další
+Tyto funkce jsou k dispozici jako součást standardního modulu, který je vždy dostupný.
+Provádí se první konstrukt elseif (pokud vůbec nějaký), jehož výraz je ohodnocen TRUE.
+Dále také: mysql_thread_id(), mysql_list_processes().
+Předcházející
+Nahoru
+Varování
+/ / v PHP 4.0b3 a novějších: $pos = strpos ($mystring, "b"); if ($pos === false) {/ / tři rovnítka / / nenalezeno...} / / ve verzích starších než 4.0b3: $pos = strpos ($mystring, "b"); if (is_string ($pos) !$pos) {/ / nenalezeno...}
+Tato funkce je EXPERIMENTÁLNÍ.
+Domů
+Předcházející
+Nahoru
+Klasule způsobuje, že funkce okamžitě ukončí svůj běh a předá řízení zpět na řádek, odkud byla volána.
+1, 2, "+" a 3.
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Předcházející
+Domů
+Deskriptor souboru musí být platný, a musí ukazovat na soubor úspěšně otevřený pomocí fopen() nebo fsockopen().
+Domů
+Domů
+Domů
+PHP tak použije klientské knihovny instalované MySQL, čímž se vyvarujete možných konfliktům.
+Předcházející
+Kapitola 7.
+Další
+Předcházející
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Verze PHP pro Windows nyní nepodporuje pro tuto funkci dálkový přístup k souborům, a to ani když je aktivní volba allow_url_fopen.
+Další
+Příklad 1. imap_createmailbox() example
+Předcházející
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Další
+Manuál PHP
+Další
+Varování
+Další
+Předcházející
+Manuál PHP
+Manuál PHP
+Pokud otvírání selže, vrací funkce FALSE, jinak vrací ukazatel (deskriptor) na nově otevřený soubor.
+Předcházející
+Předcházející
+Domů
+Aby byl přechod na novou verzi snazší, balík PHP 4 obsahuje skripty, které automaticky převedou váš konfigurační soubor pro Apache a soubory .htaccess tak, aby pracovaly jak s PHP 3, tak s PHP 4.
+Varování
+Poznámka:
+Domů
+Manuál PHP
+Další
+Manuál PHP
+Příklad 1. bzdecompress()
+Další
+Další
+Předcházející
+Manuál PHP
+Nahoru
+Manuál PHP
+Nahoru
+Další
+Manuál PHP
+Další
+Další
+Příklad 1. dbx_connect() example
+Manuál PHP
+Další
+Příklad 1. ftp_nb_get() example
+Poznámka:
+Další
+Příklad 1.
+Tento parametr by měl u uploadů obsahovat velikost uploadovaného souboru.
+Nahoru
+Další
+Další
+Operátor @ pracuje pouze na výrazech.
+Předcházející
+Další
+Další
+Další
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Nahoru
+Manuál PHP
+Varování
+Nahoru
+Manuál PHP
+Předcházející
+Další
+Varování
+Další
+Předcházející
+Předcházející
+Manuál PHP
+Další
+Domů
+Předcházející
+Varování
+Příklad 1.
+Předcházející
+Manuál PHP
+Příklad 7-4.
+Další
+Další
+Getrusage příklad
+Vrací TRUE při úspěchu, FALSE při selhání.
+Další
+Poznámka:
+Viz také: addslashes().
+Pokud nastane chyba, funkce fpassthru() vrací FALSE.
+Předcházející
+Nahoru
+Cílem jazyka je umožnit vývojářům webů rychleji psát dynamicky generované stránky.
+Viz také ftell() a rewind().
+Nahoru
+Tato funkce je EXPERIMENTÁLNÍ.
+Předcházející
+Nahoru
+Viz také: array_push(), array_shift() a array_unshift().
+Poznámka:
+Vrací TRUE při úspěchu, FALSE při selhání.
+Tabulka 1.
+Další
+pdf_set_info() s "Creator "jako druhý argument.
+Další
+Poznámka:
+Vrací TRUE při úspěchu, FALSE při selhání.
+Juliánský - zkrácený
+Další
+Domů
+Další
+Další
+Manuál PHP
+Nahoru
+Manuál PHP
+Předcházející
+Předcházející
+Další
+Další
+Pozn.:
+Nahoru
+Další
+Nahoru
+Poznámka:
+Další
+Předcházející
+Nahoru
+Pokud je aktivní volba track_vars, bude inicializováno pole $HTTP_POST_FILES / $_FILES.
+Manuál PHP
+Funkce pdf_continue_text() function outputs the string in text in the next line.
+Pravou příčinou byla obvykle chybějící uzavírací závorka '}' v souboru připojeném pomocí "require ", a parser je nemohl ohlásit kvůli špatně nakonfigurovanému hlášení chyb.
+Při úspěchu vrací TRUE; jinak FALSE.
+Další
+Domů
+Další
+Nahoru
+Předcházející
+Další
+Další
+Viz také pdf_begin_page().
+Další
+XML_NOTATION_NODE
+Domů
+Předcházející
+Další
+Domů
+Další
+Příklad 1.
+Manuál PHP
+Další
+Předcházející
+Varování
+Předcházející
+Tabulka 32-4.
+Příklad 2-7.
+Předcházející
+Vrátí řetězec, ve kterém byly všechny nealfanumerické znaky kromě -_. nahrazeny znakem procent (%) následovaným dvěma šestnácktovými číslicemi a mezery kódovány jako znaky plus (+).
+Chování těchto funkcí je ovlivněno nastavením parametrů v php.ini.
+Další
+Příklad 1. mb_output_handler() example
+Příklad 1. fbsql_close() example
+Argumentům může být přiřazen index pomocí operátoru =.
+PÅÃ­klad 4-4.
+Implementace array_keys() pro uživatele PHP 3
+Mód
+Další
+Další
+Manuál PHP
+Předcházející
+Předcházející
+Tabulka 1.
+Volitelný argument max_chars_per_line indikuje maximální počet znaků na řádek výstupu.
+Předcházející
+Další
+Domů
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Předcházející
+Lze načíst objekt ActiveX na stránce, resp. s ním manipulovat, pomocí PHP?
+Kapitola 7.
+Další
+Předcházející
+Další
+Domů
+Další
+Nahoru
+Domů
+Další
+Nahoru
+Další
+Domů
+Další
+Předcházející
+Manuál PHP
+Domů
+Nahoru
+Tato funkce je EXPERIMENTÁLNÍ.
+Manuál PHP
+Význam
+Předcházející
+Kapitola 12. Řídicí struktury
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Další
+Další
+Předcházející
+Další
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Předcházející
+Manuál PHP
+Manuál PHP
+Předcházející
+Pro použití výsledků vaší funkce ve výrazu (jako je spojení s jiným řetězcem v příkladu výše), musíte hodnotu vracet (pomocí vracet), ne tisknout() (pomocí echo()).
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Předcházející
+Vytváří ho proces serveru Apache!
+Předcházející
+Další
+Další
+Domů
+Tato funkce je podobná funkci stat(), pracuje však s deskriptorem, nikoli názvem souboru.
+Tato funkce je EXPERIMENTÁLNÍ.
+Varování
+Předcházející
+Varování
+Manuál PHP
+Domů
+Nahoru
+Další
+Další
+TRUE když $a i $b jsou TRUE.
+Nahoru
+Předcházející
+Další
+Nahoru
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Další
+Další
+Další
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Uvolněná verze PHP-GTK si již získala popularitu.
+Další
+Nahoru
+Obeys the safe_mode_protected_env_vars and safe_mode_allowed_env_vars ini-directives.
+Tato funkce ještě není zdokumentována, k dispozici je pouze seznam argumentů.
+Předcházející
+Předcházející
+/ / v PHP 4.0b3 a novějších: $pos = strpos ($mystring, "b"); if ($pos === false) {/ / tři rovnítka / / nenalezeno...} / / ve verzích starších než 4.0b3: $pos = strpos ($mystring, "b"); if (is_string ($pos) !$pos) {/ / nenalezeno...}
+Předcházející
+Domů
+Varování
+Varování
+Další
+Předcházející
+Předcházející
+Varování
+Nahoru
+Nahoru
+Manuál PHP
+Změnitelné
+Domů
+3. script language=" php "echo ("některé editory (například FrontPage) nemají zpracovatelské instrukce v lásce"); / script 4.% echo ("případně můžete používat ASP tagy");% %= $variable; 
+Další
+Nemůžete používat funkci mysql_num_rows() k zjištění počtu záznamů vrácených pomocí mysql_unbuffered_query().
+Poznámka:
+Manuál PHP
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Domů
+Předcházející
+Příklad 1.
+Předcházející
+Další
+Manuál PHP
+Další
+Příklad 1. printer_select_pen() example
+Při formátování normálního HTML to obvykle zjednodušuje život, protože nechcete konce řádků, nýbrž chcete vytvořit extrémně dlouhé řádky nebo jinak znečitelnit zdrojový kód.
+DNS (doménový) název nebo IP adresa počítače, kde byla vygenerována chyba ve skriptu.
+Chování této funkce, její název a všechno ostatní, co je zde zdokumentováno, se v budoucích verzích PHP může BEZ OHLÁŠENÍ změnit.
+Manuál PHP
+Manuál PHP
+Poznámka:
+Další
+Manuál PHP
+Použití openlog() není povinné.
+Nahoru
+Parsing a provádění kódu jsou nyní dva naprosto oddělené kroky, nic z kódu v souboru se neprovádí dříve, než je úspěšně provedena úplná syntaktická analýza celého souboru a všeho, co je třeba.
+Manuál PHP
+Příklad 2.
+Domů
+Předcházející
+Domů
+Varování
+Varování
+Další
+Poznámka: if the stored procedure returns parameters or a return value these will be available after the call to mssql_execute() Poznámka: if the stored procedure returns parameters or a return value these will be available after the call to mssql_execute() unless the stored procedure returns more than one result set.
+Předcházející
+Předcházející
+Berte to v úvahu a používejte tuto funkci na vlastní nebezpečí.
+Příkaz require_once() by se měl používat v případech, kde by mohl být během provádění skriptu tentýž soubor vložen a ohodnocen víckrát, a přitom chcete zajistit právě jedno vložení (je třeba se vyhnout redefinicím funkcí, novému přiřazení hodnot atd.).
+OpenLink Software má unixové ovladače pro ODBC, které zde vyhoví.

@@ -6595,3 +6595,3301 @@ Next
 Prev
 Up
 Prev
+You 'll only notice this in case of GET request though, because POST requests are usually hidden.
+Warning
+Prev
+Next
+PHP Manual
+PHP Manual
+PHP Manual
+Up
+Up
+What is the relation between the versions?
+This function is EXPERIMENTAL.
+The complexity of the algorithm is O( m*n), where n and m are the length of str1 and str2 (rather good when compared to similar_text(), which is O(max(n,m)**3), but still expensive).
+Use this function at your own risk.
+PHP Manual
+If filename is of the form "scheme: / /.. .", it is assumed to be a URL and PHP will search for a protocol handler (also known as a wrapper) for that scheme.
+Home
+Set the current fill color to a gray value between 0 and 1 inclusive.
+Next
+Next
+Note:
+Array ([0] = xml [1] = wddx [2] = standard [3] = session [4] = posix [5] = pgsql [6] = pcre [7] = gd [8] = ftp [9] = db [10] = calendar [11] = bcmath)
+Home
+The reason for this is because UDP is a "connectionless" protocol, which means that the operating system does not try to establish a link for the socket until it actually needs to send or receive data.
+Next
+Prev
+Next
+Prev
+PHP Manual
+Example 2.
+Prev
+Next
+The second argument to the localtime() is the is_associative, if this is set to 0 or not supplied than the array is returned as a regular, numerically indexed array.
+Next
+Prev
+Note:
+Next
+Prev
+Prev
+Next
+Note that PHP also supports PUT-method file uploads as used by Netscape Composer and W3C 's Amaya clients.
+Output Control Functions
+Among other things, this means you can' t use them in functions such as usort(), array_walk(), and register_shutdown_function().
+Using syslog()
+Up
+Up
+$path = "/ etc / passwd"; $file = dirname ($path); / / $file is set to" / etc "
+Prev
+Next
+Home
+Prev
+See also pack() and unpack().
+Prev
+Home
+PHP Manual
+PHP Manual
+Home
+Prev
+To release a lock (shared or exclusive), set operation to LOCK_UN (set to 3 prior to PHP 4.0.1).
+Next
+Home
+Up
+It takes an optional comment It takes an optional comment string and returns a packet ID for use in later functions.
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+This function is currently not documented; only the argument list is available.
+This function is EXPERIMENTAL.
+Next
+Home
+Prev
+Prev
+Next
+Returning References
+PHP Manual
+Prev
+Prev
+Prev
+(default) delay opening the connection until the first message is logged
+See also the reverse function ebcdic2ascii()
+Prev
+Prev
+Returns TRUE on success or FALSE on failure.
+Chapter 32.
+?php $a = 1; / * global scope * / function Test() {echo $a; / * reference to local scope variable * /} Test();?
+Prev
+If the directory does not exist, tempnam() may generate a file in the system's temporary directory, and return the name of that.
+Next
+Next
+Home
+Next
+Next
+Next
+Prev
+Next
+Prev
+This function is currently not documented; only the argument list is available.
+It defaults to MYSQL_USE_RESULT, so the result is not buffered.
+Example 1. getdate() example
+PHP Manual
+These variables will be protected even if safe_mode_allowed_env_vars is set to allow to change them.
+If the value returned in errno is 0 and the function returned FALSE, it is an indication that the error occurred before the connect() call.
+1.
+terminate execution on failed assertions
+Next
+Returns TRUE on success or FALSE on failure.
+Next
+Prev
+Up
+Next
+Prev
+informational message
+PHP Manual
+Some more specialized sections can be found in the regular expression and URL handling sections.
+PHP Manual
+Next
+Next
+Next
+Next
+Use this function at your own risk.
+Next
+PHP Manual
+Up
+PHP Manual
+Next
+Next
+Use this function at your own risk.
+PHP Manual
+Home
+The following two examples are two different ways to write the same thing, one using a series of if statements, and the other using the switch statement:
+The basic form of a while statement is:
+Prev
+Up
+Prev
+Warning
+Next
+Next
+Running PHP 3 and PHP 4 concurrently
+PHP Manual
+Up
+Next
+This function is currently not documented; only the argument list is available.
+Next
+This function is EXPERIMENTAL.
+Next
+PHP Manual
+Warning
+Next
+Prev
+PHP Manual
+The most general mailing list is php-general.
+Up
+Prev
+Home
+Prev
+PHP Manual
+Home
+The windows version of PHP The windows version of PHP has built in support for this extension.
+Prev
+If you 're really unsure about compatibility you should install PHP 4 in a test environment and run your scripts there.
+Note:
+Home
+Next
+PHP Manual
+Next
+PHP Manual
+Prev
+Prev
+Next
+Prev
+Home
+Next
+Next
+Up
+Date and Time functions
+Up
+Home
+Prev
+Up
+See also: register_globals, display_errors, and log_errors
+Home
+Example C-1.
+Then recompile PHP with the new MySQL libs.
+Up
+You do not need to load any additional extension in order to use these functions.
+Prev
+Up
+The third thing reference can do is return by reference.
+PHP Manual
+Up
+Next
+Replace the while statement with:
+Prev
+PHP Manual
+Up
+Up
+Next
+Prev
+PHP Manual
+Note:
+Warning
+Next
+Prev
+Up
+Prev
+Up
+PHP Manual
+Next
+Bits that are set in both $a and $b are set.
+PHP Manual
+Up
+Prev
+Prev
+PHP Manual
+Next
+Home
+Home
+Prev
+Home
+Home
+Next
+Prev
+Prev
+PHP Manual
+Up
+Home
+Arguments are the database name and the table name.
+If post_max_size set too small, large files cannot be uploaded.
+Prev
+Home
+Up
+Next
+Obtaining PHP
+This function is EXPERIMENTAL.
+Home
+Next
+Up
+12 / 30 / 2002 - %V,%G,%Y = 1,2003,2002 print "12 / 30 / 2002 - %V,%G,%Y =". strftime("%V,%G,%Y",strtotime("12 / 30 / 2002")). "\n"; / / Outputs:
+Use this function at your own risk.
+This function is EXPERIMENTAL.
+Up
+Home
+Thus if an error occurs no rollback is initiated.
+Warning
+Returns TRUE on success or FALSE on failure.
+The behaviour of these functions is affected by settings in php.ini.
+Prev
+Prev
+Prev
+Prev
+To retrieve the number of rows affected by a INSERT, UPDATE or DELETE query, use mysql_affected_rows().
+Next
+Next
+Up
+Home
+PHP Manual
+Returns TRUE on success or FALSE on failure.
+Prev
+This extension has no resource types defined.
+If you still can' t find any information that helps you out you're more than welcome to use the mailing list.
+PHP Manual
+Example C-5.
+This is deprecated, however.
+Prev
+PHP Manual
+Up
+Prev
+Up
+Next
+Example 1. strcasecmp() example
+Prev
+Prev
+Next
+Deprecated, use pdf_setcolor() instead.
+Warning
+This function is EXPERIMENTAL.
+PHP Manual
+Home
+mysql_list_tables() takes a database name and returns a result pointer much like the mysql_query() function.
+This function is EXPERIMENTAL.
+The facility The facility argument is used to specify what type of program is logging the message.
+For example:
+This function is currently not documented; only the argument list is available.
+Prev
+Home
+Up
+Prev
+Note:
+Prev
+Warning
+Prev
+Prev
+Prev
+Home
+Example 2. usort() example using multi-dimensional array
+This function is currently not documented; only the argument list is available.
+Use this function at your own risk.
+PHP Manual
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Validating file uploads
+2 - TIMEOUT
+Next
+PHP Manual
+Next
+/ / $sealed and $env_key are assumed to contain the sealed data / / and our envelope key, both given to us by the sealer. / / fetch private key from file and ready it $fp = fopen( "/ src / openssl-0.9.6 / demos / sign / key.pem", "r"); $priv_key = fread($fp, 8192); fclose($fp); $pkeyid = openssl_get_privatekey($priv_key); / / decrypt the data and store it in $open if (openssl_open($sealed, $open, $env_key, $pkeyid)) echo "here is the opened data:", $open; else echo "failed to open data"; / / free the private key from memory openssl_free_key($pkeyid);
+Up
+Next
+Next
+Prev
+Warning
+Up
+PHP Manual
+If the file does not exist, attempt to create it.
+Up
+Up
+Up
+Next
+CURLOPT_URL:
+See also mysql_field_seek().
+PHP Manual
+The optional parameter workfactor controls how the compression phase behaves when presented with worst case, highly repetitive, input data.
+Next
+Next
+PHP Manual
+Next
+Next
+Example 1. printer_draw_line() example
+Prev
+Home
+PHP Manual
+PHP Manual
+Home
+Take a look at the link line and make sure that all of the appropriate libraries are being included at the end.
+Home
+Next
+Prev
+This function is currently not documented; only the argument list is available.
+PHP Manual
+Prev
+Table 1.
+Next
+Use this function at your own risk.
+Next
+In PHP 3, you can combine while with the list() and each() functions to achieve the same effect.
+Up
+Up
+Warning
+Home
+Home
+Up
+Prev
+Pass an array of FTP commands to perform on the server prior to the FTP request.
+Next
+Prev
+If extract_type is not specified, it is assumed to be EXTR_OVERWRITE.
+Prev
+Home
+Up
+It also only uses the first eight characters of str, so longer strings that start with the same eight characters will generate the same result (when the same salt is used).
+Prev
+Home
+Example 2. ereg_replace() Example
+Next
+Prev
+Translation Table Example
+Prev
+Prev
+Home
+Prev
+PHP Manual
+Next
+Warning
+"hours" - hours
+Home
+Prev
+Next
+PHP Manual
+Next
+Prev
+reset ($arr); while (list(, $value) = each ($arr)) {echo "Value: $value br \n";} foreach ($arr as $value) {echo "Value: $value br \n";}
+PHP Manual
+my $CFG_CFLAGS_SHLIB = '-fpic -DSHARED_MODULE'; 
+my $CFG_LIBEXECDIR = '/ usr / lib / apache'; 
+Warning
+Prev
+Next
+Prev
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+The properties of the returned class are:
+The windows version of PHP The windows version of PHP has built in support for this extension.
+For downward compatibility mysql_fieldflags() can also be used.
+Home
+Next
+Prev
+PHP Manual
+The second parameter was added in PHP 4.0.3.
+Prev
+Home
+Next
+Home
+Follow these steps carefully:
+Home
+mysql_result() returns the contents of one cell from a MySQL result set.
+Prev
+Example 1.
+Home
+mysql_info() returns detailed information about the last query using the given link_identifier.
+PHP Manual
+Warning
+Next
+Note:
+Next
+Example 1.
+Warning
+mysql_fetch_lengths() stores the lengths of each result column in the last row returned by mysql_fetch_row(), mysql_fetch_array(), and mysql_fetch_object() in an array, starting at offset 0.
+This function is EXPERIMENTAL.
+Warning
+Up
+This function is EXPERIMENTAL.
+The elements will be indexed by the following values: done, end, erase_empty_line, library_version, line_buffer, mark, pending_input, point, prompt, readline_name, and terminal_name.
+Prev
+WDDX Functions
+Use this function at your own risk.
+Home
+Next
+Note:
+See also ob_start(), ob_clean() and ob_end_flush().
+Prev
+Use this function at your own risk.
+Prev
+The output of the above example is:
+PHP Manual
+Next
+Up
+Next
+Warning
+Next
+Up
+Appendix C.
+PHP Manual
+The client_flags parameter can be a combination of the constants MYSQL_CLIENT_SSL, MYSQL_CLIENT_COMPRESS, MYSQL_CLIENT_IGNORE_SPACE or MYSQL_CLIENT_INTERACTIVE.
+Next
+Home
+PHP Manual
+So, if both states are active it would return 3, for example.
+Up
+Next
+Next
+Up
+Example 1.
+This does not indicate whether the user accepted the cookie.
+Next
+PHP Manual
+PHP Manual
+Next
+Next
+Home
+Home
+Next
+Up
+Prev
+Prev
+Next
+Don' t worry if you don't understand this right away or at all.
+Note:
+Next
+Home
+Home
+Table 1.
+Note:
+Prev
+Prev
+Logical Operators
+PHP Manual
+Prev
+Function TRUE / FALSE return values
+Next
+Home
+Note that ClibPDF has a slightly different API than PDFlib.
+f float (machine dependent size and representation)
+If you are a first-time, or even just a beginning, programmer, you may find it difficult to learn how to program in PHP using just this manual.
+Next
+Prev
+Up
+Prev
+Home
+Next
+Returns the array consisting of removed elements.
+Home
+Use this function at your own risk.
+BCMath Arbitrary Precision Mathematics Functions
+Home
+Using another database as an intermediary is not a good idea, when you can use ODBC from PHP straight to your database - i.e. with OpenLink 's drivers.
+Next
+Prev
+Prev
+Next
+Prev
+Prev
+Home
+Warning
+Prev
+You could even use a File section to do this selectively.
+Home
+Example 1. aspell_check_raw()
+You can also write to files on an FTP server (provided that you have connected as a user with the correct access rights).
+This function is currently not documented; only the argument list is available.
+To get the current QUERY_STRING, you may use the variable $_SERVER[ 'QUERY_STRING'].
+switch ($i): case 0: print "i equals 0"; break; case 1: print "i equals 1"; break; case 2: print "i equals 2"; break; default: print "i is not equal to 0, 1 or 2"; endswitch;
+Warning
+Windows versions of PHP prior to PHP 4.3 do not support accessing remote files via this function, even if allow_url_fopen is enabled.
+Next
+Home
+This function is currently not documented; only the argument list is available.
+Comparison Operators
+Prev
+See also require(), require_once(), include_once(), readfile(), virtual(), and include_path.
+Next
+Control Structures
+Warning
+PHP Manual
+Up
+PHP Manual
+Every subsequent call to strtok only needs the token to use, as it keeps track of where it is in the current string.
+Next
+Prev
+Prev
+This function is currently not documented; only the argument list is available.
+Home
+PHP Manual
+Next
+mysql_field_len() returns the length of the specified field.
+Prev
+Home
+Prev
+Prev
+Home
+Warning
+Next
+Prev
+PHP Manual
+See also: require(), require_once(), include(), include_once(), and get_included_files().
+Prev
+Up
+Home
+Up
+Next
+Home
+Warning
+Prev
+Next
+Example 1. mysql_errno Example
+Prev
+Next
+Will be repeated once for every level in the function call stack.
+PHP Manual
+Next
+Next
+Prev
+See also str_replace() and substr().
+Next
+This effectively tries to push all the output so far to the user 's browser.
+Home
+Prev
+PHP Manual
+You will need to understand some of the basic concepts of PDF and PostScript to efficiently use this extension.
+Stroke the path with the current color and line width, and clear it.
+Next
+Up
+Up
+Home
+Prev
+Warning
+Home
+Prev
+Next
+Up
+Next
+That salt must be known when you check the keys, thus it is a good idea to append the key to it.
+Prev
+Home
+This function is similar to imap_qprint(), except this one does not require the IMAP module to work.
+Next
+See also include(), require(), require_once(), get_required_files(), get_included_files(), readfile(), and virtual().
+Prev
+The difference is with the value of the increment expression.
+Prev
+Home
+PHP Manual
+Prev
+Up
+Prev
+PHP Manual
+Only create prefixed variable names if the non-prefixed version of the same variable exists in the current symbol table.
+Next
+Up
+Here 's a simple example script:
+Next
+The option parameter is the option you want to set, and the value is the value of the option given by the option.
+Prev
+Prev
+Home
+Prev
+Prev
+PHP Manual
+Prev
+PHP Manual
+Home
+PHP Manual
+Table 1.
+See also print(), sprintf(), sscanf(), fscanf(), and flush().
+PHP Manual
+Up
+Next
+PHP Manual
+Instead of repeating this string in every example, it will be put into a file which will be included by each example.
+Among other things, this can be used to implement callbacks, function tables, and so forth.
+PHP Manual
+For examples of these functions, see Example 36-2.
+Next
+Use this function at your own risk.
+PHP Manual
+Next
+This function is EXPERIMENTAL.
+each() is typically used in conjunction with list() to traverse an array; for instance, $_POST:
+Prev
+Home
+Prev
+Home
+Up
+Next
+This is possible if you tell PHP to ignore user aborts.
+DIR is the PDFlib base install directory, defaults to / usr / local.
+Next
+Home
+Next
+Next
+Prev
+Prev
+This function is EXPERIMENTAL.
+Up
+Prev
+Next
+Home
+i.e. they both produce: hello world.
+Up
+Prev
+Up
+Prev
+Prev
+The constants below are defined by this extension, and will only be available when the extension has either been compiled into PHP or dynamically loaded at runtime.
+$aspell_link = aspell_new( "english"); if (aspell_check($aspell_link, "testt")) {echo "This is a valid spelling";} else {echo "Sorry, wrong spelling";}
+Prev
+Prev
+Up
+Table 2.
+Prev
+Next
+Example 12-4.
+Next
+Note:
+PHP Manual
+?php / * this is valid * / echo $row - field; / * this is invalid * / echo $row - 0;?
+PHP Manual
+Use this function at your own risk.
+Next
+Next
+See also pfpro_cleanup().
+umask() without arguments simply returns the current umask.
+Prev
+Up
+Home
+Next
+Be warned that this function compares case sensitive!
+Next
+Prev
+Network Functions
+Prev
+This function is EXPERIMENTAL.
+Prev
+How?
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+Up
+Next
+Home
+Tip:
+Prev
+Up
+PHP Manual
+Warning
+See also get_class() and is_subclass_of()
+The Output Control functions do not affect headers sent using header() or setcookie(), only functions such as echo() and data between blocks of PHP code.
+Warning
+Prev
+Prev
+Prev
+Note:
+Prev
+Prev
+(PHP 3 = 3.0.6, PHP 4)
+Up
+Next
+Prev
+Chapter 26.
+PHP Manual
+'' '(single quote) becomes' 
+Next
+PHP Manual
+Prev
+Prev
+PHP Manual
+Prev
+PHP Manual
+Prev
+Up
+Next
+Home
+Up
+Next
+Prev
+The syntax is as follows:
+Remember, the current calendar system being used worldwide is the Gregorian calendar. gregoriantojd() can be used to convert such dates to their Julian Day count.
+Next
+If it 's unknown, PHP tries to figure it out itself.
+Next
+Prev
+Next
+Persistent connections were designed to have one-to-one mapping to regular connections.
+Up
+Operators
+Home
+Next
+About the manual
+Next
+"test.signio.com"
+COM support functions for Windows
+If you have enabled safe_mode, or open_basedir further restrictions may apply.
+Home
+This extension has no configuration directives defined in php.ini.
+This function is currently not documented; only the argument list is available.
+PHP Manual
+Home
+Next
+Up
+Prev
+The main difference from regular while loops is that the first iteration of a do..while loop is guaranteed to run (the truth expression is only checked at the end of the iteration), whereas it's may not necessarily run with a regular while loop (the truth expression is checked at the beginning of each iteration, if it evaluates to FALSE right from the beginning, the loop execution would end immediately).
+Home
+Upon failure, mysql_list_tables() returns FALSE.
+Table 1.
+Up
+Next
+Next
+Home
+Returns an object containing field information.
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+The handle property can be used with other directory functions such as readdir(), rewinddir() and closedir().
+Table 1.
+This function is currently not documented; only the argument list is available.
+Next
+Next
+Prev
+PHP Manual
+See also bcmul().
+Prev
+Up
+PHP Manual
+Next
+Note that the value portion of the cookie will automatically be urlencoded when you send the cookie, and when it is received, it is automatically decoded and assigned to a variable by the same name as the cookie name.
+Arguments are a string to be encrypted and an optional salt string to base the encryption on.
+Next
+Make a note of your server name, username, and password.
+PHP Manual
+Note that 'alphabetic' is determined by the current locale.
+PHP Manual
+Prev
+Next
+Next
+Example 1. str_shuffle() example
+Up
+This function is EXPERIMENTAL.
+Home
+PHP Manual
+Home
+Next
+Use this function at your own risk.
+PHP Manual
+Up
+Prev
+PHP Manual
+PHP Manual
+Prev
+Up
+Home
+Up
+Up
+Next
+Next
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Note:
+Up
+Prev
+The Windows implementation of mail() differs in many ways from the Unix implementation.
+Next
+Next
+Next
+This function is currently not documented; only the argument list is available.
+This function is EXPERIMENTAL.
+Next
+Prev
+The status may be overridden by calling header() with a new status line at any time unless the HTTP headers have already been sent.
+Example 1.
+Home
+Prev
+Note:
+Prev
+You can set cookies using the setcookie() function.
+Next
+PHP Manual
+Next
+Example 3. ovrimos_result_all example
+PHP Manual
+Prev
+Home
+PHP Manual
+shm_detach() always returns TRUE.
+Initializers
+Use this function at your own risk.
+Prev
+Next
+Where are they?
+Prev
+Prev
+Next
+Up
+These expressions evaluate to either 0 or 1, meaning FALSE or TRUE (respectively).
+PHP Manual
+Next
+Home
+Up
+Use this function at your own risk.
+Prev
+See also: mysql_connect(), mysql_pconnect(), and mysql_query().
+Home
+Home
+PHP Manual
+Prev
+Only overwrite the variable if it already exists in the current symbol table, otherwise do nothing.
+Next
+Prev
+The HTML block would be displayed only if $a is equal to 5.
+Prev
+Example 2. sprintf(): formatting currency
+Chapter 7.
+Home
+This function is EXPERIMENTAL.
+This function is currently not documented; only the argument list is available.
+Up
+Warning
+The first uses return() within the included file while the other does not.
+PHP Manual
+Example 1. ftp_put() example
+PHP Manual
+Prev
+Prev
+Prev
+Next
+For instance, you can prepend it to variables, function and include() calls, constants, and so forth.
+Prev
+The maximum number of persistent MySQL connections per process.
+PHP Manual
+Prev
+Example 1.
+Prev
+Home
+Next
+Prev
+Prev
+Up
+Home
+Prev
+See also getmygid(), getmyuid(), get_current_user(), getmyinode(), and getlastmod().
+Use this function at your own risk.
+Next
+Next
+In PHP 3, functions must be defined before they are referenced.
+Up
+Up
+Up
+Prev
+Home
+Up
+Up
+Prev
+Functions
+Next
+Next
+Up
+PHP Manual
+Up
+Example 1.
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Prev
+Prev
+Next
+PHP Manual
+Next
+PHP Manual
+Next
+PHP Manual
+Home
+Warning
+The include_once() statement includes and evaluates the specified file during the execution of the script.
+First remove mod_php3:
+Next
+pdf_get_bookmark() using the same parameters.
+Up
+Example 1.
+PHP Manual
+You don 't need to include anything special in the subject or body of the message.
+This is useful mainly for associative arrays.
+Next
+Note: db2 conflicts with db3 and db4.
+PHP Manual
+Up
+Next
+Home
+Home
+Up
+Next
+Next
+Next
+Constant
+Home
+The function dbmopen() returns an database identifier which is used by the other dbm-functions.
+Up
+Home
+PHP Manual
+Prev
+New statement, i.e. foo( new foobar())
+Home
+Next
+This function is EXPERIMENTAL.
+Warning
+This function is currently not documented; only the argument list is available.
+Prev
+Up
+Next
+Prev
+PHP Manual
+Next
+Next
+Up
+Prev
+Prev
+Home
+See also getmygid(), getmypid(), get_current_user(), getmyinode(), and getlastmod().
+Next
+Prev
+Up
+Prev
+Prev
+Up
+PHP Manual
+If called with one parameter, the value of that setting is returned.
+Home
+The pdf_get_image_width() is deprecated, use pdf_get_value() instead.
+Example 1. dbx_close() example
+This function is EXPERIMENTAL.
+See clearstatcache() for more details.
+Prev
+Next
+Up
+Home
+Returns a string containing the abbreviated day of week (english-gregorian)
+Prev
+The new behaviour allows for more logical code, like $fp = fopen( "/ your / file") or fail("darn !");.
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+Prev
+Next
+Prev
+See fopen() for more details on how to specify the filename and Appendix I for a list of supported URL protocols.
+Prev
+Note:
+Next
+Prev
+Prev
+PHP Manual
+PHP Manual
+Prev
+PHP Manual
+Prev
+Prev
+PHP Manual
+Note:
+Next
+Chapter 32.
+Note:
+Next
+See also ignore_user_abort().
+Next
+Note:
+Prev
+Constants may only evaluate to scalar values.
+Next
+Prev
+Up
+Next
+This extension has no constants defined.
+If you are using PHP 4.2.0 or later and are missing the file, you can obtain it from the OpenSSL home page or by downloading the PHP 4.3.0 release and using the configuration file from there.
+See also escapeshellcmd(), exec(), passthru(), popen(), shell_exec(), and system().
+Prev
+Home
+In addition to the basic assignment operator, there are "combined operators" for all of the binary arithmetic and string operators that allow you to use a value in an expression and then set its value to the result of that expression.
+Up
+Up
+CASE_UPPER is used with array_change_key_case() and is used to convert array keys to upper case.
+Next
+Next
+Prev
+join() is an alias to implode(), and is identical in every way.
+Prev
+Up
+Up
+Next
+Next
+Home
+PHP Manual
+Prev
+Up
+This function is not implemented on Windows platforms.
+Prev
+Next
+PHP Manual
+Note:
+PHP Manual
+Home
+Prev
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+Prev
+Next
+Prev
+Home
+Warning
+Appendix A.
+Next
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Returns TRUE on success or FALSE on failure.
+Prev
+Table 1.
+Prev
+For downwards compatibility mysql_fieldname() can also be used.
+Next
+Home
+In the beginning of each iteration, expr2 is evaluated.
+Home
+Home
+Use this function at your own risk.
+Home
+Next
+Returns TRUE on success or FALSE on failure.
+Prev
+PHP Manual
+Next
+Set this option to a non-zero value and PHP will just list the names of an FTP directory.
+PHP Manual
+Next
+Next
+PHP Manual
+Prev
+PHP Manual
+mysql_get_server_info() returns the server version used by connection link_identifier.
+Example 1.
+This extension has no constants defined.
+Home
+Note that the access time is always modified, regardless of the number of parameters.
+Note:
+Note:
+Warning
+Prev
+Prev
+PHP Manual
+Next
+Next
+Home
+Next
+PHP Manual
+Home
+Next
+Up
+Example 5. sprintf(): zero-padded integers
+Prev
+PHP Manual
+It' s maintained by Chet Ramey, who's also the author of Bash.
+Example 3-7.
+Home
+GNU Recode functions
+Home
+Home
+Home
+Next
+Up
+PHP Manual
+Next
+Prev
+Prev
+?php / / base class with member properties and methods class Vegetable {var $edible; var $color; function Vegetable ($edible, $color="green ") {$this - edible = $edible; $this - color = $color;} function is_edible() {return $this - edible;} function what_color() {return $this - color;}} / / end of class Vegetable / / extends the base class class Spinach extends Vegetable {var $cooked = false; function Spinach() {$this - Vegetable (true, "green");} function cook_it() {$this - cooked = true;} function is_cooked() {return $this - cooked;}} / / end of class Spinach?
+Tips and Tricks:
+This will tell you where PHP is looking for php.ini and whether or not it 's being read.
+This function is EXPERIMENTAL.
+This function is EXPERIMENTAL.
+A constant is case-sensitive by default.
+Home
+Prev
+Next
+Prev
+Next
+Home
+PHP Manual
+Chapter 7.
+Prev
+Prev
+Prev
+Next
+Prev
+PHP Manual
+Up
+Note:
+Up
+Prev
+This was broken in PHP 4.0.4!
+Example 1. mb_detect_encoding() example
+9.
+Prev
+Next
+Prev
+Next
+PHP Manual
+Prev
+Next
+Prev
+Prev
+Next
+Prev
+Prev
+Up
+Prev
+The timeout parameter was introduced in PHP 3.0.9 and UDP support was added in PHP 4.
+Next
+PHP Manual
+Next
+Next
+Prev
+Next
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Up
+Prev
+NULL Static object:
+PHP Manual
+Up
+Since PHP 4.2.1 this function is also affected by safe_mode and open_basedir.
+Warning
+debug-level message
+Prev
+Next
+Next
+Next
+Prev
+Up
+For more examples on using require_once() and include_once(), look at the PEAR code included in the latest PHP source code distributions.
+PHP Manual
+Home
+Table 1.
+?php mysql_connect( "localhost", "mysql_user", "mysql_password") or die("Could not connect: ". mysql_error()); printf ("MySQL host info: %s\n", mysql_get_host_info());?
+This function is EXPERIMENTAL.
+Prev
+Prev
+PHP Manual
+Home
+PHP Manual
+PHP Manual
+Warning
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Table 2.
+PHP Manual
+Next
+function process( $var1, $var2, $farr) {for ($f=0; $f count($farr); $f++) echo $farr[$f]($var1,$var2) ."\n";} / / create a bunch of math functions $f1 = 'if ($a =0) {return "b*a^2 = ".$b*sqrt($a);} else {return false ;}'; $f2 = "return \"min(b^2+a, a^2,b) = \".min(\$a*\$a+\$b,\$b*\$b+\$a) ;"; $f3 = 'if ($a 0 $b != 0) {return "ln(a) / b = ".log($a) / $b;} else {return false; }'; $farr = array (create_function('$x,$y', 'return "some trig: ".(sin($x) + $x*cos($y)) ;'), create_function('$x,$y', 'return "a hypotenuse: ".sqrt($x*$x + $y*$y) ;'), create_function('$a,$b', $f1), create_function('$a,$b', $f2), create_function('$a,$b', $f3)); echo "\nUsing the first array of anonymous functions\n"; echo "parameters:
+PHP Manual
+Next
+Next
+Prev
+Prev
+Next
+Prev
+Prev
+Prev
+The windows version of PHP The windows version of PHP has built in support for this extension.
+Home
+Next
+Prev
+Next
+Windows) the file must be opened with'b 'included in fopen() mode parameter.
+Prev
+Prev
+Another thing no longer possible, though rarely seen in PHP 3 code is returning values from a required file.
+This extension has no resource types defined.
+Up
+Prev
+Next
+wddx_serialize_vars() takes a variable number of arguments, each of which can be either a string naming a variable or an array containing strings naming the variables or another array, etc.
+Any strings that are not set will simply be skipped.
+PHP Manual
+Home
+CASE_LOWER is used with array_change_key_case() and is used to convert array keys to lower case.
+"test-payflow.verisign.com"
+Prev
+This is a deprecated alias of disk_free_space().
+Up
+Prev
+PHP Manual
+Up
+mysql_field_type() is similar to the mysql_field_name() function.
+PHP Manual
+Next
+PHP Manual
+Prev
+Prev
+Next
+Home
+Prev
+Home
+Next
+Home
+Up
+Up
+Chapter 3.
+Next
+Earlier versions were not binary safe.
+Up
+PHP Manual
+PHP Manual
+Up
+Note that the disable_functions directive can not be used outside of the php.ini file which means that you cannot disable functions on a per-virtualhost or per-directory basis in your httpd.conf file.
+Up
+Filesystem
+Table 1. openssl_x509_checkpurpose() purposes
+Up
+Next
+CURLOPT_SSLVERSION:
+Up
+PHP Manual
+Prev
+Note:
+Prev
+As of PHP 4.2.0, this directive can take a semi-colon separated path in a similar fashion to the include_path directive, rather than just a single directory.
+Prev
+Next
+PHP Manual
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Prev
+See fopen() for more details on how to specify the filename and Appendix I for a list of supported URL protocols.
+Next
+Prev
+Up
+Next
+Home
+Next
+Home
+Prev
+Home
+Next
+Prev
+Home
+Next
+Prev
+Home
+Prev
+Prev
+Prev
+Prev
+swfmovie_output()
+PHP Manual
+Next
+Prev
+base64_decode() decodes encoded_data and returns the original data.
+Example 9-1.
+This means that in an expression like (1 _BAR_ _BAR_ test_me()), the function test_me() would not be executed since nothing can change the result of the expression after the 1.
+Warning
+PHP Manual
+Prev
+PHP Manual
+Warning
+Up
+Next
+Prev
+Home
+Prev
+Prev
+Note:
+Next
+PHP Manual
+This function is EXPERIMENTAL.
+Prev
+This function is currently not documented; only the argument list is available.
+Next
+Prev
+Prev
+PHP Manual
+Up
+Next
+Next
+Next
+Home
+This function is EXPERIMENTAL.
+Generally it is, but as PHP is mostly used as a web scripting language it runs in the web servers context, thus visual objects will never appear on the servers desktop.
+Prev
+Up
+Home
+Execution Operators
+Next
+HTTP Authentication example forcing a new name / password
+Example 1. mssql_next_result() example
+Up
+Up
+Up
+Next
+For example, if you have configured Apache to use a PHP script to handle requests for missing files (using the ErrorDocument directive), you may want to make sure that your script generates the proper status code.
+Up
+Home
+Up
+Prev
+Up
+PHP Manual
+Home
+Next
+Next
+Prev
+Next
+Chapter 6.
+Next
+The optional fourth zcontext is used for specifying tuning parameters and callbacks.
+Add up these numbers to specify needed rights.
+Next
+Up
+switch ($i) {case 0: print "i equals 0"; case 1: print "i equals 1"; case 2: print "i equals 2";}
+Next
+Note the strange order of arguments, which differs from the order of arguments in a regular UNIX mktime() call and which does not lend itself well to leaving out parameters from right to left (see below).
+Home
+Next
+Prev
+Prev
+Next
+Example 1. getlastmod() example
+Returns TRUE on success or FALSE on failure.
+Next
+Next
+This function is currently not documented; only the argument list is available.
+Prev
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Install it on your Windows machine.
+Metaphone was developed by Lawrence Philips lphilips@verity.com.
+Prev
+Up
+This function is currently not documented; only the argument list is available.
+Prev
+Prev
+Prev
+Prev
+Next
+Prev
+PHP Manual
+PHP Manual
+?php $filename = '/ path / to / data-file'; $file = fopen ($filename, 'r') or exit("unable to open file ($filename)");?
+This will reduce the size of the signed message but the verifier must have a copy of the signers certificate available locally (passed using the extracerts to openssl_pkcs7_verify() for example.
+This function is currently not documented; only the argument list is available.
+Prev
+PHP Manual
+PHP Manual
+Prev
+Prev
+PHP Manual
+Get the contents of some PDFlib parameter with string type.
+The constants below are defined by this extension, and will only be available when the extension has either been compiled into PHP or dynamically loaded at runtime.
+Up
+Next
+Home
+Prev
+Table 5.
+Prev
+Note:
+Use this function at your own risk.
+Up
+Next
+Prev
+Next
+Prev
+PHP Manual
+USENET news subsystem
+Next
+Next
+Home
+Not
+In the above example, the output from echo() would be stored in the output buffer until ob_end_flush() was called.
+PHP Manual
+Set this option to a non-zero value if you want PHP to fail silently if the HTTP code returned is greater than 300.
+Home
+Returns TRUE on success or FALSE on failure.
+You must supply the name of an existing function which accepts a partial command line and returns an array of possible matches.
+Prev
+pcntl_wtermsig
+Warning
+Home
+This function will return a UNIX timestamp corresponding to the Julian Day given in jday or FALSE if jday is not inside the UNIX epoch (Gregorian years between 1970 and 2037 or 2440588 = jday = 2465342).
+PHP Manual
+Prev
+Use similar addresses for the other mailing lists.
+Example 1. session_set_save_handler() example
+PHP Manual
+Up
+Up
+Home
+This function returns a translated string if one is found in the translation table, or the submitted message if not found.
+Up
+The PHP-settings for maximum-size, however, cannot be fooled.
+Defines a named constant.
+Prev
+Prev
+PHP Manual
+Home
+Next
+Next
+Next
+Next
+Up
+Up
+Warning
+Output buffering support
+Home
+Prev
+Prev
+Home
+Prev
+Warning
+Next
+Next
+Prev
+This function is currently not documented; only the argument list is available.
+Prev
+Next
+Prev
+Chapter 3.
+Home
+Up
+Prev
+Next
+PHP Manual
+Home
+Next
+Up
+Next
+PHP Manual
+Next
+To setup a URL that can code hightlight any script that you pass to it, we will make use of the "ForceType" directive in Apache to generate a nice URL pattern, and use the function highlight_file() to show a nice looking code list.
+Use this function at your own risk.
+Errors coming back from the MySQL database backend no longer issue warnings.
+Prev
+PHP Manual
+Up
+msql_createdb
+If it then hits the time limit it will be aborted and your shutdown function, if any, will be called.
+Home
+Prev
+The tools used for formatting HTML and TeX versions are Jade, written by James Clark and The Modular DocBook Stylesheets written by Norman Walsh.
+Home
+Warning
+Note:
+Close the current path.
+Example E-9.
+Identical to mktime() except the passed parameters represents a GMT date.
+Up
+Home
+Prev
+Home
+Note:
+Next
+Home
+Prev
+Up
+Prev
+Prev
+Note:
+Note:
+Home
+Up
+Prev
+Warning
+Prev
+You can manually set this using the curl_setopt() function.
+Home
+Next
+This function is currently not documented; only the argument list is available.
+Up
+Warning
+Prev
+Prev
+Next
+Next
+Prev
+Warning
+Warning
+Prev
+Next
+Prev
+Prev
+Example 1. var_dump() example
+PHP Manual
+Installation
+It says to use: --activate-module=src / modules / php4 / libphp4.a, but that file doesn' t exist, so I changed it to --activate-module=src / modules / php4 / libmodphp4.a It says to use: --activate-module=src / modules / php4 / libphp4.a, but that file doesn't exist, so I changed it to --activate-module=src / modules / php4 / libmodphp4.a and it doesn't work!?
+Up
+Next
+Warning
+Prev
+Up
+This function is EXPERIMENTAL.
+This function should be used to make sure that any data coming from user input is escaped before this data is passed to the exec() or system() functions, or to the backtick operator.
+Next
+The fruits have been sorted in alphabetical order.
+Up
+The above example would produce the following output:
+Home
+Home
+Next
+We will assume you installed MySQL and Apache completely with RPMS for this example as well.
+Next
+If NDBM support is used, NDBM will actually create filename.dir and filename.pag files.
+Home
+This function is EXPERIMENTAL.
+Prev
+The pdf_open_memory_image() The pdf_open_memory_image() function takes an image created with the PHP's image functions and makes it available for the pdf object.
+Example 1. mb_convert_kana() example
+?php $foo = 'Bob'; / / Assign the value'Bob' to $foo $bar = $foo; / / Reference $foo via $bar. $bar = "My name is $bar"; / / Alter $bar... echo $bar; echo $foo; / / $foo is altered too.?
+Next
+PHP references allow you to make two variables to refer to the same content.
+Next
+Warning
+PHP Manual
+PHP Manual
+Prev
+PHP Manual
+Use this function at your own risk.
+Next
+Prev
+$stack = array ("orange", "banana", "apple", "raspberry"); $fruit = array_shift ($stack);
+unpack() from binary string into array according to format.
+Next
+Prev
+Home
+Prev
+Example 1. openssl_open() example
+PHP Manual
+Prev
+Prev
+Home
+Up
+Next
+PHP Manual
+?php / * Connecting, selecting database * / $link = mysql_connect( "mysql_host", "mysql_user", "mysql_password") or die("Could not connect"); print "Connected successfully"; mysql_select_db("my_database") or die("Could not select database"); / * Performing SQL query * / $query = "SELECT * FROM my_table"; $result = mysql_query($query) or die("Query failed"); / * Printing results in HTML * / print "table \n"; while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {print "\t tr \n"; foreach ($line as $col_value) {print "\t\t td $col_value / td \n";} print "\t / tr \n";} print" / table \n"; / * Free resultset * / mysql_free_result($result); / * Closing connection * / mysql_close($link);?
+Home
+PHP Manual
+Example 2.
+Next
+Next
+Next
+Next
+description
+Up
+Up
+PHP Manual
+Up
+How to read a function definition (prototype)
+Up
+Returns the current value of the PHP configuration variable specified by varname, or FALSE if an error occurs.
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+Next
+Deprecated.
+Next
+What are the differences between PHP 3 and PHP 4?
+Home
+Next
+Home
+Home
+Prev
+Prev
+This function is not implemented on Windows platforms.
+Up
+Next
+Next
+apache_note() is an Apache-specific function which gets and sets values in a request's notes table.
+Home
+Prev
+Up
+Returns the array element in the next place that 's pointed by the internal array pointer, or FALSE if there are no more elements.
+Use this function at your own risk.
+Warning
+Next
+Prev
+Warning
+Next
+Prev
+Up
+Next
+Next
+The default is to pad with spaces.
+Instead of a function name, an array containing an object reference and a method name can also be supplied.
+Next
+Next
+Prev
+Prev
+Use this function at your own risk.
+Next
+Up
+Table 4.
+Next
+Home
+Prev
+Home
+sem_release() releases the semaphore if it is currently acquired by the calling process, otherwise a warning is generated.
+Warning
+Home
+Next
+Warning
+Next
+Prev
+Next
+Next
+See also array_merge_recursive().
+Home
+Prev
+Up
+Next
+Next
+Prev
+Next
+Next
+Home
+PHP Manual
+Home
+Prev
+Prev
+Returns TRUE on success or FALSE on failure.
+This function is EXPERIMENTAL.
+Up
+Next
+Home
+Note that the here document terminator must appear on a line with just a semicolon no extra whitespace!
+Home
+Prev
+Prev
+Prev
+Next
+Prev
+Next
+Up
+Up
+Home
+Use this function at your own risk.
+PHP Manual
+Once this modification is made then build the binary rpm as follows:
+PHP Manual
+Up
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Prev
+PHP Manual
+Prev
+Prev
+Prev
+Prev
+The cool thing is using array_flip() to change the direction of the translation.
+AM or PM
+Note:
+Next
+Example 1. floor() example
+Prev
+Next
+Arguably, this was the key to PHP 3.0 's tremendous success.
+PHP Manual
+do {if ($i 5) {print "i is not big enough"; break;} $i *= $factor; if ($i $minimum_limit) {break;} print "i is ok"; ...process i...} while(0);
+Prev
+Home
+Prev
+Next
+Prev
+pdf_set_value() passing "wordspacing "as the second parameter.
+This function is currently not documented; only the argument list is available.
+This function is EXPERIMENTAL.
+Migration: first new start / end tags
+f - the argument is treated as a float, and presented as a floating-point number.
+Next
+Chapter 5.
+Home
+The results of this function are cached.
+Prev
+Up
+Up
+Home
+Next
+Prev
+Prev
+Home
+Next
+Prev
+Next
+Prev
+PHP Manual
+Chapter 43.
+Prev
+Home
+Warning
+This function is currently not documented; only the argument list is available.
+Returns the name of the table that the specifed field is in.
+Next
+Rotate the coordinate system by phi degrees.
+Home
+Home
+PHP Manual
+Read this faq for details.
+Next
+PHP Manual
+PHP Manual
+msql_create_db()
+Home
+Next
+For example, this code would display a is bigger than b if $a is bigger than $b, and would then assign the value of $a into $b:
+Returns TRUE on success or FALSE on failure.
+Prev
+Now the fun part!
+Next
+Home
+Simple and multi-dimensional arrays are supported, and may be either user created or created by another function.
+PHP Manual
+The constants below are defined by this extension, and will only be available when the extension has either been compiled into PHP or dynamically loaded at runtime.
+PDF
+Next
+Prev
+Prev
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+Next
+Up
+PHP Manual
+Next
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+Prev
+Note:
+PHP Manual
+Next
+PHP Manual
+Prev
+Next
+Warning
+Prev
+Up
+Next
+Check your database documentation for information on handling abandoned or idle connections.
+Prev
+Up
+Next
+Prev
+Next
+Prev
+Next
+Prev
+Up
+PHP Manual
+Example 1. mysql_insert_id Example
+Use this function at your own risk.
+This extension has no configuration directives defined in php.ini.
+Home
+Prev
+Next
+Prev
+Prev
+PHP Manual
+Next
+Exactly like you run local objects.
+Prev
+Next
+Prev
+Function arguments
+$_FILES[ 'userfile']['name'][0], $_FILES['userfile']['tmp_name'][0], $_FILES['userfile']['size'][0], and $_FILES['userfile']['type'][0] are also set.
+Next
+Next
+Prev
+Prev
+The optional parameter Mode default to 0.
+Prev
+Prev
+Prev
+Home
+The behaviour of this extension - - including the names of its functions and anything else documented about this extension - - may change without notice in a future release of PHP.
+About the manual
+PHP Manual
+Prev
+Next
+This function is currently not documented; only the argument list is available.
+Next
+Prev
+This flag was added in PHP 4.2.0.
+It 's preferred to not rely on this directive.
+Persistent connections are good if the overhead to create a link to your SQL server is high.
+Next
+Home
+Prev
+Next
+Next
+See also fread(), fopen(), fsockopen(), popen(), and fputs().
+Prev
+Home
+Prev
+Home
+PHP Manual
+Next
+Up
+Prev
+Next
+Next
+Next
+Up
+This case matches anything that wasn 't matched by the other cases, and should be the last case statement.
+Next
+ASP is said to be a slower and more cumbersome language than PHP, less stable as well.
+Prev
+Next
+Home
+Prev
+Deprecated.
+Prev
+Prev
+Example 1. swfgradient() example
+Up
+Next
+How do I get these libraries to work?
+Up
+Prev
+Next
+Home
+See also apache_request_headers().
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+The prefix can be useful for instance if you generate identifiers simultaneously on several hosts that might happen to generate the identifier at the same microsecond.
+Next
+Note:
+PHP Manual
+$fruits[ 0]: apples $fruits[1]: grapes $fruits[2]: lemons
+Up
+Prev
+Next
+Prev
+Use this function at your own risk.
+Prev
+Next
+Up
+This function is currently not documented; only the argument list is available.
+This is, once again, due to the split between parsing and execution as no code has yet been executed when the parser sees the initializer.
+Another thing PHP 4 will now tell you about is the use of uninitialized variables or array elements.
+Prev
+Next
+When safe mode is enabled, PHP checks whether the directory in which you are about to operate has the same UID (owner) as the script that is being executed.
+Home
+Prev
+Warning
+Home
+Warning
+PHP Manual
+Home
+Note:
+Next
+Up
+Next
+Behaves the same as strftime() except that the time returned is Greenwich Mean Time (GMT).
+Home
+Home
+Home
+PHP Manual
+Prev
+PHP Manual
+Use the mailing lists or community sites mentioned earlier, instead.
+Incrementing / Decrementing Operators
+Home
+Warning
+Next
+Up
+Up
+?php $link = mysql_connect( 'localhost', 'mysql_user', 'mysql_password'); $result = mysql_list_processes($link); while ($row = mysql_fetch_row($result)) {printf("%s %s %s %s %s\n", $row["Id"], $row["Host"], $row["db"], $row["Command"], $row["Time"]);} mysql_free_result ($result);?
+Example 1. mysql_get_client_info Example
+?php / / Prints something like:
+Home
+See also bzdecompress().
+Next
+Next
+Functions
+Warning
+The RPM packagers are setting up the RPMS to install without database support to simplify installations and because RPMS use / usr / instead of the standard / usr / local / directory for files.
+I have installed PHP, but when try to access a PHP script file via my browser, I get a server 500 error.
+Next
+Next
+Example 1.
+Next
+Next
+Up
+For instance, in the default "C" locale characters such as umlaut-a (ä) will not be converted.
+PHP Manual
+A value of 1 denotes that we should check for the existence of the common name, a value of 2 denotes that we should make sure it matches the provided hostname.
+Up
+Prev
+Error messages have changed
+Next
+Prev
+Next
+Table 1.
+Up
+Next
+See also mktime() and strtotime().
+Prev
+In other words, $a is an expression with the value of 5 as well.
+It complains about my ?xml tags!
+Prev
+Prev
+Prev
+Prev
+Next
+Array ([0] = Uptime:
+Next
+PHP Manual
+Up
+This function is currently not documented; only the argument list is available.
+Up
+Next
+Next
+Next
+Returns TRUE on success or FALSE on failure.
+Home
+Prev
+Home
+PHP Manual
+Warning
+Note:
+Prev
+Home
+Example E-6.
+PHP Manual
+Use this function at your own risk.
+PHP Manual
+Up
+Next
+Prev
+Up
+Prev
+Prev
+Prev
+Up
+Warning
+Example 5. xmltest2.xml
+This function is EXPERIMENTAL.
+Prev
+Up
+As of PHP 4.3.0, in order to prevent someone from writing a script which reveals the password for a page that was authenticated through a traditional external mechanism, the PHP_AUTH variables will not be set if external authentication is enabled for that particular page and safe mode is enabled.
+PHP Manual
+PHP Manual
+A list of the MX records found is placed into the array mxhosts.
+Use this function at your own risk.
+The above example would produce the following output:
+Home
+Next
+Next
+Up
+Up
+Prev
+PHP Manual
+This extension has no configuration directives defined in php.ini.
+Note:
+Prev
+Next
+This directive is really only useful in the Apache module version of PHP.
+Next
+Prev
+Next
+Next
+Use this function at your own risk.
+Up
+Prev
+Prev
+Prev
+Next
+Next
+Home
+Next
+Up
+Up
+Example 3-4.
+Pass an array of FTP commands to execute on the server, after the FTP request has been performed.
+Next
+See also ereg(), strncasecmp(), strcasecmp(), substr(), stristr(), strcmp(), and strstr().
+Up
+PHP Manual
+Up
+Next
+Prev
+Next
+PHP Manual
+Next
+See also strcspn().
+This extension has no resource types defined.
+This function is currently not documented; only the argument list is available.
+17 [7] = Queries per second avg:
+Prev
+Note that these are not single-quotes!
+Object leafy does not belong to a subclass of Spinach Object leafy belongs to class spinach a subclass of Vegetable
+Next
+Deprecated.
+Next
+Next
+See also define_syslog_variables(), openlog() and closelog().
+PHP Manual
+Prev
+This function is currently not documented; only the argument list is available.
+Prev
+Up
+PHP Manual
+Prev
+The above example would produce the following output:
+Prev
+Up
+Home
+Prev
+my $CFG_LIBEXECDIR = 'modules'; 
+Prev
+Prev
+Prev
+Up
+Prev
+The behaviour of these functions is affected by settings in php.ini.
+Translate the origin of the coordinate system.
+Use this function at your own risk.
+PHP Manual
+Home
+Home
+Note:
+Up
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+The behaviour of these functions is affected by settings in php.ini.
+Next
+Next
+This function is EXPERIMENTAL.
+Up
+Up
+Next
+The closing tag for the block will include the immediately trailing newline if one is present.
+Example 1. array_splice() examples
+Next
+Prev
+This function is EXPERIMENTAL.
+Access to initialization entries can also be handled with the macros shown in Table 39-1.
+Prev
+Prev
+Up
+Instead of a function name, an array containing an object reference and a method name can also be supplied.
+For example: "open_basedir = / dir / incl /"
+Home
+Next
+PHP Manual
+Home
+PHP Manual
+Prev
+Next
+Prev
+Up
+Example 1. ftp_set_option() example
+Next
+Up
+PHP Manual
+Note:
+12.
+Prev
+Prev
+Up
+If you are on Windows you need to find an editor or some other program that lets you look at binary files.
+PHP Manual
+Prev
+PHP Manual
+Up
+Prev
+PHP Manual
+It is highly recommended to use some kind of tranformation (like this function) to the user supplied key.
+Prev
+PHP Manual
+Next
+function foo ($arg_1, $arg_2,..., $arg_n) {echo "Example function.\n"; return $retval;}
+This defaults to 30 seconds.
+Next
+Next
+PHP Manual
+Prev
+Next
+Up
+Next
+Up
+ENT_NOQUOTES
+Up
+Next
+Note:
+Next
+Can I store a COM object in a session?
+Up
+Draw a line from the current point to (x, y).
+PHP Manual
+Prev
+security / authorization messages (use LOG_AUTHPRIV instead in systems where that constant is defined)
+PHP Manual
+The above example would produce the following output:
+Home
+Home
+Next
+Warning
+Prev
+type - the type of the column
+Prev
+Up
+Up
+Close the path, fill, and stroke it.
+Note:
+PHP Manual
+Next
+PHP Manual
+Prev
+Home
+Up
+Up
+Home
+PHP Manual
+Up
+Example 1. get_class_methods() example
+Home
+Use this function at your own risk.
+Up
+Prev
+Table 1.
+Next
+Up
+Prev
+Up
+Prev
+Prev
+Prev
+Up
+Home
+Prev
+Please see the examples below for more information.
+Next
+Use this function at your own risk.
+Next
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+Prev
+Note:
+Next
+For downwards compatibility mysql_createdb() can also be used.
+Next
+PHP Manual
+PHP Manual
+Example 1. echo() examples
+Up
+Up
+To do distributed logging like that, you should take a look at syslog().
+PHP Manual
+Table 2.
+Prev
+Note:
+PHP Manual
+Home
+Up
+Next
+Next
+Prev
+PHP Manual
+Up
+Returns TRUE on success or FALSE on failure. socket_getpeername() may also return FALSE if the socket type is not any of AF_INET or AF_UNIX, in which case the last socket error code is not updated.
+PHP Manual
+PHP Manual
+Up
+Home
+See the INSTALL file that is included in the PHP 4 source distribution.
+This function is EXPERIMENTAL.
+Up
+Next
+Home
+Note:
+Prev
+Miscellaneous Questions
+The windows version of PHP The windows version of PHP has built in support for this extension.
+Prev
+Home
+Home
+Warning
+Prev
+Example 1.
+Prev
+Up
+There is one more expression that may seem odd if you haven 't seen it in other languages, the ternary conditional operator:
+Up
+Note:
+Prev
+"month" - month, textual, full; i.e. "January "
+Next
+Prev
+Next
+clock daemon (cron and at)
+Prev
+Prev
+Home
+Next
+Up
+About the manual
+Next
+Up
+The restriction specified is actually a prefix, not a directory name.
+This function is currently not documented; only the argument list is available.
+Next
+Up
+Home
+Prev
+The statement list for a case can also be empty, which simply passes control into the statement list for the next case.
+Next
+PHP Manual
+This function returns TRUE if the method given by method_name has been defined for the given object, FALSE otherwise.
+Up
+Prev
+Up
+More information about what values evaluate to FALSE can be found in the 'Converting to boolean' section.
+Example:
+See also: mysql_list_dbs(), and mysql_tablename().
+Up
+Next
+The file pointer must be valid, and must point to a file successfully opened by fopen(), popen(), or fsockopen().
+Next
+Up
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Up
+Home
+Prev
+Next
+Next
+yp_order() returns the order number for a map or FALSE.
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+This extension is EXPERIMENTAL.
+Up
+Prev
+Up
+Next
+Home
+Up
+Next
+Up
+Home
+Next
+Next
+This function is currently not documented; only the argument list is available.
+Warning
+Use this function at your own risk.
+Home
+Next
+Prev
+Warning
+Prev
+That is you cannot start a for or while loop, an if statement or a switch block in one file and have the end of loop, else, endif, case or break statements in a different file.
+Next
+PHP Manual
+PHP Manual
+Warning
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Prev
+Prev
+Home
+yp_get_default_domain() returns the default domain of the node or FALSE.
+Example 1.
+Up
+Up
+Note that since return() is a language construct and not a function, the parentheses surrounding its arguments are not required--in fact, it is more common to leave them out than to use them, although it doesn't matter one way or the other.
+Next
+The file pointer must be valid, and must point to a file successfully opened by fopen(), popen(), or fsockopen().
+Prev
+See also file_get_contents(). $html = implode ('', file ('http: / /www.example.com / '));?
+Next
+PHP Manual
+Up
+Next
+Each result column is stored in an array offset, starting at offset 0.
+Prev
+By calling dbmfirstkey() followed by successive calls to dbmnextkey() it is possible to visit every key / value pair in the dbm database.
+Next
+Next
+Warning
+Note: "Supported character encoding" does not mean that it works as internal character code.
+The user-supplied function approach offers the possibility to take into account the relevance of and / or difference between certain symbols (characters) or even the context those symbols appear in to determine the cost of insert, replace and delete operations, but at the cost of losing all optimizations done regarding cpu register utilization and cache misses that have been worked into the other two variants.
+No external libraries are needed to build this extension.
+Home
+Up
+Prev
+Functions
+Up
+Home
+Prev
+Next
+Home
+Prev
+Next
+Up
+See Appendix I for a list of PHP builtin wrappers.
+Returns TRUE on success or FALSE on failure.
+Next
+Next
+(PHP 4 = 4.0.4)
+Home
+Next
+Prev
+Home
+Example 1. pcntl_signal() Example
+Note:
+Prev
+Warning
+Table 2.
+Prev
+Home
+Cookies are part of the HTTP header, so setcookie() must be called before any output is sent to the browser.
+Prev
+natcasesort() is a case insensitive version of natsort().
+Prev
+See also: mysql_drop_db(), mysql_query().
+Home
+Next
+Prev
+PHP Manual
+If start is positive, the replacing will begin at the start 'th offset into string.
+PHP Manual
+Up
+Up
+This extension is not available on Windows platforms.
+Next
+Prev
+Up
+Prev
+Next
+Up
+Home
+Next
+Next
+If needle is not a string, it is converted to an integer and applied as the ordinal value of a character.
+Unlocks and closes the specified database.
+Use this function at your own risk.
+PHP Manual
+Tip: if the replacement is just one element it is not necessary to put array() around it, unless the element is an array itself.
+PHP Manual
+Next
+Prev
+Prev
+Up
+Home
+Of course, values in PHP don' t have to be integers, and very often they aren't.
+Home
+Home
+Example 1. array_sum() examples
+Prev
+Up
+PHP Manual
+Home
+PHP Manual
+Up
+Warning
+Prev
+There is just one syntax for do..while loops:
+Next
+Use this function at your own risk.
+PHP Manual
+Deprecated.
+Prev
+This function reads a command history from a file.
+Next
+Next
+Home
+It defaults to MYSQL_STORE_RESULT, so the result is buffered.
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Prev
+Example 1.
+The second form does the same thing, except that the current element 's key will be assigned to the variable $key on each loop.
+Prev
+Superglobals cannot be used as variable variables.
+Home
+Next
+Sorting multi-dimensional array
+?php mysql_connect( 'localhost:3306', $user, $password) or die("Could not connect: ". mysql_error()); mysql_select_db("database"); $result = mysql_query("select * from table") or die("Query failed:". mysql_error()); / * get column metadata * / $i = 0; while ($i mysql_num_fields($result)) {echo "Information for column $i: br / \n"; $meta = mysql_fetch_field($result); if (!$meta) {echo "No information available br / \n";} echo "pre blob: $meta - blob max_length: $meta - max_length multiple_key: $meta - multiple_key name: $meta - name not_null: $meta - not_null numeric: $meta - numeric primary_key: $meta - primary_key table: $meta - table type: $meta - type unique_key: $meta - unique_key unsigned: $meta - unsigned zerofill: $meta - zerofill / pre"; $i++;} mysql_free_result($result);?
+Prev
+PHP Manual
+Prev
+Note:
+Prev
+PHP Manual
+Next
+Prev
+Next
+Home
+Extension used
+One last thing worth mentioning is the truth value of expressions.
+PHP Manual
+PHP Manual
+Up
+Returns a string with backslashes stripped off.
+Next
+Home
+The HTML format is provided both as a single HTML file and as a package of individual files for each section (which results in a collection of several thousand files).
+See also: getprotobyname().
+Up
+What a persistent connection does for you in this case it make it so each child process only needs to connect to your SQL server the first time that it serves a page that makes use of such a connection.
+Next
+Up
+Prev
+PHP Manual
+This function is currently not documented; only the argument list is available.
+Next
+We are explicitly testing whether the return value is identical to (equal to and of the same type as--see Comparison Operators for more information) FALSE since otherwise, any directory entry whose name evaluates to FALSE will stop the loop (e.g. a directory named "0").
+PHP Manual
+PHP Manual
+Prev
+Because of this it is in everyones interest that you use the list as a last resort when you have looked everywhere else.
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Next
+PHP Manual
+This function returns the Levenshtein-Distance between the two argument strings or -1, if one of the argument strings is longer than the limit of 255 characters (255 should be more than enough for name or dictionary comparison, and nobody serious would be doing genetic analysis with PHP).
+References in PHP are a means to access the same variable content by different names.
+Admin values (or flags) can only appear in the server-wide apache configuration files (e.g., httpd.conf).
+Warning
+PHP Manual
+It is a good idea to have the DOM standard available when using this module.
+Next
+Next
+This function is EXPERIMENTAL.
+Up
+Next
+V unsigned long (always 32 bit, little endian byte order)
+Home
+Up
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+You can 't return multiple values from a function, but similar results can be obtained by returning a list.
+Prev
+Next
+Prev
+Prev
+Up
+Next
+This should be submitted to http: / /bugs.php.net /
+PHP Manual
+Up
+Next
+Next
+Up
+Prev
+This extension has no resource types defined.
+Currently PHP 4 has support for ISAPI, WSAPI, and NSAPI (on Windows), which all allow PHP to be used as a plug-in on multithreaded servers like Netscape FastTrack (iPlanet), Microsoft's Internet Information Server (IIS), and O'Reilly's WebSite Pro.
+Up
+Next
+Up
+Next
+Home
+PHP Manual
+PHP Manual
+Use this function at your own risk.
+Use this function at your own risk.
+Next
+Prev
+Up
+Warning
+Next
+Prev
+The spacing between lines is determined by the leading parameter.
+PHP Manual
+Next
+Next
+Up
+References Explained
+Home
+The remaining argument is the message to send, except that the two characters %m will be replaced by the error message string (strerror) corresponding to the present value of errno.
+PHP Manual
+PHP Manual
+Prev
+See fopen() for more details.
+Prev
+When called, set_time_limit() When called, set_time_limit() restarts the timeout counter from zero.
+Next
+Prev
+Next
+Next
+A SPACE-padded string
+Prev
+Next
+Gettext
+Prev
+Home
+Prev
+Up
+PHP Manual
+Prev
+PHP Manual
+By putting engine off in the appropriate places in the httpd.conf file, PHP can be enabled or disabled.
+That is to say, when you assign an expression to a variable, the entire value of the original expression is copied into the destination variable.
+PHP Manual
+Prev
+Home
+Home
+Example 1. mysql_db_name() example
+Prev
+Prev
+PHP Manual
+PHP Manual
+Prev
+Can I generate DLL files from PHP scripts like i can in Perl?
+Prev
+Next
+Next
+Home
+Prev
+Instead, use mysql_errno() to retrieve the error code.
+Up
+It is the persistent version of fsockopen().
+Prev
+PHP Manual
+Array ([color] = green [0] = 2 [1] = 4 [2] = a [3] = b [shape] = trapezoid [4] = 4)
+Prev
+Home
+Note:
+PHP 4 has a larger set of error and warning levels and comes with a configuration parser that now allows for symbolic constants to be used for setting the intended behavior.
+PHP Manual
+Warning
+PHP Manual
+Also, it 's possible to return values from included files.
+Prev
+Next
+This function is quite useless since every time it is called it sets $a to 0 and prints "0".
+PHP Manual
+This function is EXPERIMENTAL.
+Warning
+Prev
+Next
+This function is EXPERIMENTAL.
+Up
+Home
+Prev
+Next
+Home
+?php echo "h3 Postincrement / h3"; $a = 5; echo "Should be 5: ". $a+ +." br / \n"; echo "Should be 6: ". $a." br / \n"; echo "h3 Preincrement / h3"; $a = 5; echo "Should be 6: ". ++$a." br / \n"; echo "Should be 6: ". $a." br / \n"; echo "h3 Postdecrement / h3"; $a = 5; echo "Should be 5: ". $a- -." br / \n"; echo "Should be 4: ". $a." br / \n"; echo "h3 Predecrement / h3"; $a = 5; echo "Should be 4: ". --$a." br / \n"; echo "Should be 4: ". $a." br / \n";?
+PHP Manual
+PHP Manual
+Next
+Prev
+Prev
+Hypertext Preprocessor "is a widely-used Open Source general-purpose scripting language that is especially suited for Web development and can be embedded into HTML.
+Prev
+Next
+This function is EXPERIMENTAL.
+Home
+Prev
+Prev
+Bakken, and is dedicated to his first-born daughter, Malin Bakken.
+PHP Manual
+The optional scale sets the number of digits after the decimal place in the result.
+Home
+Next
+The most difficult part is probably creating your first PDF document.
+Example Debugger Message
+Example 1.
+Prev
+Next
+Next
+Prev
+To access the other column( s) of the same name, you either need to access the result with numeric indices by using mysql_fetch_row() or add alias names.
+Next
+Up
+Home
+Next
+Warning
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Up
+Prev
+Prev
+PHP Manual
+If the optional length argument is given, writing will stop after length (uncompressed) bytes have been written or the end of string is reached, whichever comes first.
+This function is currently not documented; only the argument list is available.
+Up
+Note:
+Next
+Prev
+Prev
+Up
+This function is currently not documented; only the argument list is available.
+Note:
+enable assert() evaluation
+Up
+PHP Manual
+Next
+The intermediary or standard it is based on is the Julian Day Count.
+Prev
+Next
+Next
+Next
+Warning
+Next
+Up
+PHP Manual
+Next
+You can use the mysql_tablename() function to extract the actual table names from the result pointer, or any other result table function such as mysql_fetch_assoc().
+Prev
+Next
+Next
+Prev
+Prev
+PHP Manual
+This is actually quite easy.
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+Next
+Next
+General Information
+Prev
+Next
+Next
+Next
+Prev
+You can make your configuration files work with both versions of PHP (depending on which one is currently compiled into the server), using the following syntax:
+These formats can be divided into two groups: online readable formats, and downloadable packages.
+Prev
+Up
+Prev
+Next
+Up
+Next
+Next
+PHP Manual
+Example 1. ob_iconv_handler() example:
+Prev
+Soundex keys have the property that words pronounced similarly produce the same soundex key, and can thus be used to simplify searches in databases where you know the pronunciation but not the spelling.
+Home
+Prev
+Returns the group ID of the file, or FALSE in case of an error.
+Home
+PHP Manual
+PHP Manual
+Up
+Up
+Prev
+See also yp-get-default-domain().
+PHP Manual
+Prev
+Next
+Warning
+Can be used to split a string into smaller chunks which is useful for e.g. converting base64_encode output to match RFC 2045 semantics.
+This function is identical to mysql_real_escape_string() except that mysql_real_escape_string() takes a connection handler and escapes the string according to the current character set. mysql_escape_string() does not take a connection argument and does not respect the current charset setting.
+Use this function at your own risk.
+Prev
+PHP Manual
+Next
+Prev
+Prev
+I get the message 'Warning:
+HTTP functions
+This function is currently not documented; only the argument list is available.
+PHP Manual
+Prev
+Prev
+Next
+Prev
+Note:
+Prev
+PHP Manual
+PHP Manual
+Prev
+Prev
+Next
+Note:
+This means that you do not need to call reset() before a foreach loop.
+Prev
+PHP Manual
+Prev
+Most of the functions are fairly easy to use.
+Prev
+Note:
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+Example 1.
+Next
+This function is EXPERIMENTAL.
+Up
+To generate a custom credits page, you may want to use the flag parameter.
+Up
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+Home
+PHP Manual
+Next
+See also stripslashes(), htmlspecialchars(), and quotemeta().
+PHP Manual
+At the minimum that means it must generate a Content-type header.
+Use this function at your own risk.
+Up
+Prev
+Next
+Next
+This extension has no constants defined.
+Home
+Next
+Prev
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+Prev
+PHP Manual
+/* foreach example 1: value only * / $a = array (1, 2, 3, 17); foreach ($a as $v) {print "Current value of \$a: $v.\n";} / * foreach example 2: value (with key printed for illustration) * / $a = array (1, 2, 3, 17); $i = 0; / * for illustrative purposes only * / foreach($a as $v) {print "\$a[$i] = $v.\n"; $i++;} / * foreach example 3: key and value * / $a = array ("one "= 1, "two" = 2, "three "= 3, "seventeen" = 17); foreach($a as $k = $v) {print "\$a[$k] = $v.\n";} / * foreach example 4: multi-dimensional arrays * / $a[0][0] = "a"; $a[0][1] = "b"; $a[1][0] = "y"; $a[1][1] = "z"; foreach($a as $v1) {foreach ($v1 as $v2) {print "$v2\n";}} / * foreach example 5: dynamic arrays * / foreach(array(1, 2, 3, 4, 5) as $v) {print "$v\n";}
+Up
+Home
+Next
+PHP Manual
+An alternate padding character can be specified by prefixing it with a single quote (').
+Next
+For more information see the appendix on Debugging PHP.
+Next
+PHP Manual
+Home
+Next
+Prev
+Home
+PHP Manual
+PHP Manual
+Prev
+Prev
+Next
+Next
+Next
+Up
+Home
+Prev
+Up
+Prev
+Next
+Next
+Next
+PHP Manual
+This extension has no resource types defined.
+Home
+Next
+Example 1. ip2long() Example
+Prev
+I have followed all the steps to install the Apache module version on UNIX, and my PHP scripts show up in my browser or I am being asked to save the file.
+Up
+Home
+Up
+PHP Manual
+Next
+Prev
+Home
+See also array_intersect_assoc(), array_diff(), array_diff_assoc().
+Deprecated, use pdf_setcolor() instead.
+Home
+Next
+Returns TRUE on success or FALSE on failure.
+PHP Manual
+Don 't forget that numeric keys will be renumbered!
+Up
+Prev
+Note:
+PHP Manual
+Note:
+Next
+Prev
+The behaviour of this extension - - including the names of its functions and anything else documented about this extension - - may change without notice in a future release of PHP.
+Prev
+PHP Manual
+Prev
+PHP Manual
+Prev
+Prev
+PHP Manual
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+PHP Manual
+If you only want to determine if a particular needle occurs within haystack, use the faster and less memory intensive function strpos() instead.
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Up
+Next
+Next
+Next
+Next
+Home
+See clearstatcache() for more details.
+Up
+For example, $_GET[ 'foo_x'].
+charlist like "\0..\37", which would escape all characters with ASCII code between 0 and 31.
+PHP Manual
+Use this function at your own risk.
+Prev
+You do not need to load any additional extension in order to use these functions.
+Prev
+Migration from 2.0: return values, old code
+This function will not work on remote files; the file to be examined must be accessible via the server's filesystem.
+PHP Manual
+Prev
+Migrating from PHP 3 to PHP 4
+Home
+Prev
+Next
+Home
+Prev
+Prev
+Next
+Warning
+PHP Manual
+Up
+Example 18-3.
+Next
+Similarly, looping structures do not affect the behaviour of require().
+Prev
+Prev
+The resulting path will have no symbolic link, '/. /' or '/.. /' components.
+Prev
+Prev
+Next
+See also get_parent_class(), gettype(), and is_subclass_of().
+The file must be accessible to PHP, so you need to ensure that the file access permissions allow this access.
+PHP Manual
+Next
+PHP Manual
+Example 1. array_unshift() example
+Note that the data itself is not encrypted.
+If you use Windows Commander, a bz2 plugin for that program is available freely from the Windows Commander site.
+PHP Manual
+Prev
+Before you post to the list please have a look in this FAQ and the manual to see if you can find the help there.
+Next
+Home
+Returns the name of the field corresponding to field_number.
+Warning
+Accessing data from a simple POST HTML form
+Prev
+Next
+Next
+Prev
+Use this function at your own risk.
+Prev
+Prev
+PHP Manual
+There are two differences between the Admin values and the non admin values:
+Next
+Prev
+See also getmxrr(), gethostbyaddr(), gethostbyname(), gethostbynamel(), and the named(8) manual page.
+Home
+Home
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Example 1. ereg() Example
+Next
+Prev
+Prev
+Prev
+PHP Manual
+?php error_reporting( E_ALL); / * Add redirection so we can get stderr. * / $handle = popen(' / path / to / spooge 2 1', 'r'); echo "'$handle'; ". gettype($handle). "\n"; $read = fread($handle, 2096); echo $read; pclose($handle);?
+Example 2. pdfclock example from PDFlib distribution
+Prev
+$trans = array( "hello "= "hi", "hi" = "hello"); echo strtr("hi all, I said hello", $trans). "\n";
+Prev
+Next
+Next
+Chapter 11.
+Next
+Prev
+Prev
+Warning
+Prev
+This function is currently not documented; only the argument list is available.
+Prev
+This particular soundex function is one described by Donald Knuth in "The Art Of Computer Programming, vol.
+Warning
+But before you rush to download this format and hit the Print button, be warned that the manual is nearly 2000 pages long, and constantly being revised.
+Read more on this subject in the global references section.
+Prev
+Prev
+PHP Manual
+Next
+Next
+Prev
+PHP Manual
+Note:
+Next
+Prev
+PHP Manual
+Next
+Prev
+Returns TRUE on success or FALSE on failure.
+Up
+?php echo "a href=\"". htmlspecialchars(" / nextpage.php?stage=23 data= ". urlencode($data)). "\" \n";?
+Next
+PHP Manual
+PHP Manual
+There will always be a location line after message and after every function.
+PHP Manual
+Prev
+Up
+Prev
+Note:
+That means, for example, that unsetting $var won 't unset global variable.
+Home
+Warning
+On Windows machines, you can simply use the included ODBC support and the correct ODBC driver.
+Next
+PHP Manual
+Home
+Next
+Next
+Prev
+See also: mysql_affected_rows()
+Home
+Prev
+Prev
+That means, the following construct won 't do what you expect:
+If a string is passed as the needle, then only the first character of that string will be used.
+Next
+PHP Manual
+Note:
+Prev
+Prev
+Next
+Up
+Post-decrement
+Up
+Next
+Prev
+This extension has no constants defined.
+The Adabas and Solid database extensions are no more.
+Prev
+Up
+Prev
+Up
+Next
+No external libraries are needed to build this extension.
+The first elseif expression (if any) that evaluates to TRUE would be executed.
+See also: mysql_thread_id(), mysql_list_processes().
+Prev
+Up
+Warning
+/ / in PHP 4.0b3 and newer: $pos = strpos( $mystring, "b"); if ($pos === false) {/ / note: three equal signs / / not found...} / / in versions older than 4.0b3: $pos = strpos($mystring, "b"); if (!is_integer($pos)) {/ / not found...}
+This function is EXPERIMENTAL.
+Home
+Prev
+Up
+This causes the function to end its execution immediately and pass control back to the line from which it was called.
+This example would result in $stack having the following elements:
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Prev
+Home
+?php $handle = fopen( 'somefile.txt', 'r'); fclose($handle);?
+Home
+Home
+Home
+You do not need to load any additional extension in order to use these functions.
+Prev
+Chapter 7.
+Next
+Prev
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Windows versions of PHP prior to PHP 4.3 do not support accessing remote files via this function, even if allow_url_fopen is enabled.
+Next
+Example 1. imap_createmailbox() example
+Prev
+This function is currently not documented; only the argument list is available.
+Next
+PHP Manual
+Next
+Warning
+Next
+Prev
+PHP Manual
+PHP Manual
+If the open fails, the function returns FALSE, otherwise it returns a pointer to the newly opened file.
+Prev
+Prev
+Home
+To make the transition process easier, PHP 4 is bundled with scripts that automatically convert your Apache configuration and .htaccess files to work with both PHP 3 and PHP 4.
+Warning
+Note:
+Home
+PHP Manual
+Next
+PHP Manual
+Example 1. bzdecompress()
+Next
+Next
+Prev
+PHP Manual
+Up
+PHP Manual
+Up
+Next
+PHP Manual
+Next
+Next
+Example 1. dbx_connect() example
+PHP Manual
+Next
+Example 1. ftp_nb_get() example
+Note:
+Next
+Example 1.
+When you are uploading a file to a remote site, this option should be used to tell PHP what the expected size of the infile will be.
+Up
+Next
+Next
+The @-operator works only on expressions.
+Prev
+Next
+Next
+Next
+This function is currently not documented; only the argument list is available.
+Up
+PHP Manual
+Warning
+Up
+PHP Manual
+Prev
+Next
+Warning
+Next
+Prev
+Prev
+PHP Manual
+Next
+Home
+Prev
+Warning
+Example 1.
+Prev
+PHP Manual
+Example 7-4.
+Next
+Next
+Getrusage Example
+Returns TRUE on success or FALSE on failure.
+Next
+Note:
+See also addslashes().
+The file pointer must be valid, and must point to a file successfully opened by fopen(), popen(), or fsockopen().
+Prev
+Up
+The goal of the language is to allow web developers to write dynamically generated pages quickly.
+See also ftell() and rewind().
+Up
+This function is EXPERIMENTAL.
+Prev
+Up
+See also array_push(), array_shift(), and array_unshift().
+Note:
+Returns TRUE on success or FALSE on failure.
+Table 1.
+Next
+PDFlib GmbH will not support any problems arising from the use of these deprecated functions.
+Next
+Note:
+Returns TRUE on success or FALSE on failure.
+Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
+Next
+Home
+Next
+Next
+PHP Manual
+Up
+PHP Manual
+Prev
+Prev
+Next
+Next
+Warning
+Up
+Next
+Up
+Note:
+Next
+Prev
+Up
+The autoglobal $_FILES exists as of PHP 4.1.0 The $HTTP_POST_FILES array has existed since PHP 4.0.0.
+PHP Manual
+Print text at the next line.
+This has lead to a lot of unreproducible bug reports in the past where people reported script engine problems they were not capable to track down while the TRUE case was usually some missing '}' in a required file that the parser was not able to report due to a misconfigured error reporting system.
+Only the superuser may change the group of a file arbitrarily; other users may change the group of a file to any group of which that user is a member.
+Next
+Home
+Next
+Up
+Prev
+Next
+Next
+Finish the page.
+Next
+DomDocument_create_processing_instruction()
+Home
+Prev
+Next
+Home
+Next
+Example 1.
+PHP Manual
+Next
+Prev
+Warning
+Prev
+Table 32-4.
+Example 2-7.
+Prev
+Returns a string in which all non-alphanumeric characters except -_. have been replaced with a percent (%) sign followed by two hex digits and spaces encoded as plus (+) signs.
+The behaviour of these functions is affected by settings in php.ini.
+Next
+Example 1. mb_output_handler() example
+Example 1. fbsql_close() example
+The parameters can be given an index with the = operator.
+Example 4-4.
+Implementation of array_keys() for PHP 3 users
+Mode
+Next
+Next
+PHP Manual
+Prev
+Prev
+Table 1.
+The optional parameter max_chars_per_line indicates maximum number of characters per line will be output.
+Prev
+Next
+Home
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+Prev
+Is it possible to load / manipulate an ActiveX object in a page with PHP?
+Chapter 7.
+Next
+Prev
+Next
+Home
+Next
+Up
+Home
+Next
+Up
+Next
+Home
+Next
+Prev
+PHP Manual
+Home
+Up
+This function is EXPERIMENTAL.
+PHP Manual
+0
+Prev
+Control Structures
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+Next
+Next
+Prev
+Next
+Prev
+Prev
+Prev
+Prev
+Prev
+PHP Manual
+PHP Manual
+Prev
+To be able to use the results of your function in an expression (such as concatenating it with other strings in the example above), you need to return() the value, not echo() it.
+Use this function at your own risk.
+Prev
+The apache process will create it!
+Prev
+Next
+Next
+Home
+This function is similar to the stat() function except that it operates on an open file pointer instead of a filename.
+This function is EXPERIMENTAL.
+Warning
+Prev
+Warning
+PHP Manual
+Home
+Up
+Next
+Next
+TRUE if both $a and $b are TRUE.
+Up
+Prev
+Next
+Up
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Next
+Next
+Next
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Since its release PHP-GTK has been gaining popularity.
+Next
+Up
+By default, users will only be able to set environment variables that begin with PHP_ (e.g.
+This function is currently not documented; only the argument list is available.
+Prev
+Prev
+/ / in PHP 4.0b3 and newer: $pos = strrpos( $mystring, "b"); if ($pos === false) {/ / note: three equal signs / / not found...} / / in versions older than 4.0b3: $pos = strrpos($mystring, "b"); if (is_string($pos) !$pos) {/ / not found...}
+Prev
+Home
+Warning
+Warning
+Next
+Prev
+Prev
+Warning
+Up
+Up
+PHP Manual
+Default
+Home
+This is a shortcut for "? echo expression?" 3. script language="php "echo ("some editors (like FrontPage) don't like processing instructions"); / script 4.% echo ("You may optionally use ASP-style tags");% %= $variable; 
+Next
+You cannot use mysql_num_rows() on a result set returned from mysql_unbuffered_query().
+Note:
+PHP Manual
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+Home
+Prev
+Example 1.
+Prev
+Next
+PHP Manual
+Next
+Example 1. printer_select_pen() example
+Because when formatting normal HTML, this usually makes your life easier because you don' t want that newline, but you'd have to create extremely long lines or otherwise make the raw page source unreadable to achieve that effect.
+DNS name or IP address of the host where the script error was generated.
+The behaviour of this function, the name of this function, and anything else documented about this function may change without notice in a future release of PHP.
+PHP Manual
+PHP Manual
+Note:
+Next
+PHP Manual
+The use of openlog() is optional.
+Up
+Parsing and execution are now two completely separated steps, no execution of a files code will happen until the complete file and everything it requires has completely and successfully been parsed.
+PHP Manual
+Example 2.
+Home
+Prev
+Home
+Warning
+Warning
+Next
+Note: if the stored procedure returns parameters or a return value these will be available after the call to mssql_execute() Note: if the stored procedure returns parameters or a return value these will be available after the call to mssql_execute() unless the stored procedure returns more than one result set.
+Prev
+Prev
+Use this function at your own risk.
+For examples on using require_once() and include_once(), look at the PEAR code included in the latest PHP source code distributions.
+OpenLink Software has Unix-based ODBC drivers that can do this.
