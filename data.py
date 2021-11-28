@@ -6,15 +6,19 @@ import os
 import numpy as np
 from io import open
 from sklearn.model_selection import train_test_split
+import unicodedata
+import re
+
+# local files in project
+import utils
 
 train_flag = 0
 valid_flag = 1
 test_flag = 2
 
-path = 'data/cs-en.txt/'
-train_data_path = os.path.join(path, 'train_data')
-valid_data_path = os.path.join(path, 'valid_data')
-test_data_path = os.path.join(path, 'test_data')
+train_data_path = os.path.join(utils.path, 'train_data')
+valid_data_path = os.path.join(utils.path, 'valid_data')
+test_data_path = os.path.join(utils.path, 'test_data')
 if not os.path.isdir(train_data_path):
     os.mkdir(train_data_path)
 if not os.path.isdir(valid_data_path):
@@ -22,17 +26,11 @@ if not os.path.isdir(valid_data_path):
 if not os.path.isdir(test_data_path):
     os.mkdir(test_data_path)
 
-## Check with the below code if the path is correct
-# from os import walk
-#
-# filenames = next(walk(path), (None, None, []))[2]
-# print(filenames)
-
 ########################################################################
 # Splitting data into train/valid/test
 ########################################################################
-data_cs = np.loadtxt(os.path.join(path, 'PHP.cs-en.cs'), dtype=str, delimiter='\n')
-data_en = np.loadtxt(os.path.join(path, 'PHP.cs-en.en'), dtype=str, delimiter='\n')
+data_cs = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.cs'), dtype=str, delimiter='\n')
+data_en = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.en'), dtype=str, delimiter='\n')
 
 train_cs, rem_cs = train_test_split(data_cs, train_size=0.6,
                                       random_state=42)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
@@ -58,18 +56,36 @@ np.savetxt(os.path.join(test_data_path, 'test_out.txt'), test_en, fmt='%s')  # e
 print("Number of sentences of Train, validation and test set in source language:", len(train_cs), len(valid_cs), len(test_cs))
 print("Number of sentences of Train, validation and test set in target language:", len(train_en), len(valid_en), len(test_en))
 
+########################################################################
+# DATA PRE-PROC
+########################################################################
 def truncate_sentence(words, max_words, padding_token):
     if len(words) > max_words:
         words = words[:max_words]
     words.extend([padding_token] * (max_words - len(words)))
     return words
+
+# Turn a Unicode string to plain ASCII, thanks to
+# https://stackoverflow.com/a/518232/2809427
+def unicodeToAscii(s):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', s)
+        if unicodedata.category(c) != 'Mn'
+    )
+
+# Lowercase, trim, and remove non-letter characters
+def normalizeString(s):
+    s = unicodeToAscii(s.lower().strip())
+    s = re.sub(r"([.!?])", r" \1", s)
+    s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
+    return s
+
 ########################################################################
-# DICT
+# DICTIONARY
 ########################################################################
 pad_token  = 0
 SOS_token = 1
 EOS_token = 2
-MAX_LEN = 5
 
 class Dictionary(object):
     def __init__(self):
@@ -91,9 +107,10 @@ class Dictionary(object):
     def add_all_words(self, path):
         with open(path, 'r', encoding="utf8") as f:
             for line in f:
-                words = line.split()
+                normalised_line = normalizeString(line)
+                words = normalised_line.split()
                 # Make the size of all sentences same by truncating large sentences and adding <pad> to shorter ones
-                truncated_words = truncate_sentence(words, MAX_LEN, "<pad>")
+                truncated_words = truncate_sentence(words, utils.args.sent_maxlen, "<pad>")
                 for word in truncated_words:
                     self.add_word(word)
 
@@ -107,6 +124,9 @@ class Dictionary(object):
     def __len__(self):
         return len(self.idx2word)
 
+########################################################################
+# DATA TOKENIZATION
+########################################################################
 class Corpus(object):
     def __init__(self, flag_type):
         self.dictionary_in = Dictionary()
@@ -129,8 +149,9 @@ class Corpus(object):
         with open(path, 'r', encoding="utf8") as f:
             idss = []
             for line in f:
-                words = line.split()
-                truncated_words = truncate_sentence(words, MAX_LEN, '<pad>')
+                normalised_line = normalizeString(line)
+                words = normalised_line.split()
+                truncated_words = truncate_sentence(words, utils.args.sent_maxlen, '<pad>')
                 ids = []
                 for word in truncated_words:
                     ids.append(dictionary.word2idx[word])

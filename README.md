@@ -7,6 +7,21 @@ Link for PHP Corpus Data : https://opus.nlpl.eu/PHP.php
 Whenever running on a different platform, make the following changes in the code:
 1. Modify the local path to the dataset given in **data.py**
 
+---
+Package Requirements:
+
+* torch
+* numpy
+* os
+* re (or re)
+* unicodedata (or unicodedata2)
+* tqdm
+* math
+* argparse
+* matplotlib
+* sklearn
+* time
+
 -------
 Things to take care :
 1. Fix the dictionary - high
@@ -24,3 +39,8 @@ Things to take care :
 For future help in fixes
 1. model.py : 
    1. if decoder is fed with "output", the batch size of output of decoder and target is fine, but if decoder is fed with "hidden", batch size of output of decoder and target is not same
+
+
+
+
+- Fix for target shape while training/eval, added utils file
