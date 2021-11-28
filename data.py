@@ -148,9 +148,13 @@ class Corpus(object):
     def tokenize(self, path, dictionary):
         with open(path, 'r', encoding="utf8") as f:
             idss = []
+            check = 0 ###
             for line in f:
+                check+=1 ###
                 normalised_line = normalizeString(line)
                 words = normalised_line.split()
+                if check < 5:
+                    print(normalised_line)
                 truncated_words = truncate_sentence(words, utils.args.sent_maxlen, '<pad>')
                 ids = []
                 for word in truncated_words:

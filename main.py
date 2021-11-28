@@ -11,17 +11,15 @@ import data
 import model
 import utils
 
-########################################################################
-# train/eval loop
-########################################################################
-
 torch.manual_seed(utils.args.seed) # for reproducibility
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # cuda
+
 nhid = 512 * 4
 corpus = data.Corpus(data.train_flag)
 ntokens = len(data.corpus.dictionary_in)
 model = model.RNNModel(ntokens, utils.args.emsize, nhid).to(device)
 criterion = nn.NLLLoss(ignore_index=data.pad_token)
+
 batch_size = utils.args.batch_size
 train_data_in = corpus.train_in.to(device)
 print("train_data_in", train_data_in.shape)
@@ -31,10 +29,10 @@ val_data_in = corpus.valid_in.to(device)
 print("val_data_in", val_data_in.shape)
 val_data_out = corpus.valid_out.to(device)
 print("val_data_out", val_data_out.shape)
-epochs = 10
+
+epochs = utils.args.epoch
 lr = utils.args.lr
 best_val_loss = None
-
 history = {'train_loss': [], 'val_loss': [], 'epoch': []}  # Collects per-epoch loss
 ########################################################################
 # TRAIN/EVAL
@@ -111,8 +109,8 @@ for epoch in range(1, epochs + 1):
         print("Best loss : ", best_val_loss)
 
     # Plot loss metrics
-    train_loss_hist = dict['train_loss']
-    val_loss_hist = dict['val_loss']
+    train_loss_hist = history['train_loss']
+    val_loss_hist = history['val_loss']
     plt.figure()
     plt.plot(epochs, train_loss_hist, 'b', label='Training loss')
     plt.plot(epochs, val_loss_hist, 'r', label='Validation loss')
@@ -139,4 +137,3 @@ with open(outf, 'w') as outf:
             input_tensor = torch.unsqueeze(torch.tensor(input).type(torch.int64), dim=0).to(device)
             word = corpus.dictionary.idx2word[word_idx]
             outf.write(word)
-
