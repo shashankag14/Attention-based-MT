@@ -130,24 +130,25 @@ class Dictionary(object):
 # DATA TOKENIZATION
 ########################################################################
 class Corpus(object):
-    def __init__(self, flag_type):
+    def __init__(self):
         self.dictionary_in = Dictionary()
         self.dictionary_out = Dictionary()
-        if flag_type == train_flag:
-            self.dictionary_in.add_all_words(os.path.join(train_data_path, 'train_in.txt'))
-            self.dictionary_in.add_all_words(os.path.join(valid_data_path, 'valid_in.txt'))
-            self.dictionary_out.add_all_words(os.path.join(train_data_path, 'train_out.txt'))
-            self.dictionary_out.add_all_words(os.path.join(valid_data_path, 'valid_out.txt'))
-            self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_in.txt'))
-            self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_out.txt'))
+        self.dictionary_in.add_all_words(os.path.join(train_data_path, 'train_in.txt'))
+        self.dictionary_in.add_all_words(os.path.join(valid_data_path, 'valid_in.txt'))
+        self.dictionary_out.add_all_words(os.path.join(train_data_path, 'train_out.txt'))
+        self.dictionary_out.add_all_words(os.path.join(valid_data_path, 'valid_out.txt'))
+  
+        self.dictionary_in.add_all_words(os.path.join(test_data_path, 'test_in.txt'))
+        self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_out.txt'))
 
-            self.train_in = self.tokenize(os.path.join(train_data_path, 'train_in.txt'), self.dictionary_in)
-            self.train_out = self.tokenize(os.path.join(train_data_path, 'train_out.txt'), self.dictionary_out)
-            self.valid_in = self.tokenize(os.path.join(valid_data_path, 'valid_in.txt'), self.dictionary_in)
-            self.valid_out = self.tokenize(os.path.join(valid_data_path, 'valid_out.txt'), self.dictionary_out)
-        elif flag_type == test_flag:
-            self.test_in = self.tokenize(os.path.join(test_data_path, 'test_in.txt'), self.dictionary_in)
-            self.test_out = self.tokenize(os.path.join(test_data_path, 'test_out.txt'), self.dictionary_out)
+
+        self.train_in = self.tokenize(os.path.join(train_data_path, 'train_in.txt'), self.dictionary_in)
+        self.train_out = self.tokenize(os.path.join(train_data_path, 'train_out.txt'), self.dictionary_out)
+        self.valid_in = self.tokenize(os.path.join(valid_data_path, 'valid_in.txt'), self.dictionary_in)
+        self.valid_out = self.tokenize(os.path.join(valid_data_path, 'valid_out.txt'), self.dictionary_out)
+        
+        self.test_in = self.tokenize(os.path.join(test_data_path, 'test_in.txt'), self.dictionary_in)
+        self.test_out = self.tokenize(os.path.join(test_data_path, 'test_out.txt'), self.dictionary_out)
 
     def tokenize(self, path, dictionary):
         with open(path, 'r', encoding="utf8") as f:
@@ -165,6 +166,6 @@ class Corpus(object):
         return ids
 
 
-corpus = Corpus(train_flag)
+corpus = Corpus()
 print("Length of input dictionary : ", corpus.dictionary_in.n_word)
 print("Length of output dictionary : ", corpus.dictionary_out.n_word)

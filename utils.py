@@ -2,9 +2,20 @@ import argparse
 import math
 import time
 import torch
+import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # cuda
 path = 'data/cs-en.txt/'
+
+saved_model = 'saved_model/'
+if not os.path.exists(saved_model):
+  os.mkdir(saved_model) 
+# saved_dec_model = 'saved_model/'
+# if not os.path.exists(saved_enc_model):
+#         os.mkdir(saved_enc_model)  
+# if not os.path.exists(saved_dec_model):
+#         os.mkdir(saved_dec_model) 
+
 
 parser = argparse.ArgumentParser(description='train')
 parser.add_argument('--data', type=str, default=path,
