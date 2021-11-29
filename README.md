@@ -18,10 +18,9 @@ Whenever running on a different platform, make the following changes in the code
 **Things to take care :**
 1. Add arg parser commands in readme - low
    1. (https://github.com/pytorch/examples/tree/master/word_language_model)
-2. Encoder-decoder block - Medium 
-3. Update the README template - low 
-4. validation error is low, but train error is high. SURPRISING ! - HIGH
-5. Check preproc data - randomly sample out src/tgt sentences - HIGH
+3. Update the README template - low
+5. Save metrices in csv for future usage - low
+7. plots not coming. check x and y axis
 -------
 **For future help in fixes :**
 1. model.py : 
@@ -29,4 +28,3 @@ Whenever running on a different platform, make the following changes in the code
 
 
 ---
-**Updates made recently:**

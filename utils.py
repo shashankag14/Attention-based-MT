@@ -1,5 +1,9 @@
 import argparse
+import math
+import time
+import torch
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # cuda
 path = 'data/cs-en.txt/'
 
 parser = argparse.ArgumentParser(description='train')
@@ -23,6 +27,20 @@ parser.add_argument('--sent_maxlen', type=int, default=10,
                     help='maximum words in a sentence (remaining sentences will be removed from data)')
 
 args = parser.parse_args([])
+
+
+def asMinutes(s):
+    m = math.floor(s / 60)
+    s -= m * 60
+    return '%dm %ds' % (m, s)
+
+
+def timeSince(since, percent):
+    now = time.time()
+    s = now - since
+    es = s / (percent)
+    rs = es - s
+    return '%s (- %s)' % (asMinutes(s), asMinutes(rs))
 
 
 

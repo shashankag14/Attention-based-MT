@@ -33,16 +33,16 @@ data_cs = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.cs'), dtype=str, delimi
 data_en = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.en'), dtype=str, delimiter='\n')
 
 train_cs, rem_cs = train_test_split(data_cs, train_size=0.6,
-                                      random_state=42)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
+                                      random_state=27)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
 train_en, rem_en = train_test_split(data_en, train_size=0.6,
-                                      random_state=42)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
+                                      random_state=27)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
 
 # Now since we want the valid and test size to be equal (10% each of overall data).
 # we have to define valid_size=0.5 (that is 50% of remaining data)
 valid_cs, test_cs = train_test_split(rem_cs, test_size=0.5,
-                                      random_state=42)
+                                      random_state=27)
 valid_en, test_en = train_test_split(rem_en, test_size=0.5,
-                                      random_state=42)
+                                      random_state=27)
 
 np.savetxt(os.path.join(train_data_path, 'train_in.txt'), train_cs, fmt='%s')  # cs
 np.savetxt(os.path.join(valid_data_path, 'valid_in.txt'), valid_cs, fmt='%s')  # cs
@@ -63,6 +63,8 @@ def truncate_sentence(words, max_words, padding_token):
     if len(words) > max_words:
         words = words[:max_words]
     words.extend([padding_token] * (max_words - len(words)))
+    # eos_str = 'EOS'
+    # words.extend([eos_str])
     return words
 
 # Turn a Unicode string to plain ASCII, thanks to
@@ -83,16 +85,16 @@ def normalizeString(s):
 ########################################################################
 # DICTIONARY
 ########################################################################
-pad_token  = 0
-SOS_token = 1
-EOS_token = 2
+# pad_token  = 0
+SOS_token = 0
+EOS_token = 1
 
 class Dictionary(object):
     def __init__(self):
         self.word2idx = {} # mapping word to its idx
         self.word2count = {} # frequency of each word
-        self.idx2word = {pad_token: "<pad>", SOS_token : "SOS", EOS_token : "EOS"} # mapping idx to its word
-        self.n_word = 3 # pad, SOS and EOS # total number of unique words in dictionary
+        self.idx2word = {SOS_token : 'SOS', EOS_token : 'EOS'} # mapping idx to its word
+        self.n_word = 2 # pad, SOS and EOS # total number of unique words in dictionary
 
     def add_word(self, word):
         if word not in self.word2idx:
@@ -110,7 +112,7 @@ class Dictionary(object):
                 normalised_line = normalizeString(line)
                 words = normalised_line.split()
                 # Make the size of all sentences same by truncating large sentences and adding <pad> to shorter ones
-                truncated_words = truncate_sentence(words, utils.args.sent_maxlen, "<pad>")
+                truncated_words = truncate_sentence(words, (utils.args.sent_maxlen-1), "<pad>")
                 for word in truncated_words:
                     self.add_word(word)
 
@@ -136,6 +138,8 @@ class Corpus(object):
             self.dictionary_in.add_all_words(os.path.join(valid_data_path, 'valid_in.txt'))
             self.dictionary_out.add_all_words(os.path.join(train_data_path, 'train_out.txt'))
             self.dictionary_out.add_all_words(os.path.join(valid_data_path, 'valid_out.txt'))
+            self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_in.txt'))
+            self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_out.txt'))
 
             self.train_in = self.tokenize(os.path.join(train_data_path, 'train_in.txt'), self.dictionary_in)
             self.train_out = self.tokenize(os.path.join(train_data_path, 'train_out.txt'), self.dictionary_out)
@@ -148,17 +152,14 @@ class Corpus(object):
     def tokenize(self, path, dictionary):
         with open(path, 'r', encoding="utf8") as f:
             idss = []
-            check = 0 ###
             for line in f:
-                check+=1 ###
                 normalised_line = normalizeString(line)
                 words = normalised_line.split()
-                if check < 5:
-                    print(normalised_line)
-                truncated_words = truncate_sentence(words, utils.args.sent_maxlen, '<pad>')
+                truncated_words = truncate_sentence(words, (utils.args.sent_maxlen-1), '<pad>')
                 ids = []
                 for word in truncated_words:
                     ids.append(dictionary.word2idx[word])
+                ids.append(EOS_token)
                 idss.append(torch.unsqueeze(torch.tensor(ids).type(torch.int64), dim=0))
             ids = torch.cat(idss, dim=0)
         return ids
