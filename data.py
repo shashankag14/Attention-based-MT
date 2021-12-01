@@ -32,9 +32,9 @@ if not os.path.isdir(test_data_path):
 data_cs = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.cs'), dtype=str, delimiter='\n')
 data_en = np.loadtxt(os.path.join(utils.path, 'PHP.cs-en.en'), dtype=str, delimiter='\n')
 
-train_cs, rem_cs = train_test_split(data_cs, train_size=0.6,
+train_cs, rem_cs = train_test_split(data_cs, train_size=0.9,
                                       random_state=27)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
-train_en, rem_en = train_test_split(data_en, train_size=0.6,
+train_en, rem_en = train_test_split(data_en, train_size=0.9,
                                       random_state=27)  # train : 26384, remaining : 6597 (Ratio - 0.6:0.4)
 
 # Now since we want the valid and test size to be equal (10% each of overall data).
@@ -46,15 +46,14 @@ valid_en, test_en = train_test_split(rem_en, test_size=0.5,
 
 np.savetxt(os.path.join(train_data_path, 'train_in.txt'), train_cs, fmt='%s')  # cs
 np.savetxt(os.path.join(valid_data_path, 'valid_in.txt'), valid_cs, fmt='%s')  # cs
-np.savetxt(os.path.join(test_data_path, 'test_in.txt'), test_cs, fmt='%s')  # cs
+np.savetxt(os.path.join(test_data_path, 'test_in.txt'), rem_cs, fmt='%s')  # cs
 
 np.savetxt(os.path.join(train_data_path, 'train_out.txt'), train_en, fmt='%s')  # en
 np.savetxt(os.path.join(valid_data_path, 'valid_out.txt'), valid_en, fmt='%s')  # en
-np.savetxt(os.path.join(test_data_path, 'test_out.txt'), test_en, fmt='%s')  # en
-# print("Train and validation data created and saved in ", path)
+np.savetxt(os.path.join(test_data_path, 'test_out.txt'), rem_en, fmt='%s')  # en
 
-print("Number of sentences of Train, validation and test set in source language:", len(train_cs), len(valid_cs), len(test_cs))
-print("Number of sentences of Train, validation and test set in target language:", len(train_en), len(valid_en), len(test_en))
+# print("Number of sentences of Train, validation and test set in source language:", len(train_cs), len(valid_cs), len(rem_cs))
+# print("Number of sentences of Train, validation and test set in target language:", len(train_en), len(valid_en), len(rem_en))
 
 ########################################################################
 # DATA PRE-PROC
@@ -134,9 +133,9 @@ class Corpus(object):
         self.dictionary_in = Dictionary()
         self.dictionary_out = Dictionary()
         self.dictionary_in.add_all_words(os.path.join(train_data_path, 'train_in.txt'))
-        self.dictionary_in.add_all_words(os.path.join(valid_data_path, 'valid_in.txt'))
+        #self.dictionary_in.add_all_words(os.path.join(valid_data_path, 'valid_in.txt'))
         self.dictionary_out.add_all_words(os.path.join(train_data_path, 'train_out.txt'))
-        self.dictionary_out.add_all_words(os.path.join(valid_data_path, 'valid_out.txt'))
+        #self.dictionary_out.add_all_words(os.path.join(valid_data_path, 'valid_out.txt'))
   
         self.dictionary_in.add_all_words(os.path.join(test_data_path, 'test_in.txt'))
         self.dictionary_out.add_all_words(os.path.join(test_data_path, 'test_out.txt'))
@@ -144,8 +143,8 @@ class Corpus(object):
 
         self.train_in = self.tokenize(os.path.join(train_data_path, 'train_in.txt'), self.dictionary_in)
         self.train_out = self.tokenize(os.path.join(train_data_path, 'train_out.txt'), self.dictionary_out)
-        self.valid_in = self.tokenize(os.path.join(valid_data_path, 'valid_in.txt'), self.dictionary_in)
-        self.valid_out = self.tokenize(os.path.join(valid_data_path, 'valid_out.txt'), self.dictionary_out)
+        #self.valid_in = self.tokenize(os.path.join(valid_data_path, 'valid_in.txt'), self.dictionary_in)
+        #self.valid_out = self.tokenize(os.path.join(valid_data_path, 'valid_out.txt'), self.dictionary_out)
         
         self.test_in = self.tokenize(os.path.join(test_data_path, 'test_in.txt'), self.dictionary_in)
         self.test_out = self.tokenize(os.path.join(test_data_path, 'test_out.txt'), self.dictionary_out)
@@ -167,5 +166,3 @@ class Corpus(object):
 
 
 corpus = Corpus()
-print("Length of input dictionary : ", corpus.dictionary_in.n_word)
-print("Length of output dictionary : ", corpus.dictionary_out.n_word)

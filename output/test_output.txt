@@ -1,0 +1,42 @@
+Some randomly sampled machine translated outputs on test data :
+
+>predchazejici <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=prev <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<prev prev are needed to build . . . . EOS
+
+>predchazejici <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=prev <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<prev prev are needed to build . . . . EOS
+
+>tato funkce jeste neni zdokumentovana k dispozici je pouze seznam argumentu . <pad> EOS
+=this function is currently not documented only the argument list is available . EOS
+<this function is currently not documented only the argument list is available . EOS
+
+>nahoru <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=up <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<up up . . . . . . . EOS
+
+>nahoru <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=up <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<up up . . . . . . . EOS
+
+>v tyden v aktualnim roce podle iso jako desitkove cislo v rozsahu od EOS
+=setlocale lc time c print strftime a in finnish is setlocale lc time EOS
+<in the the of the to the the the the . . EOS
+
+>predchazejici <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=prev <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<prev prev are needed to build . . . . EOS
+
+>dalsi <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=next <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<next next and the the . . . . . EOS
+
+>vyjma toho ze mysql real escape string upravi retezec podle nastavene znakove sady EOS
+=this function is identical to mysql real escape string except that mysql real EOS
+<the the the the the the the the . . . . EOS
+
+>nahoru <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+=up <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> EOS
+<up up . . . . . . . EOS
+

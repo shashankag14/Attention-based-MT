@@ -6,16 +6,14 @@ import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # cuda
 path = 'data/cs-en.txt/'
-
+output_path = 'output/'
 saved_model = 'saved_model/'
+
 if not os.path.exists(saved_model):
   os.mkdir(saved_model) 
-# saved_dec_model = 'saved_model/'
-# if not os.path.exists(saved_enc_model):
-#         os.mkdir(saved_enc_model)  
-# if not os.path.exists(saved_dec_model):
-#         os.mkdir(saved_dec_model) 
 
+if not os.path.exists(output_path):
+  os.mkdir(output_path)
 
 parser = argparse.ArgumentParser(description='train')
 parser.add_argument('--data', type=str, default=path,
@@ -34,8 +32,10 @@ parser.add_argument('--save', type=str, default='model.pt',
                     help='path to save the final model')
 parser.add_argument('--epoch', type=int, default=10,
                     help='number of epoch for training')
-parser.add_argument('--sent_maxlen', type=int, default=10,
+parser.add_argument('--sent_maxlen', type=int, default=14,
                     help='maximum words in a sentence (remaining sentences will be removed from data)')
+parser.add_argument('--hsize', type=int, default='512',
+                    help='Hidden layer size')
 
 args = parser.parse_args([])
 
