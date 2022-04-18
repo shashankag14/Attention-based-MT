@@ -1,5 +1,5 @@
-# Machine-Translation
-A PyTorch implementation for Machine translation on PHP Corpus dataset based on simple RNN model.
+# Attention based Machine-Translation
+(In progress) A PyTorch implementation for Machine translation on PHP Corpus dataset based on simple RNN model.
 
 **Link for PHP Corpus Data :** https://opus.nlpl.eu/PHP.php
 
